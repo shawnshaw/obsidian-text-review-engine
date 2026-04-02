@@ -1,0 +1,102 @@
+.tre-view {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tre-toolbar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tre-toolbar button,
+.tre-toolbar select {
+  font-size: 12px;
+}
+
+.tre-textarea {
+  width: 100%;
+  min-height: 180px;
+  resize: vertical;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+.tre-summary {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--background-secondary);
+}
+
+.tre-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tre-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tre-value {
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.tre-results {
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tre-issue {
+  border: 1px solid var(--background-modifier-border);
+  border-left: 4px solid var(--interactive-accent);
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--background-primary);
+}
+
+.tre-issue[data-severity="high"],
+.tre-issue[data-severity="critical"] {
+  border-left-color: var(--text-error);
+}
+
+.tre-issue[data-severity="medium"] {
+  border-left-color: var(--text-warning);
+}
+
+.tre-issue-top {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.tre-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  background: var(--background-modifier-hover);
+}
+
+.tre-empty {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 24px 12px;
+}

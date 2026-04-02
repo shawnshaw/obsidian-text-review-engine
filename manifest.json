@@ -1,0 +1,9 @@
+{
+  "id": "text-review-engine",
+  "name": "Text Review Engine",
+  "version": "0.0.1",
+  "minAppVersion": "1.5.0",
+  "description": "规则层 + AI层的文本审校插件 MVP。",
+  "author": "Codex",
+  "isDesktopOnly": false
+}
