@@ -1,0 +1,23 @@
+{
+  "id": "ambiguity-check",
+  "name": "歧义识别",
+  "description": "识别文本中可能导致多重理解或误解的表达：指代不清、修饰范围不明、句法压缩等。",
+  "modelPolicy": {
+    "temperature": 0.1
+  },
+  "systemPrompt": "你是一个严格、克制、只返回 JSON 的中文审校助手。你负责识别歧义风险，不要把猜测写成事实，不要越权做最终裁决。",
+  "userPromptTemplate": "你是一名中文内容审校助手，负责识别文本中的歧义风险。\n\n## 检查维度\n\n请从以下维度逐一检查：\n\n1. **指代不清**：代词（他/她/它/这/那等）指向不明，或连续多个代词造成理解歧义\n2. **修饰范围不明**：定语、状语修饰对象不清，歧义短语的归属产生多种理解\n3. **句法压缩**：省略导致的结构歧义（如「张三和李四的朋友」，可能是张三是李四的朋友，也可能是两人共同的朋友）\n4. **多重并列**：多重嵌套并列造成歧义或理解困难\n5. **数量歧义**：「至少三个」「不超过五个」等数量表达是否清晰\n\n## 返回格式\n\n返回纯 JSON，不要任何 markdown 包裹：\n{\"issues\":[{\"category\":\"ambiguity\",\"severity\":\"low|medium|high\",\"message\":\"歧义描述\",\"text\":\"具体歧义文本\",\"suggestion\":\"更明确的改写建议\",\"requiresHumanReview\":false}],\"reasoning\":\"歧义类型判断依据简述\"}\n\n## 要求\n\n- 没有歧义时返回 {\"issues\":[],\"reasoning\":\"各维度检查结论（简短）\"}\n- 不要输出 JSON 之外的任何内容\n- 不要把猜测写成事实\n- ambiguity 通常 severity 不超过 medium，不需要人工复核\n\n待审校文本：\n{{text}}",
+  "outputSchema": {
+    "issues": [
+      {
+        "category": "ambiguity",
+        "severity": "low|medium|high",
+        "message": "string",
+        "text": "string",
+        "suggestion": "string",
+        "requiresHumanReview": "boolean"
+      }
+    ],
+    "reasoning": "string"
+  }
+}

@@ -1,0 +1,318 @@
+[
+  {
+    "id": "combo-001",
+    "trigger": "台湾",
+    "requiredAny": [
+      "中国",
+      "我国",
+      "台湾地区",
+      "中国台湾"
+    ],
+    "severity": "high",
+    "message": "涉及台湾时，建议使用规范口径",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 200,
+    "requiresHumanReview": true,
+    "tags": ["sovereignty", "abbreviation", "core-red-line"]
+  },
+  {
+    "id": "combo-002",
+    "trigger": "香港",
+    "requiredAny": [
+      "中国",
+      "香港特别行政区"
+    ],
+    "severity": "high",
+    "message": "涉及香港时，建议补充主权限定",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 200,
+    "requiresHumanReview": true,
+    "tags": ["sovereignty", "abbreviation", "core-red-line"]
+  },
+  {
+    "id": "combo-003",
+    "trigger": "澳门",
+    "requiredAny": [
+      "中国",
+      "澳门特别行政区"
+    ],
+    "severity": "high",
+    "message": "涉及澳门时，建议补充主权限定",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 200,
+    "requiresHumanReview": true,
+    "tags": ["sovereignty", "abbreviation", "core-red-line"]
+  },
+  {
+    "id": "combo-004",
+    "trigger": "发改委",
+    "requiredAny": [
+      "国家发展改革委",
+      "国家发展和改革委员会"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-005",
+    "trigger": "卫健委",
+    "requiredAny": [
+      "卫生健康委员会",
+      "国家卫生健康委员会"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-006",
+    "trigger": "人大",
+    "requiredAny": [
+      "人民代表大会",
+      "全国人大"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-007",
+    "trigger": "政协",
+    "requiredAny": [
+      "政治协商会议",
+      "全国政协"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-008",
+    "trigger": "工信部",
+    "requiredAny": [
+      "工业和信息化部"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-009",
+    "trigger": "央行",
+    "requiredAny": [
+      "中国人民银行",
+      "人民银行"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-010",
+    "trigger": "证监会",
+    "requiredAny": [
+      "中国证券监督管理委员会"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-011",
+    "trigger": "国资委",
+    "requiredAny": [
+      "国务院国有资产监督管理委员会"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-012",
+    "trigger": "网信办",
+    "requiredAny": [
+      "国家互联网信息办公室",
+      "中央网信办"
+    ],
+    "severity": "medium",
+    "message": "首次使用简称时建议补充全称",
+    "pack": ["gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 80,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "official_name"]
+  },
+  {
+    "id": "combo-013",
+    "trigger": "一带一路",
+    "requiredAny": [
+      "丝绸之路经济带",
+      "21世纪海上丝绸之路"
+    ],
+    "severity": "low",
+    "message": "正式文件中建议首次出现使用全称",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 100,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "policy_term"]
+  },
+  {
+    "id": "combo-014",
+    "trigger": "双碳",
+    "requiredAny": [
+      "碳达峰",
+      "碳中和"
+    ],
+    "severity": "medium",
+    "message": "使用简称时建议附带说明",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 60,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "policy_term"]
+  },
+  {
+    "id": "combo-015",
+    "trigger": "双减",
+    "requiredAny": [
+      "减轻义务教育",
+      "减轻学生"
+    ],
+    "severity": "medium",
+    "message": "使用简称时建议附带说明",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 60,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "policy_term"]
+  },
+  {
+    "id": "combo-016",
+    "trigger": "GDP",
+    "requiredAny": [
+      "国内生产总值",
+      "生产总值"
+    ],
+    "severity": "low",
+    "message": "首次使用英文缩写时建议附带中文",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 50,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "english", "economic"]
+  },
+  {
+    "id": "combo-017",
+    "trigger": "CPI",
+    "requiredAny": [
+      "消费者价格指数",
+      "居民消费价格"
+    ],
+    "severity": "low",
+    "message": "首次使用英文缩写时建议附带中文",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 50,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "english", "economic"]
+  },
+  {
+    "id": "combo-018",
+    "trigger": "WHO",
+    "requiredAny": [
+      "世界卫生组织"
+    ],
+    "severity": "low",
+    "message": "首次使用英文缩写时建议附带中文",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 50,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "english", "international_org"]
+  },
+  {
+    "id": "combo-019",
+    "trigger": "IMF",
+    "requiredAny": [
+      "国际货币基金组织"
+    ],
+    "severity": "low",
+    "message": "首次使用英文缩写时建议附带中文",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 50,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "english", "international_org"]
+  },
+  {
+    "id": "combo-020",
+    "trigger": "WTO",
+    "requiredAny": [
+      "世界贸易组织"
+    ],
+    "severity": "low",
+    "message": "首次使用英文缩写时建议附带中文",
+    "pack": ["social-basic", "gov-strict"],
+    "enabled": true,
+    "scope": "first_occurrence",
+    "window": 50,
+    "requiresHumanReview": false,
+    "tags": ["abbreviation", "english", "international_org"]
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "version": "ruleset-social-v3.0",
+  "policyPacks": [
+    {
+      "id": "social-basic",
+      "name": "普通推文审校包",
+      "description": "适合短文案、推文、简讯类文本。以错别字、标点、敏感词、固定搭配为主。"
+    },
+    {
+      "id": "gov-strict",
+      "name": "政务严格审校包",
+      "description": "在基础规则上更关注敏感表达、口径约束、强制组合与人工复核。"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "typo",
+      "name": "错别字",
+      "layer": "rule",
+      "priority": 1,
+      "sevenType": "fixed_phrase",
+      "recommendation": "规则优先"
+    },
+    {
+      "id": "punctuation_format",
+      "name": "标点与格式",
+      "layer": "rule",
+      "priority": 1,
+      "sevenType": "fixed_phrase",
+      "recommendation": "规则优先"
+    },
+    {
+      "id": "sensitive_terms",
+      "name": "敏感词与禁用词",
+      "layer": "rule",
+      "priority": 2,
+      "sevenType": "policy_expression",
+      "recommendation": "规则优先 + AI 辅助"
+    },
+    {
+      "id": "fixed_phrases",
+      "name": "固定搭配",
+      "layer": "rule",
+      "priority": 2,
+      "sevenType": "fixed_phrase",
+      "recommendation": "规则优先"
+    },
+    {
+      "id": "combo_rules",
+      "name": "强制组合",
+      "layer": "rule",
+      "priority": 2,
+      "sevenType": "combo_rule",
+      "recommendation": "规则优先"
+    },
+    {
+      "id": "policy_expression",
+      "name": "政务表述风险",
+      "layer": "llm",
+      "priority": 3,
+      "sevenType": "policy_expression",
+      "recommendation": "AI 优先"
+    },
+    {
+      "id": "ambiguity",
+      "name": "歧义识别",
+      "layer": "llm",
+      "priority": 3,
+      "sevenType": "ambiguity",
+      "recommendation": "AI 优先"
+    },
+    {
+      "id": "common_sense",
+      "name": "常识错误",
+      "layer": "llm",
+      "priority": 3,
+      "sevenType": "common_sense",
+      "recommendation": "AI 优先"
+    },
+    {
+      "id": "public_opinion_risk",
+      "name": "舆情联想风险",
+      "layer": "llm",
+      "priority": 3,
+      "sevenType": "public_opinion_risk",
+      "recommendation": "AI 优先"
+    },
+    {
+      "id": "stance_risk",
+      "name": "立场观感",
+      "layer": "llm",
+      "priority": 3,
+      "sevenType": "stance_risk",
+      "recommendation": "AI 优先"
+    }
+  ],
+  "decisionStrategies": {
+    "social-basic": {
+      "blocked_if": ["has_critical_rule_issue"],
+      "human_review_if": [
+        "has_high_sensitive_term",
+        "has_combo_rule_with_sovereignty_tag"
+      ],
+      "needs_revision_if": ["has_medium_or_above_issue"]
+    },
+    "gov-strict": {
+      "blocked_if": ["has_critical_rule_issue"],
+      "human_review_if": [
+        "has_high_llm_issue",
+        "has_high_sensitive_term",
+        "has_combo_rule_with_sovereignty_tag"
+      ],
+      "needs_revision_if": ["has_medium_or_above_issue"]
+    }
+  }
+}

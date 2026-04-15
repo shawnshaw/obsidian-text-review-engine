@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "typo-001",
+    "wrong": "帐号",
+    "correct": "账号",
+    "severity": "low",
+    "message": "常见异形词，建议统一为「账号」"
+  },
+  {
+    "id": "typo-002",
+    "wrong": "作到",
+    "correct": "做到",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-003",
+    "wrong": "必需",
+    "correct": "必须",
+    "severity": "medium",
+    "message": "语境中更可能应为「必须」"
+  },
+  {
+    "id": "typo-004",
+    "wrong": "部暑",
+    "correct": "部署",
+    "severity": "high",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-005",
+    "wrong": "精淮",
+    "correct": "精准",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-006",
+    "wrong": "关建",
+    "correct": "关键",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-007",
+    "wrong": "落识",
+    "correct": "落实",
+    "severity": "high",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-008",
+    "wrong": "即然",
+    "correct": "既然",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-009",
+    "wrong": "决对",
+    "correct": "绝对",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-010",
+    "wrong": "末来",
+    "correct": "未来",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-011",
+    "wrong": "基本塬则",
+    "correct": "基本原则",
+    "severity": "high",
+    "message": "核心固定表达错写"
+  },
+  {
+    "id": "typo-012",
+    "wrong": "迸一步",
+    "correct": "进一步",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-013",
+    "wrong": "己经",
+    "correct": "已经",
+    "severity": "high",
+    "message": "极高频错别字"
+  },
+  {
+    "id": "typo-014",
+    "wrong": "侯选",
+    "correct": "候选",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-015",
+    "wrong": "按装",
+    "correct": "安装",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-016",
+    "wrong": "辩析",
+    "correct": "辨析",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-017",
+    "wrong": "不记其数",
+    "correct": "不计其数",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-018",
+    "wrong": "不径而走",
+    "correct": "不胫而走",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-019",
+    "wrong": "不落巢臼",
+    "correct": "不落窠臼",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-020",
+    "wrong": "不能自己",
+    "correct": "不能自已",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-021",
+    "wrong": "不省人是",
+    "correct": "不省人事",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-022",
+    "wrong": "苍海桑田",
+    "correct": "沧海桑田",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-023",
+    "wrong": "苍桑",
+    "correct": "沧桑",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-024",
+    "wrong": "侧隐之心",
+    "correct": "恻隐之心",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-025",
+    "wrong": "常年累月",
+    "correct": "长年累月",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-026",
+    "wrong": "陈词烂调",
+    "correct": "陈词滥调",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-027",
+    "wrong": "穿流不息",
+    "correct": "川流不息",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-028",
+    "wrong": "垂头伤气",
+    "correct": "垂头丧气",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-029",
+    "wrong": "粗旷",
+    "correct": "粗犷",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-030",
+    "wrong": "大才小用",
+    "correct": "大材小用",
+    "severity": "medium",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-031",
+    "wrong": "大有稗益",
+    "correct": "大有裨益",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-032",
+    "wrong": "担精竭虑",
+    "correct": "殚精竭虑",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-033",
+    "wrong": "得陇望属",
+    "correct": "得陇望蜀",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-034",
+    "wrong": "灯火阑栅",
+    "correct": "灯火阑珊",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-035",
+    "wrong": "独挡一面",
+    "correct": "独当一面",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-036",
+    "wrong": "度过难关",
+    "correct": "渡过难关",
+    "severity": "medium",
+    "message": "「渡」表克服困难"
+  },
+  {
+    "id": "typo-037",
+    "wrong": "防碍",
+    "correct": "妨碍",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-038",
+    "wrong": "废驰",
+    "correct": "废弛",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-039",
+    "wrong": "分道扬镖",
+    "correct": "分道扬镳",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-040",
+    "wrong": "纷至踏来",
+    "correct": "纷至沓来",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-041",
+    "wrong": "蜂涌而至",
+    "correct": "蜂拥而至",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-042",
+    "wrong": "浮想联篇",
+    "correct": "浮想联翩",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-043",
+    "wrong": "甘败下风",
+    "correct": "甘拜下风",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-044",
+    "wrong": "各行其事",
+    "correct": "各行其是",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-045",
+    "wrong": "功亏一匮",
+    "correct": "功亏一篑",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-046",
+    "wrong": "沽名钩誉",
+    "correct": "沽名钓誉",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-047",
+    "wrong": "鬼计多端",
+    "correct": "诡计多端",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-048",
+    "wrong": "海角天崖",
+    "correct": "海角天涯",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-049",
+    "wrong": "寒喧",
+    "correct": "寒暄",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-050",
+    "wrong": "好高鹜远",
+    "correct": "好高骛远",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-051",
+    "wrong": "和霭",
+    "correct": "和蔼",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-052",
+    "wrong": "涣然一新",
+    "correct": "焕然一新",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-053",
+    "wrong": "积毁消骨",
+    "correct": "积毁销骨",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-054",
+    "wrong": "急燥",
+    "correct": "急躁",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-055",
+    "wrong": "坚如盘石",
+    "correct": "坚如磐石",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-056",
+    "wrong": "金壁辉煌",
+    "correct": "金碧辉煌",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-057",
+    "wrong": "精兵减政",
+    "correct": "精兵简政",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-058",
+    "wrong": "竟赛",
+    "correct": "竞赛",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-059",
+    "wrong": "矍烁",
+    "correct": "矍铄",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-060",
+    "wrong": "克苦",
+    "correct": "刻苦",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-061",
+    "wrong": "脍灸人口",
+    "correct": "脍炙人口",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-062",
+    "wrong": "烂竽充数",
+    "correct": "滥竽充数",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-063",
+    "wrong": "鳞次节比",
+    "correct": "鳞次栉比",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-064",
+    "wrong": "伶牙利齿",
+    "correct": "伶牙俐齿",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-065",
+    "wrong": "留恋忘返",
+    "correct": "流连忘返",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-066",
+    "wrong": "龙盘虎据",
+    "correct": "龙盘虎踞",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-067",
+    "wrong": "弥天大慌",
+    "correct": "弥天大谎",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-068",
+    "wrong": "名列前矛",
+    "correct": "名列前茅",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-069",
+    "wrong": "名幅其实",
+    "correct": "名副其实",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-070",
+    "wrong": "默守成规",
+    "correct": "墨守成规",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-071",
+    "wrong": "脑羞成怒",
+    "correct": "恼羞成怒",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-072",
+    "wrong": "能曲能伸",
+    "correct": "能屈能伸",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-073",
+    "wrong": "破斧沉舟",
+    "correct": "破釜沉舟",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-074",
+    "wrong": "迁徒",
+    "correct": "迁徙",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-075",
+    "wrong": "前扑后继",
+    "correct": "前仆后继",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-076",
+    "wrong": "青出于篮",
+    "correct": "青出于蓝",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-077",
+    "wrong": "磬竹难书",
+    "correct": "罄竹难书",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-078",
+    "wrong": "委屈求全",
+    "correct": "委曲求全",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-079",
+    "wrong": "融汇贯通",
+    "correct": "融会贯通",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-080",
+    "wrong": "入不付出",
+    "correct": "入不敷出",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-081",
+    "wrong": "声名雀起",
+    "correct": "声名鹊起",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-082",
+    "wrong": "食不裹腹",
+    "correct": "食不果腹",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-083",
+    "wrong": "世外桃园",
+    "correct": "世外桃源",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-084",
+    "wrong": "受益非浅",
+    "correct": "受益匪浅",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-085",
+    "wrong": "谈笑风声",
+    "correct": "谈笑风生",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-086",
+    "wrong": "叹为观只",
+    "correct": "叹为观止",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-087",
+    "wrong": "投机倒巴",
+    "correct": "投机倒把",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-088",
+    "wrong": "无耻滥言",
+    "correct": "无耻谰言",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-089",
+    "wrong": "无所是从",
+    "correct": "无所适从",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-090",
+    "wrong": "相形见拙",
+    "correct": "相形见绌",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-091",
+    "wrong": "消声匿迹",
+    "correct": "销声匿迹",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-092",
+    "wrong": "心悦成服",
+    "correct": "心悦诚服",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-093",
+    "wrong": "星罗旗布",
+    "correct": "星罗棋布",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-094",
+    "wrong": "虚无飘渺",
+    "correct": "虚无缥缈",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-095",
+    "wrong": "眼花瞭乱",
+    "correct": "眼花缭乱",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-096",
+    "wrong": "一张一驰",
+    "correct": "一张一弛",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-097",
+    "wrong": "义愤填鹰",
+    "correct": "义愤填膺",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-098",
+    "wrong": "因地治宜",
+    "correct": "因地制宜",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-099",
+    "wrong": "饮鸠止渴",
+    "correct": "饮鸩止渴",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-100",
+    "wrong": "优柔寡段",
+    "correct": "优柔寡断",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-101",
+    "wrong": "源远流常",
+    "correct": "源远流长",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-102",
+    "wrong": "再接再励",
+    "correct": "再接再厉",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-103",
+    "wrong": "仗义直言",
+    "correct": "仗义执言",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-104",
+    "wrong": "针贬时弊",
+    "correct": "针砭时弊",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-105",
+    "wrong": "震聋发聩",
+    "correct": "振聋发聩",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-106",
+    "wrong": "直接了当",
+    "correct": "直截了当",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-107",
+    "wrong": "置若惘闻",
+    "correct": "置若罔闻",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-108",
+    "wrong": "中流抵柱",
+    "correct": "中流砥柱",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-109",
+    "wrong": "众口烁金",
+    "correct": "众口铄金",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-110",
+    "wrong": "综和",
+    "correct": "综合",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-111",
+    "wrong": "走头无路",
+    "correct": "走投无路",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-112",
+    "wrong": "坐阵",
+    "correct": "坐镇",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-113",
+    "wrong": "九洲",
+    "correct": "九州",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-114",
+    "wrong": "签暑",
+    "correct": "签署",
+    "severity": "high",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-115",
+    "wrong": "蓬筚生辉",
+    "correct": "蓬荜生辉",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-116",
+    "wrong": "一如继往",
+    "correct": "一如既往",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-117",
+    "wrong": "走上正规",
+    "correct": "走上正轨",
+    "severity": "medium",
+    "message": "疑似用词不当"
+  },
+  {
+    "id": "typo-118",
+    "wrong": "山青水秀",
+    "correct": "山清水秀",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-119",
+    "wrong": "惮精竭虑",
+    "correct": "殚精竭虑",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-120",
+    "wrong": "哀声叹气",
+    "correct": "唉声叹气",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-121",
+    "wrong": "按步就班",
+    "correct": "按部就班",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-122",
+    "wrong": "暗然泪下",
+    "correct": "黯然泪下",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-123",
+    "wrong": "暗然失色",
+    "correct": "黯然失色",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-124",
+    "wrong": "三翻五次",
+    "correct": "三番五次",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-125",
+    "wrong": "别出新裁",
+    "correct": "别出心裁",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-126",
+    "wrong": "变本加利",
+    "correct": "变本加厉",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-127",
+    "wrong": "并行不背",
+    "correct": "并行不悖",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-128",
+    "wrong": "出奇不意",
+    "correct": "出其不意",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-129",
+    "wrong": "旁证博引",
+    "correct": "旁征博引",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-130",
+    "wrong": "一愁莫展",
+    "correct": "一筹莫展",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-131",
+    "wrong": "相辅相承",
+    "correct": "相辅相成",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-132",
+    "wrong": "水乳交溶",
+    "correct": "水乳交融",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-133",
+    "wrong": "出人投地",
+    "correct": "出人头地",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-134",
+    "wrong": "惩前毙后",
+    "correct": "惩前毖后",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-135",
+    "wrong": "缘份",
+    "correct": "缘分",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-136",
+    "wrong": "份量",
+    "correct": "分量",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-137",
+    "wrong": "形势严竣",
+    "correct": "形势严峻",
+    "severity": "high",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-138",
+    "wrong": "照象",
+    "correct": "照相",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-139",
+    "wrong": "想像",
+    "correct": "想象",
+    "severity": "medium",
+    "message": "推荐用「想象」"
+  },
+  {
+    "id": "typo-140",
+    "wrong": "一诺千斤",
+    "correct": "一诺千金",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-141",
+    "wrong": "风雨漂摇",
+    "correct": "风雨飘摇",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-142",
+    "wrong": "坐想其成",
+    "correct": "坐享其成",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-143",
+    "wrong": "天翻地复",
+    "correct": "天翻地覆",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-144",
+    "wrong": "既使",
+    "correct": "即使",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-145",
+    "wrong": "截止",
+    "correct": "截至",
+    "severity": "medium",
+    "message": "表时间节点用「截至」"
+  },
+  {
+    "id": "typo-146",
+    "wrong": "侯车",
+    "correct": "候车",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-147",
+    "wrong": "侯诊",
+    "correct": "候诊",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-148",
+    "wrong": "倍受",
+    "correct": "备受",
+    "severity": "medium",
+    "message": "推荐「备受」"
+  },
+  {
+    "id": "typo-149",
+    "wrong": "善长",
+    "correct": "擅长",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-150",
+    "wrong": "亲睐",
+    "correct": "青睐",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-151",
+    "wrong": "标新立意",
+    "correct": "标新立异",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-152",
+    "wrong": "浅移默化",
+    "correct": "潜移默化",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-153",
+    "wrong": "良秀不齐",
+    "correct": "良莠不齐",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-154",
+    "wrong": "鼎立相助",
+    "correct": "鼎力相助",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-155",
+    "wrong": "手屈一指",
+    "correct": "首屈一指",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-156",
+    "wrong": "毋庸质疑",
+    "correct": "毋庸置疑",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-157",
+    "wrong": "迫不急待",
+    "correct": "迫不及待",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-158",
+    "wrong": "凤毛鳞角",
+    "correct": "凤毛麟角",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-159",
+    "wrong": "趋之若骛",
+    "correct": "趋之若鹜",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-160",
+    "wrong": "相儒以沫",
+    "correct": "相濡以沫",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-161",
+    "wrong": "美仑美奂",
+    "correct": "美轮美奂",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-162",
+    "wrong": "鬼鬼崇崇",
+    "correct": "鬼鬼祟祟",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-163",
+    "wrong": "心无旁鹜",
+    "correct": "心无旁骛",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-164",
+    "wrong": "欢呼鹊跃",
+    "correct": "欢呼雀跃",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-165",
+    "wrong": "凑和",
+    "correct": "凑合",
+    "severity": "medium",
+    "message": "高频错写"
+  },
+  {
+    "id": "typo-166",
+    "wrong": "蛛丝蚂迹",
+    "correct": "蛛丝马迹",
+    "severity": "high",
+    "message": "成语错写"
+  },
+  {
+    "id": "typo-167",
+    "wrong": "班驳陆离",
+    "correct": "斑驳陆离",
+    "severity": "high",
+    "message": "成语错写"
+  }
+]
