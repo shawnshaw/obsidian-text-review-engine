@@ -22,9 +22,9 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/defaults.js
+// src/defaults.js
 var require_defaults = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/defaults.js"(exports2, module2) {
+  "src/defaults.js"(exports2, module2) {
     var DEFAULT_SETTINGS2 = {
       provider: "openai",
       baseUrl: "https://api.openai.com/v1/chat/completions",
@@ -138,9 +138,9 @@ var require_defaults = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/preprocessor.js
+// src/preprocessor.js
 var require_preprocessor = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/preprocessor.js"(exports2, module2) {
+  "src/preprocessor.js"(exports2, module2) {
     function normalizeText2(text) {
       return String(text || "").replace(/\r\n/g, "\n").replace(/\t/g, "  ");
     }
@@ -172,9 +172,9 @@ var require_preprocessor = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/rule-engine.js
+// src/rule-engine.js
 var require_rule_engine = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/rule-engine.js"(exports2, module2) {
+  "src/rule-engine.js"(exports2, module2) {
     var { collectAllMatches } = require_preprocessor();
     var issueCounter = 0;
     function nextIssueId() {
@@ -443,9 +443,9 @@ var require_rule_engine = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/ai-review-engine.js
+// src/ai-review-engine.js
 var require_ai_review_engine = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/ai-review-engine.js"(exports2, module2) {
+  "src/ai-review-engine.js"(exports2, module2) {
     var { requestUrl } = require("obsidian");
     var aiIssueCounter = 0;
     function nextAiIssueId() {
@@ -577,9 +577,9 @@ var require_ai_review_engine = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/decision-engine.js
+// src/decision-engine.js
 var require_decision_engine = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/decision-engine.js"(exports2, module2) {
+  "src/decision-engine.js"(exports2, module2) {
     function levelWeight(severity) {
       switch (severity) {
         case "critical":
@@ -658,9 +658,9 @@ var require_decision_engine = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/readflow-ui-templates.js
+// src/readflow-ui-templates.js
 var require_readflow_ui_templates = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/readflow-ui-templates.js"(exports2, module2) {
+  "src/readflow-ui-templates.js"(exports2, module2) {
     var READFLOW_UI_TEMPLATES = {
       workbenchShell: {
         id: "readflow_workbench_shell_v1",
@@ -717,9 +717,9 @@ var require_readflow_ui_templates = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/review-ui-config.js
+// src/review-ui-config.js
 var require_review_ui_config = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/review-ui-config.js"(exports2, module2) {
+  "src/review-ui-config.js"(exports2, module2) {
     var { READFLOW_UI_TEMPLATES } = require_readflow_ui_templates();
     var REVIEW_VIEW_BLUEPRINT = {
       templateRefs: {
@@ -776,9 +776,9 @@ var require_review_ui_config = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/standards-view.js
+// src/standards-view.js
 var require_standards_view = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/standards-view.js"(exports2, module2) {
+  "src/standards-view.js"(exports2, module2) {
     var { ItemView, Notice: Notice2 } = require("obsidian");
     var { STANDARDS_NOTE_PATH: STANDARDS_NOTE_PATH2, getTreDataPaths } = require_defaults();
     var VIEW_TYPE_STANDARDS2 = "text-review-engine-standards-view";
@@ -1835,10 +1835,10 @@ var require_standards_view = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_setup.js
+// node_modules/underscore/modules/_setup.js
 var VERSION, root, ArrayProto, ObjProto, SymbolProto, push, slice, toString, hasOwnProperty, supportsArrayBuffer, supportsDataView, nativeIsArray, nativeKeys, nativeCreate, nativeIsView, _isNaN, _isFinite, hasEnumBug, nonEnumerableProps, MAX_ARRAY_INDEX;
 var init_setup = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_setup.js"() {
+  "node_modules/underscore/modules/_setup.js"() {
     VERSION = "1.13.8";
     root = typeof self == "object" && self.self === self && self || typeof global == "object" && global.global === global && global || Function("return this")() || {};
     ArrayProto = Array.prototype;
@@ -1869,7 +1869,7 @@ var init_setup = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/restArguments.js
+// node_modules/underscore/modules/restArguments.js
 function restArguments(func, startIndex) {
   startIndex = startIndex == null ? func.length - 1 : +startIndex;
   return function() {
@@ -1894,58 +1894,58 @@ function restArguments(func, startIndex) {
   };
 }
 var init_restArguments = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/restArguments.js"() {
+  "node_modules/underscore/modules/restArguments.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isObject.js
+// node_modules/underscore/modules/isObject.js
 function isObject2(obj2) {
   var type = typeof obj2;
   return type === "function" || type === "object" && !!obj2;
 }
 var init_isObject = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isObject.js"() {
+  "node_modules/underscore/modules/isObject.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isNull.js
+// node_modules/underscore/modules/isNull.js
 function isNull(obj2) {
   return obj2 === null;
 }
 var init_isNull = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isNull.js"() {
+  "node_modules/underscore/modules/isNull.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isUndefined.js
+// node_modules/underscore/modules/isUndefined.js
 function isUndefined(obj2) {
   return obj2 === void 0;
 }
 var init_isUndefined = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isUndefined.js"() {
+  "node_modules/underscore/modules/isUndefined.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isBoolean.js
+// node_modules/underscore/modules/isBoolean.js
 function isBoolean(obj2) {
   return obj2 === true || obj2 === false || toString.call(obj2) === "[object Boolean]";
 }
 var init_isBoolean = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isBoolean.js"() {
+  "node_modules/underscore/modules/isBoolean.js"() {
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isElement.js
+// node_modules/underscore/modules/isElement.js
 function isElement(obj2) {
   return !!(obj2 && obj2.nodeType === 1);
 }
 var init_isElement = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isElement.js"() {
+  "node_modules/underscore/modules/isElement.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_tagTester.js
+// node_modules/underscore/modules/_tagTester.js
 function tagTester(name) {
   var tag = "[object " + name + "]";
   return function(obj2) {
@@ -1953,78 +1953,78 @@ function tagTester(name) {
   };
 }
 var init_tagTester = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_tagTester.js"() {
+  "node_modules/underscore/modules/_tagTester.js"() {
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isString.js
+// node_modules/underscore/modules/isString.js
 var isString_default;
 var init_isString = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isString.js"() {
+  "node_modules/underscore/modules/isString.js"() {
     init_tagTester();
     isString_default = tagTester("String");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isNumber.js
+// node_modules/underscore/modules/isNumber.js
 var isNumber_default;
 var init_isNumber = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isNumber.js"() {
+  "node_modules/underscore/modules/isNumber.js"() {
     init_tagTester();
     isNumber_default = tagTester("Number");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isDate.js
+// node_modules/underscore/modules/isDate.js
 var isDate_default;
 var init_isDate = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isDate.js"() {
+  "node_modules/underscore/modules/isDate.js"() {
     init_tagTester();
     isDate_default = tagTester("Date");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isRegExp.js
+// node_modules/underscore/modules/isRegExp.js
 var isRegExp_default;
 var init_isRegExp = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isRegExp.js"() {
+  "node_modules/underscore/modules/isRegExp.js"() {
     init_tagTester();
     isRegExp_default = tagTester("RegExp");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isError.js
+// node_modules/underscore/modules/isError.js
 var isError_default;
 var init_isError = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isError.js"() {
+  "node_modules/underscore/modules/isError.js"() {
     init_tagTester();
     isError_default = tagTester("Error");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isSymbol.js
+// node_modules/underscore/modules/isSymbol.js
 var isSymbol_default;
 var init_isSymbol = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isSymbol.js"() {
+  "node_modules/underscore/modules/isSymbol.js"() {
     init_tagTester();
     isSymbol_default = tagTester("Symbol");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isArrayBuffer.js
+// node_modules/underscore/modules/isArrayBuffer.js
 var isArrayBuffer_default;
 var init_isArrayBuffer = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isArrayBuffer.js"() {
+  "node_modules/underscore/modules/isArrayBuffer.js"() {
     init_tagTester();
     isArrayBuffer_default = tagTester("ArrayBuffer");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isFunction.js
+// node_modules/underscore/modules/isFunction.js
 var isFunction, nodelist, isFunction_default;
 var init_isFunction = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isFunction.js"() {
+  "node_modules/underscore/modules/isFunction.js"() {
     init_tagTester();
     init_setup();
     isFunction = tagTester("Function");
@@ -2038,19 +2038,19 @@ var init_isFunction = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_hasObjectTag.js
+// node_modules/underscore/modules/_hasObjectTag.js
 var hasObjectTag_default;
 var init_hasObjectTag = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_hasObjectTag.js"() {
+  "node_modules/underscore/modules/_hasObjectTag.js"() {
     init_tagTester();
     hasObjectTag_default = tagTester("Object");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_stringTagBug.js
+// node_modules/underscore/modules/_stringTagBug.js
 var hasDataViewBug, isIE11;
 var init_stringTagBug = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_stringTagBug.js"() {
+  "node_modules/underscore/modules/_stringTagBug.js"() {
     init_setup();
     init_hasObjectTag();
     hasDataViewBug = supportsDataView && (!/\[native code\]/.test(String(DataView)) || hasObjectTag_default(new DataView(new ArrayBuffer(8))));
@@ -2058,13 +2058,13 @@ var init_stringTagBug = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isDataView.js
+// node_modules/underscore/modules/isDataView.js
 function alternateIsDataView(obj2) {
   return obj2 != null && isFunction_default(obj2.getInt8) && isArrayBuffer_default(obj2.buffer);
 }
 var isDataView, isDataView_default;
 var init_isDataView = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isDataView.js"() {
+  "node_modules/underscore/modules/isDataView.js"() {
     init_tagTester();
     init_isFunction();
     init_isArrayBuffer();
@@ -2074,30 +2074,30 @@ var init_isDataView = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isArray.js
+// node_modules/underscore/modules/isArray.js
 var isArray_default;
 var init_isArray = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isArray.js"() {
+  "node_modules/underscore/modules/isArray.js"() {
     init_setup();
     init_tagTester();
     isArray_default = nativeIsArray || tagTester("Array");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_has.js
+// node_modules/underscore/modules/_has.js
 function has(obj2, key) {
   return obj2 != null && hasOwnProperty.call(obj2, key);
 }
 var init_has = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_has.js"() {
+  "node_modules/underscore/modules/_has.js"() {
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isArguments.js
+// node_modules/underscore/modules/isArguments.js
 var isArguments, isArguments_default;
 var init_isArguments = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isArguments.js"() {
+  "node_modules/underscore/modules/isArguments.js"() {
     init_tagTester();
     init_has();
     isArguments = tagTester("Arguments");
@@ -2112,40 +2112,40 @@ var init_isArguments = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isFinite.js
+// node_modules/underscore/modules/isFinite.js
 function isFinite2(obj2) {
   return !isSymbol_default(obj2) && _isFinite(obj2) && !isNaN(parseFloat(obj2));
 }
 var init_isFinite = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isFinite.js"() {
+  "node_modules/underscore/modules/isFinite.js"() {
     init_setup();
     init_isSymbol();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isNaN.js
+// node_modules/underscore/modules/isNaN.js
 function isNaN2(obj2) {
   return isNumber_default(obj2) && _isNaN(obj2);
 }
 var init_isNaN = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isNaN.js"() {
+  "node_modules/underscore/modules/isNaN.js"() {
     init_setup();
     init_isNumber();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/constant.js
+// node_modules/underscore/modules/constant.js
 function constant(value) {
   return function() {
     return value;
   };
 }
 var init_constant = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/constant.js"() {
+  "node_modules/underscore/modules/constant.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createSizePropertyCheck.js
+// node_modules/underscore/modules/_createSizePropertyCheck.js
 function createSizePropertyCheck(getSizeProperty) {
   return function(collection) {
     var sizeProperty = getSizeProperty(collection);
@@ -2153,48 +2153,48 @@ function createSizePropertyCheck(getSizeProperty) {
   };
 }
 var init_createSizePropertyCheck = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createSizePropertyCheck.js"() {
+  "node_modules/underscore/modules/_createSizePropertyCheck.js"() {
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_shallowProperty.js
+// node_modules/underscore/modules/_shallowProperty.js
 function shallowProperty(key) {
   return function(obj2) {
     return obj2 == null ? void 0 : obj2[key];
   };
 }
 var init_shallowProperty = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_shallowProperty.js"() {
+  "node_modules/underscore/modules/_shallowProperty.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_getByteLength.js
+// node_modules/underscore/modules/_getByteLength.js
 var getByteLength_default;
 var init_getByteLength = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_getByteLength.js"() {
+  "node_modules/underscore/modules/_getByteLength.js"() {
     init_shallowProperty();
     getByteLength_default = shallowProperty("byteLength");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_isBufferLike.js
+// node_modules/underscore/modules/_isBufferLike.js
 var isBufferLike_default;
 var init_isBufferLike = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_isBufferLike.js"() {
+  "node_modules/underscore/modules/_isBufferLike.js"() {
     init_createSizePropertyCheck();
     init_getByteLength();
     isBufferLike_default = createSizePropertyCheck(getByteLength_default);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isTypedArray.js
+// node_modules/underscore/modules/isTypedArray.js
 function isTypedArray(obj2) {
   return nativeIsView ? nativeIsView(obj2) && !isDataView_default(obj2) : isBufferLike_default(obj2) && typedArrayPattern.test(toString.call(obj2));
 }
 var typedArrayPattern, isTypedArray_default;
 var init_isTypedArray = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isTypedArray.js"() {
+  "node_modules/underscore/modules/isTypedArray.js"() {
     init_setup();
     init_isDataView();
     init_constant();
@@ -2204,16 +2204,16 @@ var init_isTypedArray = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_getLength.js
+// node_modules/underscore/modules/_getLength.js
 var getLength_default;
 var init_getLength = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_getLength.js"() {
+  "node_modules/underscore/modules/_getLength.js"() {
     init_shallowProperty();
     getLength_default = shallowProperty("length");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_collectNonEnumProps.js
+// node_modules/underscore/modules/_collectNonEnumProps.js
 function emulatedSet(keys2) {
   var hash = {};
   for (var l2 = keys2.length, i = 0; i < l2; ++i) hash[keys2[i]] = true;
@@ -2242,14 +2242,14 @@ function collectNonEnumProps(obj2, keys2) {
   }
 }
 var init_collectNonEnumProps = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_collectNonEnumProps.js"() {
+  "node_modules/underscore/modules/_collectNonEnumProps.js"() {
     init_setup();
     init_isFunction();
     init_has();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/keys.js
+// node_modules/underscore/modules/keys.js
 function keys(obj2) {
   if (!isObject2(obj2)) return [];
   if (nativeKeys) return nativeKeys(obj2);
@@ -2259,7 +2259,7 @@ function keys(obj2) {
   return keys2;
 }
 var init_keys = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/keys.js"() {
+  "node_modules/underscore/modules/keys.js"() {
     init_isObject();
     init_setup();
     init_has();
@@ -2267,7 +2267,7 @@ var init_keys = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isEmpty.js
+// node_modules/underscore/modules/isEmpty.js
 function isEmpty(obj2) {
   if (obj2 == null) return true;
   var length = getLength_default(obj2);
@@ -2275,7 +2275,7 @@ function isEmpty(obj2) {
   return getLength_default(keys(obj2)) === 0;
 }
 var init_isEmpty = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isEmpty.js"() {
+  "node_modules/underscore/modules/isEmpty.js"() {
     init_getLength();
     init_isArray();
     init_isString();
@@ -2284,7 +2284,7 @@ var init_isEmpty = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isMatch.js
+// node_modules/underscore/modules/isMatch.js
 function isMatch(object2, attrs) {
   var _keys = keys(attrs), length = _keys.length;
   if (object2 == null) return !length;
@@ -2296,19 +2296,19 @@ function isMatch(object2, attrs) {
   return true;
 }
 var init_isMatch = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isMatch.js"() {
+  "node_modules/underscore/modules/isMatch.js"() {
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/underscore.js
+// node_modules/underscore/modules/underscore.js
 function _(obj2) {
   if (obj2 instanceof _) return obj2;
   if (!(this instanceof _)) return new _(obj2);
   this._wrapped = obj2;
 }
 var init_underscore = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/underscore.js"() {
+  "node_modules/underscore/modules/underscore.js"() {
     init_setup();
     _.VERSION = VERSION;
     _.prototype.value = function() {
@@ -2321,7 +2321,7 @@ var init_underscore = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_toBufferView.js
+// node_modules/underscore/modules/_toBufferView.js
 function toBufferView(bufferSource) {
   return new Uint8Array(
     bufferSource.buffer || bufferSource,
@@ -2330,12 +2330,12 @@ function toBufferView(bufferSource) {
   );
 }
 var init_toBufferView = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_toBufferView.js"() {
+  "node_modules/underscore/modules/_toBufferView.js"() {
     init_getByteLength();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isEqual.js
+// node_modules/underscore/modules/isEqual.js
 function isEqual(a, b) {
   var todo = [{ a, b }];
   var aStack = [], bStack = [];
@@ -2435,7 +2435,7 @@ function isEqual(a, b) {
 }
 var tagDataView;
 var init_isEqual = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isEqual.js"() {
+  "node_modules/underscore/modules/isEqual.js"() {
     init_underscore();
     init_setup();
     init_getByteLength();
@@ -2450,7 +2450,7 @@ var init_isEqual = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/allKeys.js
+// node_modules/underscore/modules/allKeys.js
 function allKeys(obj2) {
   if (!isObject2(obj2)) return [];
   var keys2 = [];
@@ -2459,14 +2459,14 @@ function allKeys(obj2) {
   return keys2;
 }
 var init_allKeys = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/allKeys.js"() {
+  "node_modules/underscore/modules/allKeys.js"() {
     init_isObject();
     init_setup();
     init_collectNonEnumProps();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_methodFingerprint.js
+// node_modules/underscore/modules/_methodFingerprint.js
 function ie11fingerprint(methods) {
   var length = getLength_default(methods);
   return function(obj2) {
@@ -2481,7 +2481,7 @@ function ie11fingerprint(methods) {
 }
 var forEachName, hasName, commonInit, mapTail, mapMethods, weakMapMethods, setMethods;
 var init_methodFingerprint = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_methodFingerprint.js"() {
+  "node_modules/underscore/modules/_methodFingerprint.js"() {
     init_getLength();
     init_isFunction();
     init_allKeys();
@@ -2495,10 +2495,10 @@ var init_methodFingerprint = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isMap.js
+// node_modules/underscore/modules/isMap.js
 var isMap_default;
 var init_isMap = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isMap.js"() {
+  "node_modules/underscore/modules/isMap.js"() {
     init_tagTester();
     init_stringTagBug();
     init_methodFingerprint();
@@ -2506,10 +2506,10 @@ var init_isMap = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isWeakMap.js
+// node_modules/underscore/modules/isWeakMap.js
 var isWeakMap_default;
 var init_isWeakMap = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isWeakMap.js"() {
+  "node_modules/underscore/modules/isWeakMap.js"() {
     init_tagTester();
     init_stringTagBug();
     init_methodFingerprint();
@@ -2517,10 +2517,10 @@ var init_isWeakMap = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isSet.js
+// node_modules/underscore/modules/isSet.js
 var isSet_default;
 var init_isSet = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isSet.js"() {
+  "node_modules/underscore/modules/isSet.js"() {
     init_tagTester();
     init_stringTagBug();
     init_methodFingerprint();
@@ -2528,16 +2528,16 @@ var init_isSet = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isWeakSet.js
+// node_modules/underscore/modules/isWeakSet.js
 var isWeakSet_default;
 var init_isWeakSet = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/isWeakSet.js"() {
+  "node_modules/underscore/modules/isWeakSet.js"() {
     init_tagTester();
     isWeakSet_default = tagTester("WeakSet");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/values.js
+// node_modules/underscore/modules/values.js
 function values(obj2) {
   var _keys = keys(obj2);
   var length = _keys.length;
@@ -2548,12 +2548,12 @@ function values(obj2) {
   return values2;
 }
 var init_values = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/values.js"() {
+  "node_modules/underscore/modules/values.js"() {
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/pairs.js
+// node_modules/underscore/modules/pairs.js
 function pairs(obj2) {
   var _keys = keys(obj2);
   var length = _keys.length;
@@ -2564,12 +2564,12 @@ function pairs(obj2) {
   return pairs2;
 }
 var init_pairs = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/pairs.js"() {
+  "node_modules/underscore/modules/pairs.js"() {
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/invert.js
+// node_modules/underscore/modules/invert.js
 function invert(obj2) {
   var result2 = {};
   var _keys = keys(obj2);
@@ -2579,12 +2579,12 @@ function invert(obj2) {
   return result2;
 }
 var init_invert = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/invert.js"() {
+  "node_modules/underscore/modules/invert.js"() {
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/functions.js
+// node_modules/underscore/modules/functions.js
 function functions(obj2) {
   var names = [];
   for (var key in obj2) {
@@ -2593,12 +2593,12 @@ function functions(obj2) {
   return names.sort();
 }
 var init_functions = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/functions.js"() {
+  "node_modules/underscore/modules/functions.js"() {
     init_isFunction();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createAssigner.js
+// node_modules/underscore/modules/_createAssigner.js
 function createAssigner(keysFunc, defaults) {
   return function(obj2) {
     var length = arguments.length;
@@ -2615,41 +2615,41 @@ function createAssigner(keysFunc, defaults) {
   };
 }
 var init_createAssigner = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createAssigner.js"() {
+  "node_modules/underscore/modules/_createAssigner.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/extend.js
+// node_modules/underscore/modules/extend.js
 var extend_default;
 var init_extend = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/extend.js"() {
+  "node_modules/underscore/modules/extend.js"() {
     init_createAssigner();
     init_allKeys();
     extend_default = createAssigner(allKeys);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/extendOwn.js
+// node_modules/underscore/modules/extendOwn.js
 var extendOwn_default;
 var init_extendOwn = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/extendOwn.js"() {
+  "node_modules/underscore/modules/extendOwn.js"() {
     init_createAssigner();
     init_keys();
     extendOwn_default = createAssigner(keys);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/defaults.js
+// node_modules/underscore/modules/defaults.js
 var defaults_default;
 var init_defaults = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/defaults.js"() {
+  "node_modules/underscore/modules/defaults.js"() {
     init_createAssigner();
     init_allKeys();
     defaults_default = createAssigner(allKeys, true);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_baseCreate.js
+// node_modules/underscore/modules/_baseCreate.js
 function ctor() {
   return function() {
   };
@@ -2664,72 +2664,72 @@ function baseCreate(prototype) {
   return result2;
 }
 var init_baseCreate = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_baseCreate.js"() {
+  "node_modules/underscore/modules/_baseCreate.js"() {
     init_isObject();
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/create.js
+// node_modules/underscore/modules/create.js
 function create(prototype, props) {
   var result2 = baseCreate(prototype);
   if (props) extendOwn_default(result2, props);
   return result2;
 }
 var init_create = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/create.js"() {
+  "node_modules/underscore/modules/create.js"() {
     init_baseCreate();
     init_extendOwn();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/clone.js
+// node_modules/underscore/modules/clone.js
 function clone(obj2) {
   if (!isObject2(obj2)) return obj2;
   return isArray_default(obj2) ? obj2.slice() : extend_default({}, obj2);
 }
 var init_clone = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/clone.js"() {
+  "node_modules/underscore/modules/clone.js"() {
     init_isObject();
     init_isArray();
     init_extend();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/tap.js
+// node_modules/underscore/modules/tap.js
 function tap(obj2, interceptor) {
   interceptor(obj2);
   return obj2;
 }
 var init_tap = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/tap.js"() {
+  "node_modules/underscore/modules/tap.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/toPath.js
+// node_modules/underscore/modules/toPath.js
 function toPath(path2) {
   return isArray_default(path2) ? path2 : [path2];
 }
 var init_toPath = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/toPath.js"() {
+  "node_modules/underscore/modules/toPath.js"() {
     init_underscore();
     init_isArray();
     _.toPath = toPath;
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_toPath.js
+// node_modules/underscore/modules/_toPath.js
 function toPath2(path2) {
   return _.toPath(path2);
 }
 var init_toPath2 = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_toPath.js"() {
+  "node_modules/underscore/modules/_toPath.js"() {
     init_underscore();
     init_toPath();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_deepGet.js
+// node_modules/underscore/modules/_deepGet.js
 function deepGet(obj2, path2) {
   var length = path2.length;
   for (var i = 0; i < length; i++) {
@@ -2739,24 +2739,24 @@ function deepGet(obj2, path2) {
   return length ? obj2 : void 0;
 }
 var init_deepGet = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_deepGet.js"() {
+  "node_modules/underscore/modules/_deepGet.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/get.js
+// node_modules/underscore/modules/get.js
 function get(object2, path2, defaultValue) {
   var value = deepGet(object2, toPath2(path2));
   return isUndefined(value) ? defaultValue : value;
 }
 var init_get = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/get.js"() {
+  "node_modules/underscore/modules/get.js"() {
     init_toPath2();
     init_deepGet();
     init_isUndefined();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/has.js
+// node_modules/underscore/modules/has.js
 function has2(obj2, path2) {
   path2 = toPath2(path2);
   var length = path2.length;
@@ -2768,22 +2768,22 @@ function has2(obj2, path2) {
   return !!length;
 }
 var init_has2 = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/has.js"() {
+  "node_modules/underscore/modules/has.js"() {
     init_has();
     init_toPath2();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/identity.js
+// node_modules/underscore/modules/identity.js
 function identity(value) {
   return value;
 }
 var init_identity = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/identity.js"() {
+  "node_modules/underscore/modules/identity.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/matcher.js
+// node_modules/underscore/modules/matcher.js
 function matcher(attrs) {
   attrs = extendOwn_default({}, attrs);
   return function(obj2) {
@@ -2791,13 +2791,13 @@ function matcher(attrs) {
   };
 }
 var init_matcher = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/matcher.js"() {
+  "node_modules/underscore/modules/matcher.js"() {
     init_extendOwn();
     init_isMatch();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/property.js
+// node_modules/underscore/modules/property.js
 function property(path2) {
   path2 = toPath2(path2);
   return function(obj2) {
@@ -2805,13 +2805,13 @@ function property(path2) {
   };
 }
 var init_property = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/property.js"() {
+  "node_modules/underscore/modules/property.js"() {
     init_deepGet();
     init_toPath2();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_optimizeCb.js
+// node_modules/underscore/modules/_optimizeCb.js
 function optimizeCb(func, context, argCount) {
   if (context === void 0) return func;
   switch (argCount == null ? 3 : argCount) {
@@ -2834,11 +2834,11 @@ function optimizeCb(func, context, argCount) {
   };
 }
 var init_optimizeCb = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_optimizeCb.js"() {
+  "node_modules/underscore/modules/_optimizeCb.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_baseIteratee.js
+// node_modules/underscore/modules/_baseIteratee.js
 function baseIteratee(value, context, argCount) {
   if (value == null) return identity;
   if (isFunction_default(value)) return optimizeCb(value, context, argCount);
@@ -2846,7 +2846,7 @@ function baseIteratee(value, context, argCount) {
   return property(value);
 }
 var init_baseIteratee = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_baseIteratee.js"() {
+  "node_modules/underscore/modules/_baseIteratee.js"() {
     init_identity();
     init_isFunction();
     init_isObject();
@@ -2857,32 +2857,32 @@ var init_baseIteratee = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/iteratee.js
+// node_modules/underscore/modules/iteratee.js
 function iteratee(value, context) {
   return baseIteratee(value, context, Infinity);
 }
 var init_iteratee = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/iteratee.js"() {
+  "node_modules/underscore/modules/iteratee.js"() {
     init_underscore();
     init_baseIteratee();
     _.iteratee = iteratee;
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_cb.js
+// node_modules/underscore/modules/_cb.js
 function cb(value, context, argCount) {
   if (_.iteratee !== iteratee) return _.iteratee(value, context);
   return baseIteratee(value, context, argCount);
 }
 var init_cb = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_cb.js"() {
+  "node_modules/underscore/modules/_cb.js"() {
     init_underscore();
     init_baseIteratee();
     init_iteratee();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/mapObject.js
+// node_modules/underscore/modules/mapObject.js
 function mapObject(obj2, iteratee2, context) {
   iteratee2 = cb(iteratee2, context);
   var _keys = keys(obj2), length = _keys.length, results = {};
@@ -2893,21 +2893,21 @@ function mapObject(obj2, iteratee2, context) {
   return results;
 }
 var init_mapObject = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/mapObject.js"() {
+  "node_modules/underscore/modules/mapObject.js"() {
     init_cb();
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/noop.js
+// node_modules/underscore/modules/noop.js
 function noop() {
 }
 var init_noop = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/noop.js"() {
+  "node_modules/underscore/modules/noop.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/propertyOf.js
+// node_modules/underscore/modules/propertyOf.js
 function propertyOf(obj2) {
   if (obj2 == null) return noop;
   return function(path2) {
@@ -2915,13 +2915,13 @@ function propertyOf(obj2) {
   };
 }
 var init_propertyOf = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/propertyOf.js"() {
+  "node_modules/underscore/modules/propertyOf.js"() {
     init_noop();
     init_get();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/times.js
+// node_modules/underscore/modules/times.js
 function times(n, iteratee2, context) {
   var accum = Array(Math.max(0, n));
   iteratee2 = optimizeCb(iteratee2, context, 1);
@@ -2929,12 +2929,12 @@ function times(n, iteratee2, context) {
   return accum;
 }
 var init_times = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/times.js"() {
+  "node_modules/underscore/modules/times.js"() {
     init_optimizeCb();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/random.js
+// node_modules/underscore/modules/random.js
 function random(min2, max2) {
   if (max2 == null) {
     max2 = min2;
@@ -2943,21 +2943,21 @@ function random(min2, max2) {
   return min2 + Math.floor(Math.random() * (max2 - min2 + 1));
 }
 var init_random = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/random.js"() {
+  "node_modules/underscore/modules/random.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/now.js
+// node_modules/underscore/modules/now.js
 var now_default;
 var init_now = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/now.js"() {
+  "node_modules/underscore/modules/now.js"() {
     now_default = Date.now || function() {
       return (/* @__PURE__ */ new Date()).getTime();
     };
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createEscaper.js
+// node_modules/underscore/modules/_createEscaper.js
 function createEscaper(map2) {
   var escaper = function(match) {
     return map2[match];
@@ -2971,15 +2971,15 @@ function createEscaper(map2) {
   };
 }
 var init_createEscaper = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createEscaper.js"() {
+  "node_modules/underscore/modules/_createEscaper.js"() {
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_escapeMap.js
+// node_modules/underscore/modules/_escapeMap.js
 var escapeMap_default;
 var init_escapeMap = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_escapeMap.js"() {
+  "node_modules/underscore/modules/_escapeMap.js"() {
     escapeMap_default = {
       "&": "&amp;",
       "<": "&lt;",
@@ -2991,40 +2991,40 @@ var init_escapeMap = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/escape.js
+// node_modules/underscore/modules/escape.js
 var escape_default;
 var init_escape = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/escape.js"() {
+  "node_modules/underscore/modules/escape.js"() {
     init_createEscaper();
     init_escapeMap();
     escape_default = createEscaper(escapeMap_default);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_unescapeMap.js
+// node_modules/underscore/modules/_unescapeMap.js
 var unescapeMap_default;
 var init_unescapeMap = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_unescapeMap.js"() {
+  "node_modules/underscore/modules/_unescapeMap.js"() {
     init_invert();
     init_escapeMap();
     unescapeMap_default = invert(escapeMap_default);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/unescape.js
+// node_modules/underscore/modules/unescape.js
 var unescape_default;
 var init_unescape = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/unescape.js"() {
+  "node_modules/underscore/modules/unescape.js"() {
     init_createEscaper();
     init_unescapeMap();
     unescape_default = createEscaper(unescapeMap_default);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/templateSettings.js
+// node_modules/underscore/modules/templateSettings.js
 var templateSettings_default;
 var init_templateSettings = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/templateSettings.js"() {
+  "node_modules/underscore/modules/templateSettings.js"() {
     init_underscore();
     templateSettings_default = _.templateSettings = {
       evaluate: /<%([\s\S]+?)%>/g,
@@ -3034,7 +3034,7 @@ var init_templateSettings = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/template.js
+// node_modules/underscore/modules/template.js
 function escapeChar(match) {
   return "\\" + escapes[match];
 }
@@ -3086,7 +3086,7 @@ function template(text, settings, oldSettings) {
 }
 var noMatch, escapes, escapeRegExp, bareIdentifier;
 var init_template = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/template.js"() {
+  "node_modules/underscore/modules/template.js"() {
     init_defaults();
     init_underscore();
     init_templateSettings();
@@ -3104,7 +3104,7 @@ var init_template = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/result.js
+// node_modules/underscore/modules/result.js
 function result(obj2, path2, fallback) {
   path2 = toPath2(path2);
   var length = path2.length;
@@ -3122,37 +3122,37 @@ function result(obj2, path2, fallback) {
   return obj2;
 }
 var init_result = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/result.js"() {
+  "node_modules/underscore/modules/result.js"() {
     init_isFunction();
     init_toPath2();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/uniqueId.js
+// node_modules/underscore/modules/uniqueId.js
 function uniqueId(prefix) {
   var id = ++idCounter + "";
   return prefix ? prefix + id : id;
 }
 var idCounter;
 var init_uniqueId = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/uniqueId.js"() {
+  "node_modules/underscore/modules/uniqueId.js"() {
     idCounter = 0;
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/chain.js
+// node_modules/underscore/modules/chain.js
 function chain(obj2) {
   var instance = _(obj2);
   instance._chain = true;
   return instance;
 }
 var init_chain = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/chain.js"() {
+  "node_modules/underscore/modules/chain.js"() {
     init_underscore();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_executeBound.js
+// node_modules/underscore/modules/_executeBound.js
 function executeBound(sourceFunc, boundFunc, context, callingContext, args) {
   if (!(callingContext instanceof boundFunc)) return sourceFunc.apply(context, args);
   var self2 = baseCreate(sourceFunc.prototype);
@@ -3161,16 +3161,16 @@ function executeBound(sourceFunc, boundFunc, context, callingContext, args) {
   return self2;
 }
 var init_executeBound = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_executeBound.js"() {
+  "node_modules/underscore/modules/_executeBound.js"() {
     init_baseCreate();
     init_isObject();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/partial.js
+// node_modules/underscore/modules/partial.js
 var partial, partial_default;
 var init_partial = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/partial.js"() {
+  "node_modules/underscore/modules/partial.js"() {
     init_restArguments();
     init_executeBound();
     init_underscore();
@@ -3192,10 +3192,10 @@ var init_partial = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/bind.js
+// node_modules/underscore/modules/bind.js
 var bind_default;
 var init_bind = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/bind.js"() {
+  "node_modules/underscore/modules/bind.js"() {
     init_restArguments();
     init_isFunction();
     init_executeBound();
@@ -3209,17 +3209,17 @@ var init_bind = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_isArrayLike.js
+// node_modules/underscore/modules/_isArrayLike.js
 var isArrayLike_default;
 var init_isArrayLike = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_isArrayLike.js"() {
+  "node_modules/underscore/modules/_isArrayLike.js"() {
     init_createSizePropertyCheck();
     init_getLength();
     isArrayLike_default = createSizePropertyCheck(getLength_default);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_flatten.js
+// node_modules/underscore/modules/_flatten.js
 function flatten(input, depth, strict) {
   if (!depth && depth !== 0) depth = Infinity;
   var output = [], idx = 0, i = 0, length = getLength_default(input) || 0, stack = [];
@@ -3247,7 +3247,7 @@ function flatten(input, depth, strict) {
   return output;
 }
 var init_flatten = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_flatten.js"() {
+  "node_modules/underscore/modules/_flatten.js"() {
     init_getLength();
     init_isArrayLike();
     init_isArray();
@@ -3255,10 +3255,10 @@ var init_flatten = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/bindAll.js
+// node_modules/underscore/modules/bindAll.js
 var bindAll_default;
 var init_bindAll = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/bindAll.js"() {
+  "node_modules/underscore/modules/bindAll.js"() {
     init_restArguments();
     init_flatten();
     init_bind();
@@ -3275,7 +3275,7 @@ var init_bindAll = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/memoize.js
+// node_modules/underscore/modules/memoize.js
 function memoize(func, hasher) {
   var memoize2 = function(key) {
     var cache = memoize2.cache;
@@ -3287,15 +3287,15 @@ function memoize(func, hasher) {
   return memoize2;
 }
 var init_memoize = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/memoize.js"() {
+  "node_modules/underscore/modules/memoize.js"() {
     init_has();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/delay.js
+// node_modules/underscore/modules/delay.js
 var delay_default;
 var init_delay = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/delay.js"() {
+  "node_modules/underscore/modules/delay.js"() {
     init_restArguments();
     delay_default = restArguments(function(func, wait, args) {
       return setTimeout(function() {
@@ -3305,10 +3305,10 @@ var init_delay = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/defer.js
+// node_modules/underscore/modules/defer.js
 var defer_default;
 var init_defer = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/defer.js"() {
+  "node_modules/underscore/modules/defer.js"() {
     init_partial();
     init_delay();
     init_underscore();
@@ -3316,7 +3316,7 @@ var init_defer = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/throttle.js
+// node_modules/underscore/modules/throttle.js
 function throttle(func, wait, options) {
   var timeout, context, args, result2;
   var previous = 0;
@@ -3354,12 +3354,12 @@ function throttle(func, wait, options) {
   return throttled;
 }
 var init_throttle = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/throttle.js"() {
+  "node_modules/underscore/modules/throttle.js"() {
     init_now();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/debounce.js
+// node_modules/underscore/modules/debounce.js
 function debounce(func, wait, immediate) {
   var timeout, previous, args, result2, context;
   var later = function() {
@@ -3389,34 +3389,34 @@ function debounce(func, wait, immediate) {
   return debounced;
 }
 var init_debounce = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/debounce.js"() {
+  "node_modules/underscore/modules/debounce.js"() {
     init_restArguments();
     init_now();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/wrap.js
+// node_modules/underscore/modules/wrap.js
 function wrap(func, wrapper) {
   return partial_default(wrapper, func);
 }
 var init_wrap = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/wrap.js"() {
+  "node_modules/underscore/modules/wrap.js"() {
     init_partial();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/negate.js
+// node_modules/underscore/modules/negate.js
 function negate(predicate) {
   return function() {
     return !predicate.apply(this, arguments);
   };
 }
 var init_negate = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/negate.js"() {
+  "node_modules/underscore/modules/negate.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/compose.js
+// node_modules/underscore/modules/compose.js
 function compose() {
   var args = arguments;
   var start = args.length - 1;
@@ -3428,11 +3428,11 @@ function compose() {
   };
 }
 var init_compose = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/compose.js"() {
+  "node_modules/underscore/modules/compose.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/after.js
+// node_modules/underscore/modules/after.js
 function after(times2, func) {
   return function() {
     if (--times2 < 1) {
@@ -3441,11 +3441,11 @@ function after(times2, func) {
   };
 }
 var init_after = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/after.js"() {
+  "node_modules/underscore/modules/after.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/before.js
+// node_modules/underscore/modules/before.js
 function before(times2, func) {
   var memo;
   return function() {
@@ -3457,21 +3457,21 @@ function before(times2, func) {
   };
 }
 var init_before = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/before.js"() {
+  "node_modules/underscore/modules/before.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/once.js
+// node_modules/underscore/modules/once.js
 var once_default;
 var init_once = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/once.js"() {
+  "node_modules/underscore/modules/once.js"() {
     init_partial();
     init_before();
     once_default = partial_default(before, 2);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findKey.js
+// node_modules/underscore/modules/findKey.js
 function findKey(obj2, predicate, context) {
   predicate = cb(predicate, context);
   var _keys = keys(obj2), key;
@@ -3481,13 +3481,13 @@ function findKey(obj2, predicate, context) {
   }
 }
 var init_findKey = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findKey.js"() {
+  "node_modules/underscore/modules/findKey.js"() {
     init_cb();
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createPredicateIndexFinder.js
+// node_modules/underscore/modules/_createPredicateIndexFinder.js
 function createPredicateIndexFinder(dir) {
   return function(array, predicate, context) {
     predicate = cb(predicate, context);
@@ -3500,31 +3500,31 @@ function createPredicateIndexFinder(dir) {
   };
 }
 var init_createPredicateIndexFinder = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createPredicateIndexFinder.js"() {
+  "node_modules/underscore/modules/_createPredicateIndexFinder.js"() {
     init_cb();
     init_getLength();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findIndex.js
+// node_modules/underscore/modules/findIndex.js
 var findIndex_default;
 var init_findIndex = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findIndex.js"() {
+  "node_modules/underscore/modules/findIndex.js"() {
     init_createPredicateIndexFinder();
     findIndex_default = createPredicateIndexFinder(1);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findLastIndex.js
+// node_modules/underscore/modules/findLastIndex.js
 var findLastIndex_default;
 var init_findLastIndex = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findLastIndex.js"() {
+  "node_modules/underscore/modules/findLastIndex.js"() {
     init_createPredicateIndexFinder();
     findLastIndex_default = createPredicateIndexFinder(-1);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/sortedIndex.js
+// node_modules/underscore/modules/sortedIndex.js
 function sortedIndex(array, obj2, iteratee2, context) {
   iteratee2 = cb(iteratee2, context, 1);
   var value = iteratee2(obj2);
@@ -3537,13 +3537,13 @@ function sortedIndex(array, obj2, iteratee2, context) {
   return low;
 }
 var init_sortedIndex = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/sortedIndex.js"() {
+  "node_modules/underscore/modules/sortedIndex.js"() {
     init_cb();
     init_getLength();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createIndexFinder.js
+// node_modules/underscore/modules/_createIndexFinder.js
 function createIndexFinder(dir, predicateFind, sortedIndex2) {
   return function(array, item, idx) {
     var i = 0, length = getLength_default(array);
@@ -3568,17 +3568,17 @@ function createIndexFinder(dir, predicateFind, sortedIndex2) {
   };
 }
 var init_createIndexFinder = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createIndexFinder.js"() {
+  "node_modules/underscore/modules/_createIndexFinder.js"() {
     init_getLength();
     init_setup();
     init_isNaN();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/indexOf.js
+// node_modules/underscore/modules/indexOf.js
 var indexOf_default;
 var init_indexOf = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/indexOf.js"() {
+  "node_modules/underscore/modules/indexOf.js"() {
     init_sortedIndex();
     init_findIndex();
     init_createIndexFinder();
@@ -3586,42 +3586,42 @@ var init_indexOf = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/lastIndexOf.js
+// node_modules/underscore/modules/lastIndexOf.js
 var lastIndexOf_default;
 var init_lastIndexOf = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/lastIndexOf.js"() {
+  "node_modules/underscore/modules/lastIndexOf.js"() {
     init_findLastIndex();
     init_createIndexFinder();
     lastIndexOf_default = createIndexFinder(-1, findLastIndex_default);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/find.js
+// node_modules/underscore/modules/find.js
 function find(obj2, predicate, context) {
   var keyFinder = isArrayLike_default(obj2) ? findIndex_default : findKey;
   var key = keyFinder(obj2, predicate, context);
   if (key !== void 0 && key !== -1) return obj2[key];
 }
 var init_find = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/find.js"() {
+  "node_modules/underscore/modules/find.js"() {
     init_isArrayLike();
     init_findIndex();
     init_findKey();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findWhere.js
+// node_modules/underscore/modules/findWhere.js
 function findWhere(obj2, attrs) {
   return find(obj2, matcher(attrs));
 }
 var init_findWhere = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/findWhere.js"() {
+  "node_modules/underscore/modules/findWhere.js"() {
     init_find();
     init_matcher();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/each.js
+// node_modules/underscore/modules/each.js
 function each(obj2, iteratee2, context) {
   iteratee2 = optimizeCb(iteratee2, context);
   var i, length;
@@ -3638,14 +3638,14 @@ function each(obj2, iteratee2, context) {
   return obj2;
 }
 var init_each = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/each.js"() {
+  "node_modules/underscore/modules/each.js"() {
     init_optimizeCb();
     init_isArrayLike();
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/map.js
+// node_modules/underscore/modules/map.js
 function map(obj2, iteratee2, context) {
   iteratee2 = cb(iteratee2, context);
   var _keys = !isArrayLike_default(obj2) && keys(obj2), length = (_keys || obj2).length, results = Array(length);
@@ -3656,14 +3656,14 @@ function map(obj2, iteratee2, context) {
   return results;
 }
 var init_map = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/map.js"() {
+  "node_modules/underscore/modules/map.js"() {
     init_cb();
     init_isArrayLike();
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createReduce.js
+// node_modules/underscore/modules/_createReduce.js
 function createReduce(dir) {
   var reducer = function(obj2, iteratee2, memo, initial2) {
     var _keys = !isArrayLike_default(obj2) && keys(obj2), length = (_keys || obj2).length, index = dir > 0 ? 0 : length - 1;
@@ -3683,32 +3683,32 @@ function createReduce(dir) {
   };
 }
 var init_createReduce = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_createReduce.js"() {
+  "node_modules/underscore/modules/_createReduce.js"() {
     init_isArrayLike();
     init_keys();
     init_optimizeCb();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/reduce.js
+// node_modules/underscore/modules/reduce.js
 var reduce_default;
 var init_reduce = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/reduce.js"() {
+  "node_modules/underscore/modules/reduce.js"() {
     init_createReduce();
     reduce_default = createReduce(1);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/reduceRight.js
+// node_modules/underscore/modules/reduceRight.js
 var reduceRight_default;
 var init_reduceRight = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/reduceRight.js"() {
+  "node_modules/underscore/modules/reduceRight.js"() {
     init_createReduce();
     reduceRight_default = createReduce(-1);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/filter.js
+// node_modules/underscore/modules/filter.js
 function filter(obj2, predicate, context) {
   var results = [];
   predicate = cb(predicate, context);
@@ -3718,25 +3718,25 @@ function filter(obj2, predicate, context) {
   return results;
 }
 var init_filter = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/filter.js"() {
+  "node_modules/underscore/modules/filter.js"() {
     init_cb();
     init_each();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/reject.js
+// node_modules/underscore/modules/reject.js
 function reject(obj2, predicate, context) {
   return filter(obj2, negate(cb(predicate)), context);
 }
 var init_reject = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/reject.js"() {
+  "node_modules/underscore/modules/reject.js"() {
     init_filter();
     init_negate();
     init_cb();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/every.js
+// node_modules/underscore/modules/every.js
 function every(obj2, predicate, context) {
   predicate = cb(predicate, context);
   var _keys = !isArrayLike_default(obj2) && keys(obj2), length = (_keys || obj2).length;
@@ -3747,14 +3747,14 @@ function every(obj2, predicate, context) {
   return true;
 }
 var init_every = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/every.js"() {
+  "node_modules/underscore/modules/every.js"() {
     init_cb();
     init_isArrayLike();
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/some.js
+// node_modules/underscore/modules/some.js
 function some(obj2, predicate, context) {
   predicate = cb(predicate, context);
   var _keys = !isArrayLike_default(obj2) && keys(obj2), length = (_keys || obj2).length;
@@ -3765,31 +3765,31 @@ function some(obj2, predicate, context) {
   return false;
 }
 var init_some = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/some.js"() {
+  "node_modules/underscore/modules/some.js"() {
     init_cb();
     init_isArrayLike();
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/contains.js
+// node_modules/underscore/modules/contains.js
 function contains(obj2, item, fromIndex, guard) {
   if (!isArrayLike_default(obj2)) obj2 = values(obj2);
   if (typeof fromIndex != "number" || guard) fromIndex = 0;
   return indexOf_default(obj2, item, fromIndex) >= 0;
 }
 var init_contains = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/contains.js"() {
+  "node_modules/underscore/modules/contains.js"() {
     init_isArrayLike();
     init_values();
     init_indexOf();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/invoke.js
+// node_modules/underscore/modules/invoke.js
 var invoke_default;
 var init_invoke = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/invoke.js"() {
+  "node_modules/underscore/modules/invoke.js"() {
     init_restArguments();
     init_isFunction();
     init_map();
@@ -3819,29 +3819,29 @@ var init_invoke = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/pluck.js
+// node_modules/underscore/modules/pluck.js
 function pluck(obj2, key) {
   return map(obj2, property(key));
 }
 var init_pluck = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/pluck.js"() {
+  "node_modules/underscore/modules/pluck.js"() {
     init_map();
     init_property();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/where.js
+// node_modules/underscore/modules/where.js
 function where(obj2, attrs) {
   return filter(obj2, matcher(attrs));
 }
 var init_where = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/where.js"() {
+  "node_modules/underscore/modules/where.js"() {
     init_filter();
     init_matcher();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/max.js
+// node_modules/underscore/modules/max.js
 function max(obj2, iteratee2, context) {
   var result2 = -Infinity, lastComputed = -Infinity, value, computed;
   if (iteratee2 == null || typeof iteratee2 == "number" && typeof obj2[0] != "object" && obj2 != null) {
@@ -3865,7 +3865,7 @@ function max(obj2, iteratee2, context) {
   return result2;
 }
 var init_max = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/max.js"() {
+  "node_modules/underscore/modules/max.js"() {
     init_isArrayLike();
     init_values();
     init_cb();
@@ -3873,7 +3873,7 @@ var init_max = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/min.js
+// node_modules/underscore/modules/min.js
 function min(obj2, iteratee2, context) {
   var result2 = Infinity, lastComputed = Infinity, value, computed;
   if (iteratee2 == null || typeof iteratee2 == "number" && typeof obj2[0] != "object" && obj2 != null) {
@@ -3897,7 +3897,7 @@ function min(obj2, iteratee2, context) {
   return result2;
 }
 var init_min = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/min.js"() {
+  "node_modules/underscore/modules/min.js"() {
     init_isArrayLike();
     init_values();
     init_cb();
@@ -3905,7 +3905,7 @@ var init_min = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/toArray.js
+// node_modules/underscore/modules/toArray.js
 function toArray(obj2) {
   if (!obj2) return [];
   if (isArray_default(obj2)) return slice.call(obj2);
@@ -3917,7 +3917,7 @@ function toArray(obj2) {
 }
 var reStrSymbol;
 var init_toArray = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/toArray.js"() {
+  "node_modules/underscore/modules/toArray.js"() {
     init_isArray();
     init_setup();
     init_isString();
@@ -3929,7 +3929,7 @@ var init_toArray = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/sample.js
+// node_modules/underscore/modules/sample.js
 function sample(obj2, n, guard) {
   if (n == null || guard) {
     if (!isArrayLike_default(obj2)) obj2 = values(obj2);
@@ -3948,7 +3948,7 @@ function sample(obj2, n, guard) {
   return sample2.slice(0, n);
 }
 var init_sample = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/sample.js"() {
+  "node_modules/underscore/modules/sample.js"() {
     init_isArrayLike();
     init_values();
     init_getLength();
@@ -3957,17 +3957,17 @@ var init_sample = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/shuffle.js
+// node_modules/underscore/modules/shuffle.js
 function shuffle(obj2) {
   return sample(obj2, Infinity);
 }
 var init_shuffle = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/shuffle.js"() {
+  "node_modules/underscore/modules/shuffle.js"() {
     init_sample();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/sortBy.js
+// node_modules/underscore/modules/sortBy.js
 function sortBy(obj2, iteratee2, context) {
   var index = 0;
   iteratee2 = cb(iteratee2, context);
@@ -3988,14 +3988,14 @@ function sortBy(obj2, iteratee2, context) {
   }), "value");
 }
 var init_sortBy = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/sortBy.js"() {
+  "node_modules/underscore/modules/sortBy.js"() {
     init_cb();
     init_pluck();
     init_map();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_group.js
+// node_modules/underscore/modules/_group.js
 function group(behavior, partition) {
   return function(obj2, iteratee2, context) {
     var result2 = partition ? [[], []] : {};
@@ -4008,16 +4008,16 @@ function group(behavior, partition) {
   };
 }
 var init_group = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_group.js"() {
+  "node_modules/underscore/modules/_group.js"() {
     init_cb();
     init_each();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/groupBy.js
+// node_modules/underscore/modules/groupBy.js
 var groupBy_default;
 var init_groupBy = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/groupBy.js"() {
+  "node_modules/underscore/modules/groupBy.js"() {
     init_group();
     init_has();
     groupBy_default = group(function(result2, value, key) {
@@ -4027,10 +4027,10 @@ var init_groupBy = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/indexBy.js
+// node_modules/underscore/modules/indexBy.js
 var indexBy_default;
 var init_indexBy = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/indexBy.js"() {
+  "node_modules/underscore/modules/indexBy.js"() {
     init_group();
     indexBy_default = group(function(result2, value, key) {
       result2[key] = value;
@@ -4038,10 +4038,10 @@ var init_indexBy = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/countBy.js
+// node_modules/underscore/modules/countBy.js
 var countBy_default;
 var init_countBy = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/countBy.js"() {
+  "node_modules/underscore/modules/countBy.js"() {
     init_group();
     init_has();
     countBy_default = group(function(result2, value, key) {
@@ -4051,10 +4051,10 @@ var init_countBy = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/partition.js
+// node_modules/underscore/modules/partition.js
 var partition_default;
 var init_partition = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/partition.js"() {
+  "node_modules/underscore/modules/partition.js"() {
     init_group();
     partition_default = group(function(result2, value, pass) {
       result2[pass ? 0 : 1].push(value);
@@ -4062,31 +4062,31 @@ var init_partition = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/size.js
+// node_modules/underscore/modules/size.js
 function size(obj2) {
   if (obj2 == null) return 0;
   return isArrayLike_default(obj2) ? obj2.length : keys(obj2).length;
 }
 var init_size = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/size.js"() {
+  "node_modules/underscore/modules/size.js"() {
     init_isArrayLike();
     init_keys();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_keyInObj.js
+// node_modules/underscore/modules/_keyInObj.js
 function keyInObj(value, key, obj2) {
   return key in obj2;
 }
 var init_keyInObj = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_keyInObj.js"() {
+  "node_modules/underscore/modules/_keyInObj.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/pick.js
+// node_modules/underscore/modules/pick.js
 var pick_default;
 var init_pick = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/pick.js"() {
+  "node_modules/underscore/modules/pick.js"() {
     init_restArguments();
     init_isFunction();
     init_optimizeCb();
@@ -4114,10 +4114,10 @@ var init_pick = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/omit.js
+// node_modules/underscore/modules/omit.js
 var omit_default;
 var init_omit = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/omit.js"() {
+  "node_modules/underscore/modules/omit.js"() {
     init_restArguments();
     init_isFunction();
     init_negate();
@@ -4141,74 +4141,74 @@ var init_omit = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/initial.js
+// node_modules/underscore/modules/initial.js
 function initial(array, n, guard) {
   return slice.call(array, 0, Math.max(0, array.length - (n == null || guard ? 1 : n)));
 }
 var init_initial = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/initial.js"() {
+  "node_modules/underscore/modules/initial.js"() {
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/first.js
+// node_modules/underscore/modules/first.js
 function first(array, n, guard) {
   if (array == null || array.length < 1) return n == null || guard ? void 0 : [];
   if (n == null || guard) return array[0];
   return initial(array, array.length - n);
 }
 var init_first = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/first.js"() {
+  "node_modules/underscore/modules/first.js"() {
     init_initial();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/rest.js
+// node_modules/underscore/modules/rest.js
 function rest(array, n, guard) {
   return slice.call(array, n == null || guard ? 1 : n);
 }
 var init_rest = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/rest.js"() {
+  "node_modules/underscore/modules/rest.js"() {
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/last.js
+// node_modules/underscore/modules/last.js
 function last(array, n, guard) {
   if (array == null || array.length < 1) return n == null || guard ? void 0 : [];
   if (n == null || guard) return array[array.length - 1];
   return rest(array, Math.max(0, array.length - n));
 }
 var init_last = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/last.js"() {
+  "node_modules/underscore/modules/last.js"() {
     init_rest();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/compact.js
+// node_modules/underscore/modules/compact.js
 function compact(array) {
   return filter(array, Boolean);
 }
 var init_compact = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/compact.js"() {
+  "node_modules/underscore/modules/compact.js"() {
     init_filter();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/flatten.js
+// node_modules/underscore/modules/flatten.js
 function flatten2(array, depth) {
   return flatten(array, depth, false);
 }
 var init_flatten2 = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/flatten.js"() {
+  "node_modules/underscore/modules/flatten.js"() {
     init_flatten();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/difference.js
+// node_modules/underscore/modules/difference.js
 var difference_default;
 var init_difference = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/difference.js"() {
+  "node_modules/underscore/modules/difference.js"() {
     init_restArguments();
     init_flatten();
     init_filter();
@@ -4222,10 +4222,10 @@ var init_difference = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/without.js
+// node_modules/underscore/modules/without.js
 var without_default;
 var init_without = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/without.js"() {
+  "node_modules/underscore/modules/without.js"() {
     init_restArguments();
     init_difference();
     without_default = restArguments(function(array, otherArrays) {
@@ -4234,7 +4234,7 @@ var init_without = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/uniq.js
+// node_modules/underscore/modules/uniq.js
 function uniq(array, isSorted, iteratee2, context) {
   if (!isBoolean(isSorted)) {
     context = iteratee2;
@@ -4261,7 +4261,7 @@ function uniq(array, isSorted, iteratee2, context) {
   return result2;
 }
 var init_uniq = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/uniq.js"() {
+  "node_modules/underscore/modules/uniq.js"() {
     init_isBoolean();
     init_cb();
     init_getLength();
@@ -4269,10 +4269,10 @@ var init_uniq = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/union.js
+// node_modules/underscore/modules/union.js
 var union_default;
 var init_union = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/union.js"() {
+  "node_modules/underscore/modules/union.js"() {
     init_restArguments();
     init_uniq();
     init_flatten();
@@ -4282,7 +4282,7 @@ var init_union = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/intersection.js
+// node_modules/underscore/modules/intersection.js
 function intersection(array) {
   var result2 = [];
   var argsLength = arguments.length;
@@ -4298,13 +4298,13 @@ function intersection(array) {
   return result2;
 }
 var init_intersection = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/intersection.js"() {
+  "node_modules/underscore/modules/intersection.js"() {
     init_getLength();
     init_contains();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/unzip.js
+// node_modules/underscore/modules/unzip.js
 function unzip(array) {
   var length = array && max(array, getLength_default).length || 0;
   var result2 = Array(length);
@@ -4314,24 +4314,24 @@ function unzip(array) {
   return result2;
 }
 var init_unzip = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/unzip.js"() {
+  "node_modules/underscore/modules/unzip.js"() {
     init_max();
     init_getLength();
     init_pluck();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/zip.js
+// node_modules/underscore/modules/zip.js
 var zip_default;
 var init_zip = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/zip.js"() {
+  "node_modules/underscore/modules/zip.js"() {
     init_restArguments();
     init_unzip();
     zip_default = restArguments(unzip);
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/object.js
+// node_modules/underscore/modules/object.js
 function object(list, values2) {
   var result2 = {};
   for (var i = 0, length = getLength_default(list); i < length; i++) {
@@ -4344,12 +4344,12 @@ function object(list, values2) {
   return result2;
 }
 var init_object = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/object.js"() {
+  "node_modules/underscore/modules/object.js"() {
     init_getLength();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/range.js
+// node_modules/underscore/modules/range.js
 function range(start, stop, step) {
   if (stop == null) {
     stop = start || 0;
@@ -4366,11 +4366,11 @@ function range(start, stop, step) {
   return range2;
 }
 var init_range = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/range.js"() {
+  "node_modules/underscore/modules/range.js"() {
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/chunk.js
+// node_modules/underscore/modules/chunk.js
 function chunk(array, count) {
   if (count == null || count < 1) return [];
   var result2 = [];
@@ -4381,22 +4381,22 @@ function chunk(array, count) {
   return result2;
 }
 var init_chunk = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/chunk.js"() {
+  "node_modules/underscore/modules/chunk.js"() {
     init_setup();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_chainResult.js
+// node_modules/underscore/modules/_chainResult.js
 function chainResult(instance, obj2) {
   return instance._chain ? _(obj2).chain() : obj2;
 }
 var init_chainResult = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/_chainResult.js"() {
+  "node_modules/underscore/modules/_chainResult.js"() {
     init_underscore();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/mixin.js
+// node_modules/underscore/modules/mixin.js
 function mixin(obj2) {
   each(functions(obj2), function(name) {
     var func = _[name] = obj2[name];
@@ -4409,7 +4409,7 @@ function mixin(obj2) {
   return _;
 }
 var init_mixin = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/mixin.js"() {
+  "node_modules/underscore/modules/mixin.js"() {
     init_underscore();
     init_each();
     init_functions();
@@ -4418,10 +4418,10 @@ var init_mixin = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/underscore-array-methods.js
+// node_modules/underscore/modules/underscore-array-methods.js
 var underscore_array_methods_default;
 var init_underscore_array_methods = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/underscore-array-methods.js"() {
+  "node_modules/underscore/modules/underscore-array-methods.js"() {
     init_underscore();
     init_each();
     init_setup();
@@ -4451,7 +4451,7 @@ var init_underscore_array_methods = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/index.js
+// node_modules/underscore/modules/index.js
 var modules_exports = {};
 __export(modules_exports, {
   VERSION: () => VERSION,
@@ -4602,7 +4602,7 @@ __export(modules_exports, {
   zip: () => zip_default
 });
 var init_modules = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/index.js"() {
+  "node_modules/underscore/modules/index.js"() {
     init_setup();
     init_restArguments();
     init_isObject();
@@ -4732,10 +4732,10 @@ var init_modules = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/index-default.js
+// node_modules/underscore/modules/index-default.js
 var _2, index_default_default;
 var init_index_default = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/index-default.js"() {
+  "node_modules/underscore/modules/index-default.js"() {
     init_modules();
     init_modules();
     _2 = mixin(modules_exports);
@@ -4744,7 +4744,7 @@ var init_index_default = __esm({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/index-all.js
+// node_modules/underscore/modules/index-all.js
 var index_all_exports = {};
 __export(index_all_exports, {
   VERSION: () => VERSION,
@@ -4895,15 +4895,15 @@ __export(index_all_exports, {
   zip: () => zip_default
 });
 var init_index_all = __esm({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/underscore/modules/index-all.js"() {
+  "node_modules/underscore/modules/index-all.js"() {
     init_index_default();
     init_modules();
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/es5.js
+// node_modules/bluebird/js/release/es5.js
 var require_es5 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/es5.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/es5.js"(exports2, module2) {
     var isES5 = (function() {
       "use strict";
       return this === void 0;
@@ -4986,9 +4986,9 @@ var require_es5 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/util.js
+// node_modules/bluebird/js/release/util.js
 var require_util = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/util.js"(exports, module) {
+  "node_modules/bluebird/js/release/util.js"(exports, module) {
     "use strict";
     var es5 = require_es5();
     var canEvaluate = typeof navigator == "undefined";
@@ -5317,9 +5317,9 @@ var require_util = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/schedule.js
+// node_modules/bluebird/js/release/schedule.js
 var require_schedule = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/schedule.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/schedule.js"(exports2, module2) {
     "use strict";
     var util = require_util();
     var schedule;
@@ -5383,9 +5383,9 @@ var require_schedule = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/queue.js
+// node_modules/bluebird/js/release/queue.js
 var require_queue = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/queue.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/queue.js"(exports2, module2) {
     "use strict";
     function arrayMove(src, srcIndex, dst, dstIndex, len) {
       for (var j = 0; j < len; ++j) {
@@ -5451,9 +5451,9 @@ var require_queue = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/async.js
+// node_modules/bluebird/js/release/async.js
 var require_async = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/async.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/async.js"(exports2, module2) {
     "use strict";
     var firstLineError;
     try {
@@ -5603,9 +5603,9 @@ var require_async = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/errors.js
+// node_modules/bluebird/js/release/errors.js
 var require_errors = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/errors.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/errors.js"(exports2, module2) {
     "use strict";
     var es52 = require_es5();
     var Objectfreeze = es52.freeze;
@@ -5719,9 +5719,9 @@ var require_errors = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/thenables.js
+// node_modules/bluebird/js/release/thenables.js
 var require_thenables = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/thenables.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/thenables.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL) {
       var util = require_util();
@@ -5802,9 +5802,9 @@ var require_thenables = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/promise_array.js
+// node_modules/bluebird/js/release/promise_array.js
 var require_promise_array = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/promise_array.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/promise_array.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL, tryConvertToPromise, apiRejection, Proxyable) {
       var util = require_util();
@@ -5972,9 +5972,9 @@ var require_promise_array = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/context.js
+// node_modules/bluebird/js/release/context.js
 var require_context = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/context.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/context.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2) {
       var longStackTraces = false;
@@ -6048,9 +6048,9 @@ var require_context = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/debuggability.js
+// node_modules/bluebird/js/release/debuggability.js
 var require_debuggability = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/debuggability.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/debuggability.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, Context) {
       var getDomain = Promise2._getDomain;
@@ -6876,9 +6876,9 @@ var require_debuggability = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/finally.js
+// node_modules/bluebird/js/release/finally.js
 var require_finally = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/finally.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/finally.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, tryConvertToPromise) {
       var util = require_util();
@@ -6987,9 +6987,9 @@ var require_finally = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/catch_filter.js
+// node_modules/bluebird/js/release/catch_filter.js
 var require_catch_filter = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/catch_filter.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/catch_filter.js"(exports2, module2) {
     "use strict";
     module2.exports = function(NEXT_FILTER) {
       var util = require_util();
@@ -7031,9 +7031,9 @@ var require_catch_filter = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/nodeback.js
+// node_modules/bluebird/js/release/nodeback.js
 var require_nodeback = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/nodeback.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/nodeback.js"(exports2, module2) {
     "use strict";
     var util = require_util();
     var maybeWrapAsError2 = util.maybeWrapAsError;
@@ -7088,9 +7088,9 @@ var require_nodeback = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/method.js
+// node_modules/bluebird/js/release/method.js
 var require_method = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/method.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/method.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL, tryConvertToPromise, apiRejection, debug) {
       var util = require_util();
@@ -7152,9 +7152,9 @@ var require_method = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/bind.js
+// node_modules/bluebird/js/release/bind.js
 var require_bind = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/bind.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/bind.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL, tryConvertToPromise, debug) {
       var calledBind = false;
@@ -7223,9 +7223,9 @@ var require_bind = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/cancel.js
+// node_modules/bluebird/js/release/cancel.js
 var require_cancel = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/cancel.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/cancel.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, PromiseArray, apiRejection, debug) {
       var util = require_util();
@@ -7340,9 +7340,9 @@ var require_cancel = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/direct_resolve.js
+// node_modules/bluebird/js/release/direct_resolve.js
 var require_direct_resolve = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/direct_resolve.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/direct_resolve.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2) {
       function returner() {
@@ -7410,9 +7410,9 @@ var require_direct_resolve = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/synchronous_inspection.js
+// node_modules/bluebird/js/release/synchronous_inspection.js
 var require_synchronous_inspection = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/synchronous_inspection.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/synchronous_inspection.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2) {
       function PromiseInspection(promise) {
@@ -7496,9 +7496,9 @@ var require_synchronous_inspection = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/join.js
+// node_modules/bluebird/js/release/join.js
 var require_join = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/join.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/join.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, PromiseArray, tryConvertToPromise, INTERNAL, async, getDomain) {
       var util = require_util();
@@ -7613,9 +7613,9 @@ var require_join = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/map.js
+// node_modules/bluebird/js/release/map.js
 var require_map = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/map.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/map.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, PromiseArray, apiRejection, tryConvertToPromise, INTERNAL, debug) {
       var getDomain = Promise2._getDomain;
@@ -7764,9 +7764,9 @@ var require_map = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/call_get.js
+// node_modules/bluebird/js/release/call_get.js
 var require_call_get = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/call_get.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/call_get.js"(exports2, module2) {
     "use strict";
     var cr = Object.create;
     if (cr) {
@@ -7878,9 +7878,9 @@ var require_call_get = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/using.js
+// node_modules/bluebird/js/release/using.js
 var require_using = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/using.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/using.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, apiRejection, tryConvertToPromise, createContext, INTERNAL, debug) {
       var util = require_util();
@@ -8088,9 +8088,9 @@ var require_using = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/timers.js
+// node_modules/bluebird/js/release/timers.js
 var require_timers = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/timers.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/timers.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL, debug) {
       var util = require_util();
@@ -8187,9 +8187,9 @@ var require_timers = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/generators.js
+// node_modules/bluebird/js/release/generators.js
 var require_generators = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/generators.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/generators.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, apiRejection, INTERNAL, tryConvertToPromise, Proxyable, debug) {
       var errors = require_errors();
@@ -8403,9 +8403,9 @@ var require_generators = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/nodeify.js
+// node_modules/bluebird/js/release/nodeify.js
 var require_nodeify = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/nodeify.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/nodeify.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2) {
       var util = require_util();
@@ -8460,9 +8460,9 @@ var require_nodeify = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/promisify.js
+// node_modules/bluebird/js/release/promisify.js
 var require_promisify = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/promisify.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/promisify.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL) {
       var THIS = {};
@@ -8730,9 +8730,9 @@ var require_promisify = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/props.js
+// node_modules/bluebird/js/release/props.js
 var require_props = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/props.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/props.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, PromiseArray, tryConvertToPromise, apiRejection) {
       var util = require_util();
@@ -8845,9 +8845,9 @@ var require_props = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/race.js
+// node_modules/bluebird/js/release/race.js
 var require_race = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/race.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/race.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL, tryConvertToPromise, apiRejection) {
       var util = require_util();
@@ -8890,9 +8890,9 @@ var require_race = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/reduce.js
+// node_modules/bluebird/js/release/reduce.js
 var require_reduce = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/reduce.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/reduce.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, PromiseArray, apiRejection, tryConvertToPromise, INTERNAL, debug) {
       var getDomain = Promise2._getDomain;
@@ -9047,9 +9047,9 @@ var require_reduce = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/settle.js
+// node_modules/bluebird/js/release/settle.js
 var require_settle = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/settle.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/settle.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, PromiseArray, debug) {
       var PromiseInspection = Promise2.PromiseInspection;
@@ -9090,9 +9090,9 @@ var require_settle = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/some.js
+// node_modules/bluebird/js/release/some.js
 var require_some = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/some.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/some.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, PromiseArray, apiRejection) {
       var util = require_util();
@@ -9218,9 +9218,9 @@ var require_some = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/filter.js
+// node_modules/bluebird/js/release/filter.js
 var require_filter = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/filter.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/filter.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL) {
       var PromiseMap = Promise2.map;
@@ -9234,9 +9234,9 @@ var require_filter = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/each.js
+// node_modules/bluebird/js/release/each.js
 var require_each = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/each.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/each.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2, INTERNAL) {
       var PromiseReduce = Promise2.reduce;
@@ -9261,9 +9261,9 @@ var require_each = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/any.js
+// node_modules/bluebird/js/release/any.js
 var require_any = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/any.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/any.js"(exports2, module2) {
     "use strict";
     module2.exports = function(Promise2) {
       var SomePromiseArray = Promise2._SomePromiseArray;
@@ -9285,9 +9285,9 @@ var require_any = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/promise.js
+// node_modules/bluebird/js/release/promise.js
 var require_promise = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/bluebird/js/release/promise.js"(exports2, module2) {
+  "node_modules/bluebird/js/release/promise.js"(exports2, module2) {
     "use strict";
     module2.exports = function() {
       var makeSelfResolutionError = function() {
@@ -9967,9 +9967,9 @@ var require_promise = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/promises.js
+// node_modules/mammoth/lib/promises.js
 var require_promises = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/promises.js"(exports2) {
+  "node_modules/mammoth/lib/promises.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var bluebird = require_promise()();
     exports2.defer = defer;
@@ -10009,9 +10009,9 @@ var require_promises = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/documents.js
+// node_modules/mammoth/lib/documents.js
 var require_documents = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/documents.js"(exports2) {
+  "node_modules/mammoth/lib/documents.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var types = exports2.types = {
       document: "document",
@@ -10244,9 +10244,9 @@ var require_documents = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/results.js
+// node_modules/mammoth/lib/results.js
 var require_results = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/results.js"(exports2) {
+  "node_modules/mammoth/lib/results.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     exports2.Result = Result;
     exports2.success = success;
@@ -10308,9 +10308,9 @@ var require_results = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/base64-js/index.js
+// node_modules/base64-js/index.js
 var require_base64_js = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/base64-js/index.js"(exports2) {
+  "node_modules/base64-js/index.js"(exports2) {
     "use strict";
     exports2.byteLength = byteLength;
     exports2.toByteArray = toByteArray;
@@ -10409,9 +10409,9 @@ var require_base64_js = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/process-nextick-args/index.js
+// node_modules/process-nextick-args/index.js
 var require_process_nextick_args = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/process-nextick-args/index.js"(exports2, module2) {
+  "node_modules/process-nextick-args/index.js"(exports2, module2) {
     "use strict";
     if (typeof process === "undefined" || !process.version || process.version.indexOf("v0.") === 0 || process.version.indexOf("v1.") === 0 && process.version.indexOf("v1.8.") !== 0) {
       module2.exports = { nextTick };
@@ -10454,9 +10454,9 @@ var require_process_nextick_args = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/isarray/index.js
+// node_modules/isarray/index.js
 var require_isarray = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/isarray/index.js"(exports2, module2) {
+  "node_modules/isarray/index.js"(exports2, module2) {
     var toString2 = {}.toString;
     module2.exports = Array.isArray || function(arr) {
       return toString2.call(arr) == "[object Array]";
@@ -10464,16 +10464,16 @@ var require_isarray = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/internal/streams/stream.js
+// node_modules/readable-stream/lib/internal/streams/stream.js
 var require_stream = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/internal/streams/stream.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/internal/streams/stream.js"(exports2, module2) {
     module2.exports = require("stream");
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/safe-buffer/index.js
+// node_modules/safe-buffer/index.js
 var require_safe_buffer = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/safe-buffer/index.js"(exports2, module2) {
+  "node_modules/safe-buffer/index.js"(exports2, module2) {
     var buffer = require("buffer");
     var Buffer2 = buffer.Buffer;
     function copyProps(src, dst) {
@@ -10528,9 +10528,9 @@ var require_safe_buffer = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/core-util-is/lib/util.js
+// node_modules/core-util-is/lib/util.js
 var require_util2 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/core-util-is/lib/util.js"(exports2) {
+  "node_modules/core-util-is/lib/util.js"(exports2) {
     function isArray(arg) {
       if (Array.isArray) {
         return Array.isArray(arg);
@@ -10598,9 +10598,9 @@ var require_util2 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/inherits/inherits_browser.js
+// node_modules/inherits/inherits_browser.js
 var require_inherits_browser = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/inherits/inherits_browser.js"(exports2, module2) {
+  "node_modules/inherits/inherits_browser.js"(exports2, module2) {
     if (typeof Object.create === "function") {
       module2.exports = function inherits2(ctor2, superCtor) {
         if (superCtor) {
@@ -10630,9 +10630,9 @@ var require_inherits_browser = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/inherits/inherits.js
+// node_modules/inherits/inherits.js
 var require_inherits = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/inherits/inherits.js"(exports2, module2) {
+  "node_modules/inherits/inherits.js"(exports2, module2) {
     try {
       util = require("util");
       if (typeof util.inherits !== "function") throw "";
@@ -10644,9 +10644,9 @@ var require_inherits = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/internal/streams/BufferList.js
+// node_modules/readable-stream/lib/internal/streams/BufferList.js
 var require_BufferList = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/internal/streams/BufferList.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/internal/streams/BufferList.js"(exports2, module2) {
     "use strict";
     function _classCallCheck(instance, Constructor) {
       if (!(instance instanceof Constructor)) {
@@ -10722,9 +10722,9 @@ var require_BufferList = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/internal/streams/destroy.js
+// node_modules/readable-stream/lib/internal/streams/destroy.js
 var require_destroy = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/internal/streams/destroy.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/internal/streams/destroy.js"(exports2, module2) {
     "use strict";
     var pna = require_process_nextick_args();
     function destroy(err, cb2) {
@@ -10791,16 +10791,16 @@ var require_destroy = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/util-deprecate/node.js
+// node_modules/util-deprecate/node.js
 var require_node = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/util-deprecate/node.js"(exports2, module2) {
+  "node_modules/util-deprecate/node.js"(exports2, module2) {
     module2.exports = require("util").deprecate;
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_writable.js
+// node_modules/readable-stream/lib/_stream_writable.js
 var require_stream_writable = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_writable.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/_stream_writable.js"(exports2, module2) {
     "use strict";
     var pna = require_process_nextick_args();
     module2.exports = Writable;
@@ -11238,9 +11238,9 @@ var require_stream_writable = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_duplex.js
+// node_modules/readable-stream/lib/_stream_duplex.js
 var require_stream_duplex = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_duplex.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/_stream_duplex.js"(exports2, module2) {
     "use strict";
     var pna = require_process_nextick_args();
     var objectKeys = Object.keys || function(obj2) {
@@ -11315,9 +11315,9 @@ var require_stream_duplex = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/string_decoder/lib/string_decoder.js
+// node_modules/string_decoder/lib/string_decoder.js
 var require_string_decoder = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/string_decoder/lib/string_decoder.js"(exports2) {
+  "node_modules/string_decoder/lib/string_decoder.js"(exports2) {
     "use strict";
     var Buffer2 = require_safe_buffer().Buffer;
     var isEncoding = Buffer2.isEncoding || function(encoding) {
@@ -11553,9 +11553,9 @@ var require_string_decoder = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_readable.js
+// node_modules/readable-stream/lib/_stream_readable.js
 var require_stream_readable = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_readable.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/_stream_readable.js"(exports2, module2) {
     "use strict";
     var pna = require_process_nextick_args();
     module2.exports = Readable;
@@ -12239,9 +12239,9 @@ var require_stream_readable = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_transform.js
+// node_modules/readable-stream/lib/_stream_transform.js
 var require_stream_transform = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_transform.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/_stream_transform.js"(exports2, module2) {
     "use strict";
     module2.exports = Transform;
     var Duplex = require_stream_duplex();
@@ -12339,9 +12339,9 @@ var require_stream_transform = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_passthrough.js
+// node_modules/readable-stream/lib/_stream_passthrough.js
 var require_stream_passthrough = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/lib/_stream_passthrough.js"(exports2, module2) {
+  "node_modules/readable-stream/lib/_stream_passthrough.js"(exports2, module2) {
     "use strict";
     module2.exports = PassThrough;
     var Transform = require_stream_transform();
@@ -12358,9 +12358,9 @@ var require_stream_passthrough = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/readable.js
+// node_modules/readable-stream/readable.js
 var require_readable = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/readable-stream/readable.js"(exports2, module2) {
+  "node_modules/readable-stream/readable.js"(exports2, module2) {
     var Stream = require("stream");
     if (process.env.READABLE_STREAM === "disable" && Stream) {
       module2.exports = Stream;
@@ -12383,9 +12383,9 @@ var require_readable = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/support.js
+// node_modules/jszip/lib/support.js
 var require_support = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/support.js"(exports2) {
+  "node_modules/jszip/lib/support.js"(exports2) {
     "use strict";
     exports2.base64 = true;
     exports2.array = true;
@@ -12423,9 +12423,9 @@ var require_support = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/base64.js
+// node_modules/jszip/lib/base64.js
 var require_base64 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/base64.js"(exports2) {
+  "node_modules/jszip/lib/base64.js"(exports2) {
     "use strict";
     var utils = require_utils();
     var support = require_support();
@@ -12500,9 +12500,9 @@ var require_base64 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/nodejsUtils.js
+// node_modules/jszip/lib/nodejsUtils.js
 var require_nodejsUtils = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/nodejsUtils.js"(exports2, module2) {
+  "node_modules/jszip/lib/nodejsUtils.js"(exports2, module2) {
     "use strict";
     module2.exports = {
       /**
@@ -12556,9 +12556,9 @@ var require_nodejsUtils = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/immediate/lib/index.js
+// node_modules/immediate/lib/index.js
 var require_lib = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/immediate/lib/index.js"(exports2, module2) {
+  "node_modules/immediate/lib/index.js"(exports2, module2) {
     "use strict";
     var Mutation = global.MutationObserver || global.WebKitMutationObserver;
     var scheduleDrain;
@@ -12630,9 +12630,9 @@ var require_lib = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lie/lib/index.js
+// node_modules/lie/lib/index.js
 var require_lib2 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lie/lib/index.js"(exports2, module2) {
+  "node_modules/lie/lib/index.js"(exports2, module2) {
     "use strict";
     var immediate = require_lib();
     function INTERNAL() {
@@ -12900,9 +12900,9 @@ var require_lib2 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/external.js
+// node_modules/jszip/lib/external.js
 var require_external = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/external.js"(exports2, module2) {
+  "node_modules/jszip/lib/external.js"(exports2, module2) {
     "use strict";
     var ES6Promise = null;
     if (typeof Promise !== "undefined") {
@@ -12916,9 +12916,9 @@ var require_external = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/setimmediate/setImmediate.js
+// node_modules/setimmediate/setImmediate.js
 var require_setImmediate = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/setimmediate/setImmediate.js"(exports2) {
+  "node_modules/setimmediate/setImmediate.js"(exports2) {
     (function(global2, undefined2) {
       "use strict";
       if (global2.setImmediate) {
@@ -13064,9 +13064,9 @@ var require_setImmediate = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/utils.js
+// node_modules/jszip/lib/utils.js
 var require_utils = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/utils.js"(exports2) {
+  "node_modules/jszip/lib/utils.js"(exports2) {
     "use strict";
     var support = require_support();
     var base64 = require_base64();
@@ -13389,9 +13389,9 @@ var require_utils = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/GenericWorker.js
+// node_modules/jszip/lib/stream/GenericWorker.js
 var require_GenericWorker = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/GenericWorker.js"(exports2, module2) {
+  "node_modules/jszip/lib/stream/GenericWorker.js"(exports2, module2) {
     "use strict";
     function GenericWorker(name) {
       this.name = name || "default";
@@ -13616,9 +13616,9 @@ var require_GenericWorker = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/utf8.js
+// node_modules/jszip/lib/utf8.js
 var require_utf8 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/utf8.js"(exports2) {
+  "node_modules/jszip/lib/utf8.js"(exports2) {
     "use strict";
     var utils = require_utils();
     var support = require_support();
@@ -13806,9 +13806,9 @@ var require_utf8 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/ConvertWorker.js
+// node_modules/jszip/lib/stream/ConvertWorker.js
 var require_ConvertWorker = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/ConvertWorker.js"(exports2, module2) {
+  "node_modules/jszip/lib/stream/ConvertWorker.js"(exports2, module2) {
     "use strict";
     var GenericWorker = require_GenericWorker();
     var utils = require_utils();
@@ -13827,9 +13827,9 @@ var require_ConvertWorker = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js
+// node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js
 var require_NodejsStreamOutputAdapter = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js"(exports2, module2) {
+  "node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js"(exports2, module2) {
     "use strict";
     var Readable = require_readable().Readable;
     var utils = require_utils();
@@ -13858,9 +13858,9 @@ var require_NodejsStreamOutputAdapter = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/StreamHelper.js
+// node_modules/jszip/lib/stream/StreamHelper.js
 var require_StreamHelper = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/StreamHelper.js"(exports2, module2) {
+  "node_modules/jszip/lib/stream/StreamHelper.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     var ConvertWorker = require_ConvertWorker();
@@ -14018,9 +14018,9 @@ var require_StreamHelper = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/defaults.js
+// node_modules/jszip/lib/defaults.js
 var require_defaults2 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/defaults.js"(exports2) {
+  "node_modules/jszip/lib/defaults.js"(exports2) {
     "use strict";
     exports2.base64 = false;
     exports2.binary = false;
@@ -14035,9 +14035,9 @@ var require_defaults2 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/DataWorker.js
+// node_modules/jszip/lib/stream/DataWorker.js
 var require_DataWorker = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/DataWorker.js"(exports2, module2) {
+  "node_modules/jszip/lib/stream/DataWorker.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     var GenericWorker = require_GenericWorker();
@@ -14123,9 +14123,9 @@ var require_DataWorker = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/crc32.js
+// node_modules/jszip/lib/crc32.js
 var require_crc32 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/crc32.js"(exports2, module2) {
+  "node_modules/jszip/lib/crc32.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     function makeTable() {
@@ -14170,9 +14170,9 @@ var require_crc32 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/Crc32Probe.js
+// node_modules/jszip/lib/stream/Crc32Probe.js
 var require_Crc32Probe = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/Crc32Probe.js"(exports2, module2) {
+  "node_modules/jszip/lib/stream/Crc32Probe.js"(exports2, module2) {
     "use strict";
     var GenericWorker = require_GenericWorker();
     var crc32 = require_crc32();
@@ -14190,9 +14190,9 @@ var require_Crc32Probe = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/DataLengthProbe.js
+// node_modules/jszip/lib/stream/DataLengthProbe.js
 var require_DataLengthProbe = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/stream/DataLengthProbe.js"(exports2, module2) {
+  "node_modules/jszip/lib/stream/DataLengthProbe.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     var GenericWorker = require_GenericWorker();
@@ -14213,9 +14213,9 @@ var require_DataLengthProbe = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/compressedObject.js
+// node_modules/jszip/lib/compressedObject.js
 var require_compressedObject = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/compressedObject.js"(exports2, module2) {
+  "node_modules/jszip/lib/compressedObject.js"(exports2, module2) {
     "use strict";
     var external = require_external();
     var DataWorker = require_DataWorker();
@@ -14258,9 +14258,9 @@ var require_compressedObject = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/zipObject.js
+// node_modules/jszip/lib/zipObject.js
 var require_zipObject = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/zipObject.js"(exports2, module2) {
+  "node_modules/jszip/lib/zipObject.js"(exports2, module2) {
     "use strict";
     var StreamHelper = require_StreamHelper();
     var DataWorker = require_DataWorker();
@@ -14375,9 +14375,9 @@ var require_zipObject = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/utils/common.js
+// node_modules/pako/lib/utils/common.js
 var require_common = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/utils/common.js"(exports2) {
+  "node_modules/pako/lib/utils/common.js"(exports2) {
     "use strict";
     var TYPED_OK = typeof Uint8Array !== "undefined" && typeof Uint16Array !== "undefined" && typeof Int32Array !== "undefined";
     function _has(obj2, key) {
@@ -14466,9 +14466,9 @@ var require_common = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/trees.js
+// node_modules/pako/lib/zlib/trees.js
 var require_trees = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/trees.js"(exports2) {
+  "node_modules/pako/lib/zlib/trees.js"(exports2) {
     "use strict";
     var utils = require_common();
     var Z_FIXED = 4;
@@ -15108,9 +15108,9 @@ var require_trees = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/adler32.js
+// node_modules/pako/lib/zlib/adler32.js
 var require_adler32 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/adler32.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/adler32.js"(exports2, module2) {
     "use strict";
     function adler32(adler, buf, len, pos) {
       var s1 = adler & 65535 | 0, s2 = adler >>> 16 & 65535 | 0, n = 0;
@@ -15130,9 +15130,9 @@ var require_adler32 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/crc32.js
+// node_modules/pako/lib/zlib/crc32.js
 var require_crc322 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/crc32.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/crc32.js"(exports2, module2) {
     "use strict";
     function makeTable() {
       var c, table = [];
@@ -15158,9 +15158,9 @@ var require_crc322 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/messages.js
+// node_modules/pako/lib/zlib/messages.js
 var require_messages = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/messages.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/messages.js"(exports2, module2) {
     "use strict";
     module2.exports = {
       2: "need dictionary",
@@ -15185,9 +15185,9 @@ var require_messages = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/deflate.js
+// node_modules/pako/lib/zlib/deflate.js
 var require_deflate = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/deflate.js"(exports2) {
+  "node_modules/pako/lib/zlib/deflate.js"(exports2) {
     "use strict";
     var utils = require_common();
     var trees = require_trees();
@@ -16234,9 +16234,9 @@ var require_deflate = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/utils/strings.js
+// node_modules/pako/lib/utils/strings.js
 var require_strings = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/utils/strings.js"(exports2) {
+  "node_modules/pako/lib/utils/strings.js"(exports2) {
     "use strict";
     var utils = require_common();
     var STR_APPLY_OK = true;
@@ -16376,9 +16376,9 @@ var require_strings = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/zstream.js
+// node_modules/pako/lib/zlib/zstream.js
 var require_zstream = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/zstream.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/zstream.js"(exports2, module2) {
     "use strict";
     function ZStream() {
       this.input = null;
@@ -16398,9 +16398,9 @@ var require_zstream = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/deflate.js
+// node_modules/pako/lib/deflate.js
 var require_deflate2 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/deflate.js"(exports2) {
+  "node_modules/pako/lib/deflate.js"(exports2) {
     "use strict";
     var zlib_deflate = require_deflate();
     var utils = require_common();
@@ -16559,9 +16559,9 @@ var require_deflate2 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/inffast.js
+// node_modules/pako/lib/zlib/inffast.js
 var require_inffast = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/inffast.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/inffast.js"(exports2, module2) {
     "use strict";
     var BAD = 30;
     var TYPE = 12;
@@ -16788,9 +16788,9 @@ var require_inffast = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/inftrees.js
+// node_modules/pako/lib/zlib/inftrees.js
 var require_inftrees = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/inftrees.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/inftrees.js"(exports2, module2) {
     "use strict";
     var utils = require_common();
     var MAXBITS = 15;
@@ -17104,9 +17104,9 @@ var require_inftrees = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/inflate.js
+// node_modules/pako/lib/zlib/inflate.js
 var require_inflate = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/inflate.js"(exports2) {
+  "node_modules/pako/lib/zlib/inflate.js"(exports2) {
     "use strict";
     var utils = require_common();
     var adler32 = require_adler32();
@@ -18343,9 +18343,9 @@ var require_inflate = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/constants.js
+// node_modules/pako/lib/zlib/constants.js
 var require_constants = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/constants.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/constants.js"(exports2, module2) {
     "use strict";
     module2.exports = {
       /* Allowed flush values; see deflate() and inflate() below for details */
@@ -18390,9 +18390,9 @@ var require_constants = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/gzheader.js
+// node_modules/pako/lib/zlib/gzheader.js
 var require_gzheader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/zlib/gzheader.js"(exports2, module2) {
+  "node_modules/pako/lib/zlib/gzheader.js"(exports2, module2) {
     "use strict";
     function GZheader() {
       this.text = 0;
@@ -18410,9 +18410,9 @@ var require_gzheader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/inflate.js
+// node_modules/pako/lib/inflate.js
 var require_inflate2 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/lib/inflate.js"(exports2) {
+  "node_modules/pako/lib/inflate.js"(exports2) {
     "use strict";
     var zlib_inflate = require_inflate();
     var utils = require_common();
@@ -18584,9 +18584,9 @@ var require_inflate2 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/index.js
+// node_modules/pako/index.js
 var require_pako = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/pako/index.js"(exports2, module2) {
+  "node_modules/pako/index.js"(exports2, module2) {
     "use strict";
     var assign = require_common().assign;
     var deflate = require_deflate2();
@@ -18598,9 +18598,9 @@ var require_pako = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/flate.js
+// node_modules/jszip/lib/flate.js
 var require_flate = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/flate.js"(exports2) {
+  "node_modules/jszip/lib/flate.js"(exports2) {
     "use strict";
     var USE_TYPEDARRAY = typeof Uint8Array !== "undefined" && typeof Uint16Array !== "undefined" && typeof Uint32Array !== "undefined";
     var pako = require_pako();
@@ -18657,9 +18657,9 @@ var require_flate = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/compressions.js
+// node_modules/jszip/lib/compressions.js
 var require_compressions = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/compressions.js"(exports2) {
+  "node_modules/jszip/lib/compressions.js"(exports2) {
     "use strict";
     var GenericWorker = require_GenericWorker();
     exports2.STORE = {
@@ -18675,9 +18675,9 @@ var require_compressions = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/signature.js
+// node_modules/jszip/lib/signature.js
 var require_signature = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/signature.js"(exports2) {
+  "node_modules/jszip/lib/signature.js"(exports2) {
     "use strict";
     exports2.LOCAL_FILE_HEADER = "PK";
     exports2.CENTRAL_FILE_HEADER = "PK";
@@ -18688,9 +18688,9 @@ var require_signature = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/generate/ZipFileWorker.js
+// node_modules/jszip/lib/generate/ZipFileWorker.js
 var require_ZipFileWorker = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/generate/ZipFileWorker.js"(exports2, module2) {
+  "node_modules/jszip/lib/generate/ZipFileWorker.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     var GenericWorker = require_GenericWorker();
@@ -18972,9 +18972,9 @@ var require_ZipFileWorker = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/generate/index.js
+// node_modules/jszip/lib/generate/index.js
 var require_generate = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/generate/index.js"(exports2) {
+  "node_modules/jszip/lib/generate/index.js"(exports2) {
     "use strict";
     var compressions = require_compressions();
     var ZipFileWorker = require_ZipFileWorker();
@@ -19013,9 +19013,9 @@ var require_generate = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js
+// node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js
 var require_NodejsStreamInputAdapter = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js"(exports2, module2) {
+  "node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     var GenericWorker = require_GenericWorker();
@@ -19072,9 +19072,9 @@ var require_NodejsStreamInputAdapter = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/object.js
+// node_modules/jszip/lib/object.js
 var require_object = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/object.js"(exports2, module2) {
+  "node_modules/jszip/lib/object.js"(exports2, module2) {
     "use strict";
     var utf8 = require_utf8();
     var utils = require_utils();
@@ -19345,9 +19345,9 @@ var require_object = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/DataReader.js
+// node_modules/jszip/lib/reader/DataReader.js
 var require_DataReader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/DataReader.js"(exports2, module2) {
+  "node_modules/jszip/lib/reader/DataReader.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     function DataReader(data) {
@@ -19467,9 +19467,9 @@ var require_DataReader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/ArrayReader.js
+// node_modules/jszip/lib/reader/ArrayReader.js
 var require_ArrayReader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/ArrayReader.js"(exports2, module2) {
+  "node_modules/jszip/lib/reader/ArrayReader.js"(exports2, module2) {
     "use strict";
     var DataReader = require_DataReader();
     var utils = require_utils();
@@ -19509,9 +19509,9 @@ var require_ArrayReader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/StringReader.js
+// node_modules/jszip/lib/reader/StringReader.js
 var require_StringReader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/StringReader.js"(exports2, module2) {
+  "node_modules/jszip/lib/reader/StringReader.js"(exports2, module2) {
     "use strict";
     var DataReader = require_DataReader();
     var utils = require_utils();
@@ -19539,9 +19539,9 @@ var require_StringReader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/Uint8ArrayReader.js
+// node_modules/jszip/lib/reader/Uint8ArrayReader.js
 var require_Uint8ArrayReader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/Uint8ArrayReader.js"(exports2, module2) {
+  "node_modules/jszip/lib/reader/Uint8ArrayReader.js"(exports2, module2) {
     "use strict";
     var ArrayReader = require_ArrayReader();
     var utils = require_utils();
@@ -19562,9 +19562,9 @@ var require_Uint8ArrayReader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/NodeBufferReader.js
+// node_modules/jszip/lib/reader/NodeBufferReader.js
 var require_NodeBufferReader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/NodeBufferReader.js"(exports2, module2) {
+  "node_modules/jszip/lib/reader/NodeBufferReader.js"(exports2, module2) {
     "use strict";
     var Uint8ArrayReader = require_Uint8ArrayReader();
     var utils = require_utils();
@@ -19582,9 +19582,9 @@ var require_NodeBufferReader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/readerFor.js
+// node_modules/jszip/lib/reader/readerFor.js
 var require_readerFor = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/reader/readerFor.js"(exports2, module2) {
+  "node_modules/jszip/lib/reader/readerFor.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     var support = require_support();
@@ -19609,9 +19609,9 @@ var require_readerFor = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/zipEntry.js
+// node_modules/jszip/lib/zipEntry.js
 var require_zipEntry = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/zipEntry.js"(exports2, module2) {
+  "node_modules/jszip/lib/zipEntry.js"(exports2, module2) {
     "use strict";
     var readerFor = require_readerFor();
     var utils = require_utils();
@@ -19827,9 +19827,9 @@ var require_zipEntry = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/zipEntries.js
+// node_modules/jszip/lib/zipEntries.js
 var require_zipEntries = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/zipEntries.js"(exports2, module2) {
+  "node_modules/jszip/lib/zipEntries.js"(exports2, module2) {
     "use strict";
     var readerFor = require_readerFor();
     var utils = require_utils();
@@ -20025,9 +20025,9 @@ var require_zipEntries = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/load.js
+// node_modules/jszip/lib/load.js
 var require_load = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/load.js"(exports2, module2) {
+  "node_modules/jszip/lib/load.js"(exports2, module2) {
     "use strict";
     var utils = require_utils();
     var external = require_external();
@@ -20104,9 +20104,9 @@ var require_load = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/index.js
+// node_modules/jszip/lib/index.js
 var require_lib3 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/jszip/lib/index.js"(exports2, module2) {
+  "node_modules/jszip/lib/index.js"(exports2, module2) {
     "use strict";
     function JSZip() {
       if (!(this instanceof JSZip)) {
@@ -20141,9 +20141,9 @@ var require_lib3 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/zipfile.js
+// node_modules/mammoth/lib/zipfile.js
 var require_zipfile = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/zipfile.js"(exports2) {
+  "node_modules/mammoth/lib/zipfile.js"(exports2) {
     var base64js = require_base64_js();
     var JSZip = require_lib3();
     exports2.openArrayBuffer = openArrayBuffer;
@@ -20208,9 +20208,9 @@ var require_zipfile = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/nodes.js
+// node_modules/mammoth/lib/xml/nodes.js
 var require_nodes = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/nodes.js"(exports2) {
+  "node_modules/mammoth/lib/xml/nodes.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     exports2.Element = Element;
     exports2.element = function(name, attributes, children) {
@@ -20273,9 +20273,9 @@ var require_nodes = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/conventions.js
+// node_modules/@xmldom/xmldom/lib/conventions.js
 var require_conventions = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/conventions.js"(exports2) {
+  "node_modules/@xmldom/xmldom/lib/conventions.js"(exports2) {
     "use strict";
     function find2(list, predicate, ac) {
       if (ac === void 0) {
@@ -20412,9 +20412,9 @@ var require_conventions = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/dom.js
+// node_modules/@xmldom/xmldom/lib/dom.js
 var require_dom = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/dom.js"(exports2) {
+  "node_modules/@xmldom/xmldom/lib/dom.js"(exports2) {
     var conventions = require_conventions();
     var find2 = conventions.find;
     var NAMESPACE = conventions.NAMESPACE;
@@ -21862,9 +21862,9 @@ var require_dom = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/entities.js
+// node_modules/@xmldom/xmldom/lib/entities.js
 var require_entities = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/entities.js"(exports2) {
+  "node_modules/@xmldom/xmldom/lib/entities.js"(exports2) {
     "use strict";
     var freeze = require_conventions().freeze;
     exports2.XML_ENTITIES = freeze({
@@ -24005,9 +24005,9 @@ var require_entities = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/sax.js
+// node_modules/@xmldom/xmldom/lib/sax.js
 var require_sax = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/sax.js"(exports2) {
+  "node_modules/@xmldom/xmldom/lib/sax.js"(exports2) {
     var NAMESPACE = require_conventions().NAMESPACE;
     var nameStartChar = /[A-Z_a-z\xC0-\xD6\xD8-\xF6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]/;
     var nameChar = new RegExp("[\\-\\.0-9" + nameStartChar.source.slice(1, -1) + "\\u00B7\\u0300-\\u036F\\u203F-\\u2040]");
@@ -24594,9 +24594,9 @@ var require_sax = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/dom-parser.js
+// node_modules/@xmldom/xmldom/lib/dom-parser.js
 var require_dom_parser = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/dom-parser.js"(exports2) {
+  "node_modules/@xmldom/xmldom/lib/dom-parser.js"(exports2) {
     var conventions = require_conventions();
     var dom = require_dom();
     var entities = require_entities();
@@ -24810,9 +24810,9 @@ var require_dom_parser = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/index.js
+// node_modules/@xmldom/xmldom/lib/index.js
 var require_lib4 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/@xmldom/xmldom/lib/index.js"(exports2) {
+  "node_modules/@xmldom/xmldom/lib/index.js"(exports2) {
     var dom = require_dom();
     exports2.DOMImplementation = dom.DOMImplementation;
     exports2.XMLSerializer = dom.XMLSerializer;
@@ -24820,9 +24820,9 @@ var require_lib4 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/xmldom.js
+// node_modules/mammoth/lib/xml/xmldom.js
 var require_xmldom = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/xmldom.js"(exports2) {
+  "node_modules/mammoth/lib/xml/xmldom.js"(exports2) {
     var xmldom = require_lib4();
     var dom = require_dom();
     function parseFromString(string) {
@@ -24844,9 +24844,9 @@ var require_xmldom = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/reader.js
+// node_modules/mammoth/lib/xml/reader.js
 var require_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/reader.js"(exports2) {
+  "node_modules/mammoth/lib/xml/reader.js"(exports2) {
     var promises = require_promises();
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var xmldom = require_xmldom();
@@ -24906,9 +24906,9 @@ var require_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/Utility.js
+// node_modules/xmlbuilder/lib/Utility.js
 var require_Utility = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/Utility.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/Utility.js"(exports2, module2) {
     (function() {
       var assign, getValue, isArray, isEmpty2, isFunction2, isObject3, isPlainObject, slice2 = [].slice, hasProp = {}.hasOwnProperty;
       assign = function() {
@@ -24977,9 +24977,9 @@ var require_Utility = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLAttribute.js
+// node_modules/xmlbuilder/lib/XMLAttribute.js
 var require_XMLAttribute = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLAttribute.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLAttribute.js"(exports2, module2) {
     (function() {
       var XMLAttribute;
       module2.exports = XMLAttribute = (function() {
@@ -25016,9 +25016,9 @@ var require_XMLAttribute = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLElement.js
+// node_modules/xmlbuilder/lib/XMLElement.js
 var require_XMLElement = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLElement.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLElement.js"(exports2, module2) {
     (function() {
       var XMLAttribute, XMLElement, XMLNode, getValue, isFunction2, isObject3, ref, extend = function(child, parent) {
         for (var key in parent) {
@@ -25127,9 +25127,9 @@ var require_XMLElement = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLCData.js
+// node_modules/xmlbuilder/lib/XMLCData.js
 var require_XMLCData = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLCData.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLCData.js"(exports2, module2) {
     (function() {
       var XMLCData, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -25165,9 +25165,9 @@ var require_XMLCData = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLComment.js
+// node_modules/xmlbuilder/lib/XMLComment.js
 var require_XMLComment = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLComment.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLComment.js"(exports2, module2) {
     (function() {
       var XMLComment, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -25203,9 +25203,9 @@ var require_XMLComment = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDeclaration.js
+// node_modules/xmlbuilder/lib/XMLDeclaration.js
 var require_XMLDeclaration = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDeclaration.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDeclaration.js"(exports2, module2) {
     (function() {
       var XMLDeclaration, XMLNode, isObject3, extend = function(child, parent) {
         for (var key in parent) {
@@ -25249,9 +25249,9 @@ var require_XMLDeclaration = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDAttList.js
+// node_modules/xmlbuilder/lib/XMLDTDAttList.js
 var require_XMLDTDAttList = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDAttList.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDTDAttList.js"(exports2, module2) {
     (function() {
       var XMLDTDAttList, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -25306,9 +25306,9 @@ var require_XMLDTDAttList = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDEntity.js
+// node_modules/xmlbuilder/lib/XMLDTDEntity.js
 var require_XMLDTDEntity = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDEntity.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDTDEntity.js"(exports2, module2) {
     (function() {
       var XMLDTDEntity, XMLNode, isObject3, extend = function(child, parent) {
         for (var key in parent) {
@@ -25368,9 +25368,9 @@ var require_XMLDTDEntity = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDElement.js
+// node_modules/xmlbuilder/lib/XMLDTDElement.js
 var require_XMLDTDElement = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDElement.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDTDElement.js"(exports2, module2) {
     (function() {
       var XMLDTDElement, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -25410,9 +25410,9 @@ var require_XMLDTDElement = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDNotation.js
+// node_modules/xmlbuilder/lib/XMLDTDNotation.js
 var require_XMLDTDNotation = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDTDNotation.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDTDNotation.js"(exports2, module2) {
     (function() {
       var XMLDTDNotation, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -25454,9 +25454,9 @@ var require_XMLDTDNotation = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDocType.js
+// node_modules/xmlbuilder/lib/XMLDocType.js
 var require_XMLDocType = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDocType.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDocType.js"(exports2, module2) {
     (function() {
       var XMLDTDAttList, XMLDTDElement, XMLDTDEntity, XMLDTDNotation, XMLDocType, XMLNode, isObject3, extend = function(child, parent) {
         for (var key in parent) {
@@ -25553,9 +25553,9 @@ var require_XMLDocType = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLRaw.js
+// node_modules/xmlbuilder/lib/XMLRaw.js
 var require_XMLRaw = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLRaw.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLRaw.js"(exports2, module2) {
     (function() {
       var XMLNode, XMLRaw, extend = function(child, parent) {
         for (var key in parent) {
@@ -25591,9 +25591,9 @@ var require_XMLRaw = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLText.js
+// node_modules/xmlbuilder/lib/XMLText.js
 var require_XMLText = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLText.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLText.js"(exports2, module2) {
     (function() {
       var XMLNode, XMLText, extend = function(child, parent) {
         for (var key in parent) {
@@ -25629,9 +25629,9 @@ var require_XMLText = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js
+// node_modules/xmlbuilder/lib/XMLProcessingInstruction.js
 var require_XMLProcessingInstruction = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLProcessingInstruction.js"(exports2, module2) {
     (function() {
       var XMLNode, XMLProcessingInstruction, extend = function(child, parent) {
         for (var key in parent) {
@@ -25670,9 +25670,9 @@ var require_XMLProcessingInstruction = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDummy.js
+// node_modules/xmlbuilder/lib/XMLDummy.js
 var require_XMLDummy = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDummy.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDummy.js"(exports2, module2) {
     (function() {
       var XMLDummy, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -25705,9 +25705,9 @@ var require_XMLDummy = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLNode.js
+// node_modules/xmlbuilder/lib/XMLNode.js
 var require_XMLNode = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLNode.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLNode.js"(exports2, module2) {
     (function() {
       var XMLCData, XMLComment, XMLDeclaration, XMLDocType, XMLDummy, XMLElement, XMLNode, XMLProcessingInstruction, XMLRaw, XMLText, getValue, isEmpty2, isFunction2, isObject3, ref, hasProp = {}.hasOwnProperty;
       ref = require_Utility(), isObject3 = ref.isObject, isFunction2 = ref.isFunction, isEmpty2 = ref.isEmpty, getValue = ref.getValue;
@@ -26119,9 +26119,9 @@ var require_XMLNode = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLStringifier.js
+// node_modules/xmlbuilder/lib/XMLStringifier.js
 var require_XMLStringifier = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLStringifier.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLStringifier.js"(exports2, module2) {
     (function() {
       var XMLStringifier, bind = function(fn, me) {
         return function() {
@@ -26257,9 +26257,9 @@ var require_XMLStringifier = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLWriterBase.js
+// node_modules/xmlbuilder/lib/XMLWriterBase.js
 var require_XMLWriterBase = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLWriterBase.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLWriterBase.js"(exports2, module2) {
     (function() {
       var XMLWriterBase, hasProp = {}.hasOwnProperty;
       module2.exports = XMLWriterBase = (function() {
@@ -26345,9 +26345,9 @@ var require_XMLWriterBase = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLStringWriter.js
+// node_modules/xmlbuilder/lib/XMLStringWriter.js
 var require_XMLStringWriter = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLStringWriter.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLStringWriter.js"(exports2, module2) {
     (function() {
       var XMLCData, XMLComment, XMLDTDAttList, XMLDTDElement, XMLDTDEntity, XMLDTDNotation, XMLDeclaration, XMLDocType, XMLDummy, XMLElement, XMLProcessingInstruction, XMLRaw, XMLStringWriter, XMLText, XMLWriterBase, extend = function(child, parent) {
         for (var key in parent) {
@@ -26665,9 +26665,9 @@ var require_XMLStringWriter = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDocument.js
+// node_modules/xmlbuilder/lib/XMLDocument.js
 var require_XMLDocument = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDocument.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDocument.js"(exports2, module2) {
     (function() {
       var XMLDocument, XMLNode, XMLStringWriter, XMLStringifier, isPlainObject, extend = function(child, parent) {
         for (var key in parent) {
@@ -26717,9 +26717,9 @@ var require_XMLDocument = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDocumentCB.js
+// node_modules/xmlbuilder/lib/XMLDocumentCB.js
 var require_XMLDocumentCB = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLDocumentCB.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLDocumentCB.js"(exports2, module2) {
     (function() {
       var XMLAttribute, XMLCData, XMLComment, XMLDTDAttList, XMLDTDElement, XMLDTDEntity, XMLDTDNotation, XMLDeclaration, XMLDocType, XMLDocumentCB, XMLElement, XMLProcessingInstruction, XMLRaw, XMLStringWriter, XMLStringifier, XMLText, getValue, isFunction2, isObject3, isPlainObject, ref, hasProp = {}.hasOwnProperty;
       ref = require_Utility(), isObject3 = ref.isObject, isFunction2 = ref.isFunction, isPlainObject = ref.isPlainObject, getValue = ref.getValue;
@@ -27074,9 +27074,9 @@ var require_XMLDocumentCB = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLStreamWriter.js
+// node_modules/xmlbuilder/lib/XMLStreamWriter.js
 var require_XMLStreamWriter = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/XMLStreamWriter.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/XMLStreamWriter.js"(exports2, module2) {
     (function() {
       var XMLCData, XMLComment, XMLDTDAttList, XMLDTDElement, XMLDTDEntity, XMLDTDNotation, XMLDeclaration, XMLDocType, XMLDummy, XMLElement, XMLProcessingInstruction, XMLRaw, XMLStreamWriter, XMLText, XMLWriterBase, extend = function(child, parent) {
         for (var key in parent) {
@@ -27341,9 +27341,9 @@ var require_XMLStreamWriter = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/index.js
+// node_modules/xmlbuilder/lib/index.js
 var require_lib5 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/xmlbuilder/lib/index.js"(exports2, module2) {
+  "node_modules/xmlbuilder/lib/index.js"(exports2, module2) {
     (function() {
       var XMLDocument, XMLDocumentCB, XMLStreamWriter, XMLStringWriter, assign, isFunction2, ref;
       ref = require_Utility(), assign = ref.assign, isFunction2 = ref.isFunction;
@@ -27389,9 +27389,9 @@ var require_lib5 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/writer.js
+// node_modules/mammoth/lib/xml/writer.js
 var require_writer = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/writer.js"(exports2) {
+  "node_modules/mammoth/lib/xml/writer.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var xmlbuilder = require_lib5();
     exports2.writeString = writeString;
@@ -27442,9 +27442,9 @@ var require_writer = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/index.js
+// node_modules/mammoth/lib/xml/index.js
 var require_xml = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/xml/index.js"(exports2) {
+  "node_modules/mammoth/lib/xml/index.js"(exports2) {
     var nodes = require_nodes();
     exports2.Element = nodes.Element;
     exports2.element = nodes.element;
@@ -27455,9 +27455,9 @@ var require_xml = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/office-xml-reader.js
+// node_modules/mammoth/lib/docx/office-xml-reader.js
 var require_office_xml_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/office-xml-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/office-xml-reader.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var promises = require_promises();
     var xml = require_xml();
@@ -27516,9 +27516,9 @@ var require_office_xml_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/dingbat-to-unicode/dist/dingbats.js
+// node_modules/dingbat-to-unicode/dist/dingbats.js
 var require_dingbats = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/dingbat-to-unicode/dist/dingbats.js"(exports2) {
+  "node_modules/dingbat-to-unicode/dist/dingbats.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var dingbats = [
@@ -28588,9 +28588,9 @@ var require_dingbats = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/dingbat-to-unicode/dist/index.js
+// node_modules/dingbat-to-unicode/dist/index.js
 var require_dist = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/dingbat-to-unicode/dist/index.js"(exports2) {
+  "node_modules/dingbat-to-unicode/dist/index.js"(exports2) {
     "use strict";
     var __importDefault = exports2 && exports2.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -28638,9 +28638,9 @@ var require_dist = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/transforms.js
+// node_modules/mammoth/lib/transforms.js
 var require_transforms = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/transforms.js"(exports2) {
+  "node_modules/mammoth/lib/transforms.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     exports2.paragraph = paragraph;
     exports2.run = run;
@@ -28695,9 +28695,9 @@ var require_transforms = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/uris.js
+// node_modules/mammoth/lib/docx/uris.js
 var require_uris = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/uris.js"(exports2) {
+  "node_modules/mammoth/lib/docx/uris.js"(exports2) {
     exports2.uriToZipEntryName = uriToZipEntryName;
     exports2.replaceFragment = replaceFragment;
     function uriToZipEntryName(base, uri) {
@@ -28717,9 +28717,9 @@ var require_uris = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/body-reader.js
+// node_modules/mammoth/lib/docx/body-reader.js
 var require_body_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/body-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/body-reader.js"(exports2) {
     exports2.createBodyReader = createBodyReader;
     exports2._readNumberingProperties = readNumberingProperties;
     var dingbatToUnicode = require_dist();
@@ -29392,9 +29392,9 @@ var require_body_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/document-xml-reader.js
+// node_modules/mammoth/lib/docx/document-xml-reader.js
 var require_document_xml_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/document-xml-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/document-xml-reader.js"(exports2) {
     exports2.DocumentXmlReader = DocumentXmlReader;
     var documents = require_documents();
     var Result = require_results().Result;
@@ -29420,9 +29420,9 @@ var require_document_xml_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/relationships-reader.js
+// node_modules/mammoth/lib/docx/relationships-reader.js
 var require_relationships_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/relationships-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/relationships-reader.js"(exports2) {
     exports2.readRelationships = readRelationships;
     exports2.defaultValue = new Relationships([]);
     exports2.Relationships = Relationships;
@@ -29464,9 +29464,9 @@ var require_relationships_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/content-types-reader.js
+// node_modules/mammoth/lib/docx/content-types-reader.js
 var require_content_types_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/content-types-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/content-types-reader.js"(exports2) {
     exports2.readContentTypesFromXml = readContentTypesFromXml;
     var fallbackContentTypes = {
       "png": "png",
@@ -29521,9 +29521,9 @@ var require_content_types_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/numbering-xml.js
+// node_modules/mammoth/lib/docx/numbering-xml.js
 var require_numbering_xml = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/numbering-xml.js"(exports2) {
+  "node_modules/mammoth/lib/docx/numbering-xml.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     exports2.readNumberingXml = readNumberingXml;
     exports2.Numbering = Numbering;
@@ -29618,9 +29618,9 @@ var require_numbering_xml = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/styles-reader.js
+// node_modules/mammoth/lib/docx/styles-reader.js
 var require_styles_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/styles-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/styles-reader.js"(exports2) {
     exports2.readStylesXml = readStylesXml;
     exports2.Styles = Styles;
     exports2.defaultStyles = new Styles({}, {});
@@ -29686,9 +29686,9 @@ var require_styles_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/notes-reader.js
+// node_modules/mammoth/lib/docx/notes-reader.js
 var require_notes_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/notes-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/notes-reader.js"(exports2) {
     var documents = require_documents();
     var Result = require_results().Result;
     exports2.createFootnotesReader = createReader.bind(exports2, "footnote");
@@ -29712,9 +29712,9 @@ var require_notes_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/comments-reader.js
+// node_modules/mammoth/lib/docx/comments-reader.js
 var require_comments_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/comments-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/comments-reader.js"(exports2) {
     var documents = require_documents();
     var Result = require_results().Result;
     function createCommentsReader(bodyReader) {
@@ -29741,9 +29741,9 @@ var require_comments_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/path-is-absolute/index.js
+// node_modules/path-is-absolute/index.js
 var require_path_is_absolute = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/path-is-absolute/index.js"(exports2, module2) {
+  "node_modules/path-is-absolute/index.js"(exports2, module2) {
     "use strict";
     function posix(path2) {
       return path2.charAt(0) === "/";
@@ -29761,9 +29761,9 @@ var require_path_is_absolute = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/files.js
+// node_modules/mammoth/lib/docx/files.js
 var require_files = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/files.js"(exports2) {
+  "node_modules/mammoth/lib/docx/files.js"(exports2) {
     var fs2 = require("fs");
     var url = require("url");
     var os = require("os");
@@ -29831,9 +29831,9 @@ var require_files = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/docx-reader.js
+// node_modules/mammoth/lib/docx/docx-reader.js
 var require_docx_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/docx-reader.js"(exports2) {
+  "node_modules/mammoth/lib/docx/docx-reader.js"(exports2) {
     exports2.read = read;
     exports2._findPartPaths = findPartPaths;
     var promises = require_promises();
@@ -30040,9 +30040,9 @@ var require_docx_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/style-map.js
+// node_modules/mammoth/lib/docx/style-map.js
 var require_style_map = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/docx/style-map.js"(exports2) {
+  "node_modules/mammoth/lib/docx/style-map.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var promises = require_promises();
     var xml = require_xml();
@@ -30106,9 +30106,9 @@ var require_style_map = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/html/ast.js
+// node_modules/mammoth/lib/html/ast.js
 var require_ast = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/html/ast.js"(exports2) {
+  "node_modules/mammoth/lib/html/ast.js"(exports2) {
     var htmlPaths = require_html_paths();
     function nonFreshElement(tagName, attributes, children) {
       return elementWithTag(
@@ -30154,9 +30154,9 @@ var require_ast = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/html/simplify.js
+// node_modules/mammoth/lib/html/simplify.js
 var require_simplify = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/html/simplify.js"(exports2, module2) {
+  "node_modules/mammoth/lib/html/simplify.js"(exports2, module2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var ast = require_ast();
     function simplify(nodes) {
@@ -30231,9 +30231,9 @@ var require_simplify = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/html/index.js
+// node_modules/mammoth/lib/html/index.js
 var require_html = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/html/index.js"(exports2) {
+  "node_modules/mammoth/lib/html/index.js"(exports2) {
     var ast = require_ast();
     exports2.freshElement = ast.freshElement;
     exports2.nonFreshElement = ast.nonFreshElement;
@@ -30271,9 +30271,9 @@ var require_html = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/styles/html-paths.js
+// node_modules/mammoth/lib/styles/html-paths.js
 var require_html_paths = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/styles/html-paths.js"(exports2) {
+  "node_modules/mammoth/lib/styles/html-paths.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var html = require_html();
     exports2.topLevelElement = topLevelElement;
@@ -30339,9 +30339,9 @@ var require_html_paths = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/images.js
+// node_modules/mammoth/lib/images.js
 var require_images = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/images.js"(exports2) {
+  "node_modules/mammoth/lib/images.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var promises = require_promises();
     var Html = require_html();
@@ -30369,9 +30369,9 @@ var require_images = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/writers/html-writer.js
+// node_modules/mammoth/lib/writers/html-writer.js
 var require_html_writer = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/writers/html-writer.js"(exports2) {
+  "node_modules/mammoth/lib/writers/html-writer.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     exports2.writer = writer;
     function writer(options) {
@@ -30499,9 +30499,9 @@ var require_html_writer = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/writers/markdown-writer.js
+// node_modules/mammoth/lib/writers/markdown-writer.js
 var require_markdown_writer = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/writers/markdown-writer.js"(exports2) {
+  "node_modules/mammoth/lib/writers/markdown-writer.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     function symmetricMarkdownElement(end) {
       return markdownElement(end, end);
@@ -30640,9 +30640,9 @@ var require_markdown_writer = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/writers/index.js
+// node_modules/mammoth/lib/writers/index.js
 var require_writers = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/writers/index.js"(exports2) {
+  "node_modules/mammoth/lib/writers/index.js"(exports2) {
     var htmlWriter = require_html_writer();
     var markdownWriter = require_markdown_writer();
     exports2.writer = writer;
@@ -30657,9 +30657,9 @@ var require_writers = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/document-to-html.js
+// node_modules/mammoth/lib/document-to-html.js
 var require_document_to_html = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/document-to-html.js"(exports2) {
+  "node_modules/mammoth/lib/document-to-html.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var promises = require_promises();
     var documents = require_documents();
@@ -31077,9 +31077,9 @@ var require_document_to_html = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/raw-text.js
+// node_modules/mammoth/lib/raw-text.js
 var require_raw_text = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/raw-text.js"(exports2) {
+  "node_modules/mammoth/lib/raw-text.js"(exports2) {
     var documents = require_documents();
     function convertElementToRawText(element) {
       if (element.type === "text") {
@@ -31095,9 +31095,9 @@ var require_raw_text = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/TokenIterator.js
+// node_modules/lop/lib/TokenIterator.js
 var require_TokenIterator = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/TokenIterator.js"(exports2, module2) {
+  "node_modules/lop/lib/TokenIterator.js"(exports2, module2) {
     var TokenIterator = module2.exports = function(tokens, startIndex) {
       this._tokens = tokens;
       this._startIndex = startIndex || 0;
@@ -31122,9 +31122,9 @@ var require_TokenIterator = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/parser.js
+// node_modules/lop/lib/parser.js
 var require_parser = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/parser.js"(exports2) {
+  "node_modules/lop/lib/parser.js"(exports2) {
     var TokenIterator = require_TokenIterator();
     exports2.Parser = function(options) {
       var parseTokens = function(parser, tokens) {
@@ -31137,9 +31137,9 @@ var require_parser = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/option/index.js
+// node_modules/option/index.js
 var require_option = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/option/index.js"(exports2) {
+  "node_modules/option/index.js"(exports2) {
     exports2.none = /* @__PURE__ */ Object.create({
       value: function() {
         throw new Error("Called value on none");
@@ -31217,9 +31217,9 @@ var require_option = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/parsing-results.js
+// node_modules/lop/lib/parsing-results.js
 var require_parsing_results = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/parsing-results.js"(exports2, module2) {
+  "node_modules/lop/lib/parsing-results.js"(exports2, module2) {
     module2.exports = {
       failure: function(errors, remaining) {
         if (errors.length < 1) {
@@ -31315,9 +31315,9 @@ var require_parsing_results = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/errors.js
+// node_modules/lop/lib/errors.js
 var require_errors2 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/errors.js"(exports2) {
+  "node_modules/lop/lib/errors.js"(exports2) {
     exports2.error = function(options) {
       return new Error2(options);
     };
@@ -31339,9 +31339,9 @@ var require_errors2 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/lazy-iterators.js
+// node_modules/lop/lib/lazy-iterators.js
 var require_lazy_iterators = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/lazy-iterators.js"(exports2) {
+  "node_modules/lop/lib/lazy-iterators.js"(exports2) {
     var fromArray = exports2.fromArray = function(array) {
       var index = 0;
       var hasNext = function() {
@@ -31419,9 +31419,9 @@ var require_lazy_iterators = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/rules.js
+// node_modules/lop/lib/rules.js
 var require_rules = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/rules.js"(exports2) {
+  "node_modules/lop/lib/rules.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var options = require_option();
     var results = require_parsing_results();
@@ -31704,9 +31704,9 @@ var require_rules = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/StringSource.js
+// node_modules/lop/lib/StringSource.js
 var require_StringSource = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/StringSource.js"(exports2, module2) {
+  "node_modules/lop/lib/StringSource.js"(exports2, module2) {
     var StringSource = module2.exports = function(string, description) {
       var self2 = {
         asString: function() {
@@ -31755,9 +31755,9 @@ var require_StringSource = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/Token.js
+// node_modules/lop/lib/Token.js
 var require_Token = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/Token.js"(exports2, module2) {
+  "node_modules/lop/lib/Token.js"(exports2, module2) {
     module2.exports = function(name, value, source) {
       this.name = name;
       this.value = value;
@@ -31768,9 +31768,9 @@ var require_Token = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/bottom-up.js
+// node_modules/lop/lib/bottom-up.js
 var require_bottom_up = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/bottom-up.js"(exports2) {
+  "node_modules/lop/lib/bottom-up.js"(exports2) {
     var rules = require_rules();
     var results = require_parsing_results();
     exports2.parser = function(name, prefixRules, infixRuleBuilders) {
@@ -31883,9 +31883,9 @@ var require_bottom_up = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/regex-tokeniser.js
+// node_modules/lop/lib/regex-tokeniser.js
 var require_regex_tokeniser = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/lib/regex-tokeniser.js"(exports2) {
+  "node_modules/lop/lib/regex-tokeniser.js"(exports2) {
     var Token = require_Token();
     var StringSource = require_StringSource();
     exports2.RegexTokeniser = RegexTokeniser;
@@ -31948,9 +31948,9 @@ var require_regex_tokeniser = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/index.js
+// node_modules/lop/index.js
 var require_lop = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/lop/index.js"(exports2) {
+  "node_modules/lop/index.js"(exports2) {
     exports2.Parser = require_parser().Parser;
     exports2.rules = require_rules();
     exports2.errors = require_errors2();
@@ -31971,9 +31971,9 @@ var require_lop = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/styles/document-matchers.js
+// node_modules/mammoth/lib/styles/document-matchers.js
 var require_document_matchers = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/styles/document-matchers.js"(exports2) {
+  "node_modules/mammoth/lib/styles/document-matchers.js"(exports2) {
     exports2.paragraph = paragraph;
     exports2.run = run;
     exports2.table = table;
@@ -32053,9 +32053,9 @@ var require_document_matchers = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/styles/parser/tokeniser.js
+// node_modules/mammoth/lib/styles/parser/tokeniser.js
 var require_tokeniser = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/styles/parser/tokeniser.js"(exports2) {
+  "node_modules/mammoth/lib/styles/parser/tokeniser.js"(exports2) {
     var lop = require_lop();
     var RegexTokeniser = lop.RegexTokeniser;
     exports2.tokenise = tokenise;
@@ -32086,9 +32086,9 @@ var require_tokeniser = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/style-reader.js
+// node_modules/mammoth/lib/style-reader.js
 var require_style_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/style-reader.js"(exports2) {
+  "node_modules/mammoth/lib/style-reader.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var lop = require_lop();
     var documentMatchers = require_document_matchers();
@@ -32419,9 +32419,9 @@ var require_style_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/options-reader.js
+// node_modules/mammoth/lib/options-reader.js
 var require_options_reader = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/options-reader.js"(exports2) {
+  "node_modules/mammoth/lib/options-reader.js"(exports2) {
     exports2.readOptions = readOptions;
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var defaultStyleMap = exports2._defaultStyleMap = [
@@ -32515,9 +32515,9 @@ var require_options_reader = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/unzip.js
+// node_modules/mammoth/lib/unzip.js
 var require_unzip = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/unzip.js"(exports2) {
+  "node_modules/mammoth/lib/unzip.js"(exports2) {
     var fs2 = require("fs");
     var promises = require_promises();
     var zipfile = require_zipfile();
@@ -32537,9 +32537,9 @@ var require_unzip = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/underline.js
+// node_modules/mammoth/lib/underline.js
 var require_underline = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/underline.js"(exports2) {
+  "node_modules/mammoth/lib/underline.js"(exports2) {
     var htmlPaths = require_html_paths();
     var Html = require_html();
     exports2.element = element;
@@ -32551,9 +32551,9 @@ var require_underline = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/index.js
+// node_modules/mammoth/lib/index.js
 var require_lib6 = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/node_modules/mammoth/lib/index.js"(exports2) {
+  "node_modules/mammoth/lib/index.js"(exports2) {
     var _3 = (init_index_all(), __toCommonJS(index_all_exports));
     var docxReader = require_docx_reader();
     var docxStyleMap = require_style_map();
@@ -32643,9 +32643,9 @@ var require_lib6 = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/review-view.js
+// src/review-view.js
 var require_review_view = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/review-view.js"(exports2, module2) {
+  "src/review-view.js"(exports2, module2) {
     var { ItemView, Notice: Notice2, setIcon } = require("obsidian");
     var { normalizeText: normalizeText2, normalizedSelectionOffset } = require_preprocessor();
     var { VIEW_TYPE_REVIEW: VIEW_TYPE_REVIEW2, REVIEW_MODES, REVIEW_MODE_LABELS } = require_defaults();
@@ -33497,9 +33497,9 @@ var require_review_view = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/settings-tab.js
+// src/settings-tab.js
 var require_settings_tab = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/settings-tab.js"(exports2, module2) {
+  "src/settings-tab.js"(exports2, module2) {
     var { PluginSettingTab, Setting } = require("obsidian");
     var { PROVIDER_PRESETS, applyProviderPreset, getProviderPreset: getProviderPreset2 } = require_defaults();
     var TextReviewSettingTab2 = class extends PluginSettingTab {
@@ -33567,9 +33567,9 @@ var require_settings_tab = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/rule-store.js
+// src/rule-store.js
 var require_rule_store = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/rule-store.js"(exports2, module2) {
+  "src/rule-store.js"(exports2, module2) {
     var fs2 = require("fs");
     var path2 = require("path");
     function readJsonSafe(filePath, fallback) {
@@ -33646,9 +33646,9 @@ var require_rule_store = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/prompt-store.js
+// src/prompt-store.js
 var require_prompt_store = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/prompt-store.js"(exports2, module2) {
+  "src/prompt-store.js"(exports2, module2) {
     var fs2 = require("fs");
     var path2 = require("path");
     function readJsonSafe(filePath, fallback) {
@@ -33707,9 +33707,9 @@ var require_prompt_store = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/standards-service.js
+// src/standards-service.js
 var require_standards_service = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/standards-service.js"(exports2, module2) {
+  "src/standards-service.js"(exports2, module2) {
     var fs2 = require("fs");
     var path2 = require("path");
     function ensureDir(dirPath) {
@@ -34280,9 +34280,9 @@ var require_standards_service = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/note-workbench.js
+// src/note-workbench.js
 var require_note_workbench = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/note-workbench.js"(exports2, module2) {
+  "src/note-workbench.js"(exports2, module2) {
     var { MarkdownView, Notice: Notice2 } = require("obsidian");
     var WORKBENCH_NOTE_PATH = "\u{1F916} \u5BA1\u6821\u5DE5\u4F5C\u53F0.md";
     var WORKBENCH_CODEBLOCK = "text-review-workbench";
@@ -34389,9 +34389,9 @@ var require_note_workbench = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/codeblock-view.js
+// src/codeblock-view.js
 var require_codeblock_view = __commonJS({
-  "Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/codeblock-view.js"(exports2, module2) {
+  "src/codeblock-view.js"(exports2, module2) {
     var { ButtonComponent, Notice: Notice2 } = require("obsidian");
     var { WORKBENCH_CODEBLOCK } = require_note_workbench();
     var { REVIEW_MODES, REVIEW_MODE_LABELS } = require_defaults();
@@ -34590,7 +34590,7 @@ var require_codeblock_view = __commonJS({
   }
 });
 
-// Users/oscarshao/Downloads/knowledge-system-main/.obsidian/plugins/text-review-engine/src/main.js
+// src/main.js
 var fs = require("fs");
 var path = require("path");
 var { Plugin, Notice } = require("obsidian");

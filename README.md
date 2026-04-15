@@ -1,90 +1,111 @@
 # Text Review Engine
 
-一个面向 Obsidian 的文本审校插件 MVP，采用“规则层 + AI 层”双引擎。
+A dual-layer text review plugin for Obsidian: **rule-based checks** and **AI-powered semantic review**.
 
-## 当前能力
+## Features
 
-- 审校当前选中文本
-- 审校当前整篇笔记
-- 快捷指令打开审校工作台并支持粘贴文本
-- 基础规则检查：
-  - 常见错别字
-  - 标点与格式
-  - 敏感词
-  - 固定搭配
-  - 强制组合提示
-- `strict` 模式下可调用兼容 OpenAI Chat Completions 的接口，补充政务表述风险提示
-- 支持多 Provider 预设：OpenAI、DeepSeek、MiniMax、SiliconFlow(Qwen)
-- 顶部 toolbar 支持打开标准中心、重载规则
-- 规则已迁移到 `rules/*.json`，修改后可直接在界面点击“重载规则”
+### Rule Engine (always on)
 
-## 仓库定位
+- **Typo Detection**: Pattern-based typo checking with correction suggestions
+- **Fixed Phrases**: Validate correct usage of Chinese fixed expressions (e.g., "召开会议" vs. "召开活动")
+- **Sensitive Terms**: Detect prohibited/regulated political and commercial terms
+- **Punctuation Rules**: Enforce consistent Chinese punctuation formatting
+- **Combo Rules**: Detect prohibited co-occurrence patterns
+- **Test Fixtures**: Each rule type includes pass/hit test cases
 
-这个目录可以单独作为一个公开 git 仓库维护，与 vault 中其他插件和笔记提交完全分开。
+### AI Review (requires API Key)
 
-## 目录
+Powered by OpenAI-compatible APIs. Works with:
 
-```text
-text-review-engine/
-  manifest.json
-  package.json
-  esbuild.config.mjs
-  main.js
-  styles.css
-  rules/
-  src/
+- OpenAI (GPT-4, GPT-4o, GPT-3.5)
+- Anthropic (Claude 3, Claude 4)
+- DeepSeek (V3, R1)
+- Zhipu AI (GLM-5, GLM-4)
+- MiniMax
+- Any OpenAI-compatible custom endpoint
+
+### Review Modes
+
+| Mode | Rule Engine | AI Review |
+|------|:-----------:|:---------:|
+| `basic` | ✅ | ❌ |
+| `standard` | ✅ | ✅ (optional) |
+| `strict` | ✅ | ✅ (always) |
+
+### AI Scene Prompts
+
+| Scene | Description |
+|-------|-------------|
+| General Review | Full multi-dimension quality check |
+| Policy Expression | Government document style compliance |
+| Ambiguity | Detect ambiguous or unclear expressions |
+| Common Sense | Flag factual inconsistencies |
+| Public Opinion Risk | Detect potentially controversial phrasing |
+| Stance Check | Evaluate tone consistency and bias |
+
+### UI & Workflow
+
+- **Review Workbench**: Sidebar view with input panel, issue list, and detail inspector
+- **Standards Manager**: Visual editor for rules and AI prompts with hot-reload
+- **Inline Code Block**: ` ```review` block renders the workbench in any note
+- **Ribbon Icons**: Quick access to review workbench and standards manager
+- **Editor Commands**: Review selected text or entire active note
+- **Backup System**: Auto-backup of rules/prompts with one-click restore
+- **Policy Packs**: `social-basic` for social media / `gov-strict` for government docs
+
+## Screenshots
+
+*(Add screenshots here: workbench, standards manager, issue list)*
+
+## Setup
+
+1. Enable the plugin in **Settings → Community Plugins**
+2. Open **Settings → Text Review Engine**
+3. Configure AI (optional but recommended):
+   - **Provider**: Select from OpenAI / Claude / DeepSeek / Zhipu / MiniMax / Custom
+   - **API Key**: Enter your API key
+   - **Base URL**: API endpoint (auto-filled for known providers)
+   - **Model**: Model name (e.g., `gpt-4o`, `claude-sonnet-4-20250514`)
+4. Enable "Include AI with rules" if you want AI in non-strict modes
+5. Choose a **Policy Pack**: `social-basic` (default) or `gov-strict`
+
+## Keyboard Shortcuts
+
+*(Configure in Obsidian Settings → Hotkeys)*
+
+| Command | Description |
+|---------|-------------|
+| Text Review Engine: Review Selected Text | Review highlighted text |
+| Text Review Engine: Review Active Note | Review entire current note |
+| Text Review Engine: Open Review Workbench | Open the sidebar workbench |
+| Text Review Engine: Open Standards Manager | Open the standards editor |
+
+## Architecture
+
+```
+rules/
+  typo-rules.json       # Typo patterns
+  fixed-phrases.json    # Correct/incorrect phrase pairs
+  sensitive-terms.json  # Prohibited terms
+  punctuation-rules.json # Punctuation formatting rules
+  combo-rules.json      # Forbidden co-occurrences
+  fixtures/            # Test cases (pass/hit)
+
+prompts/
+  general-review.json   # Default multi-dimension prompt
+  policy-expression-check.json
+  ambiguity-check.json
+  common-sense-check.json
+  public-opinion-risk-check.json
+  stance-check.json
 ```
 
-## 开发
+Rules and prompts are hot-reloadable. Click **"Apply Changes"** in the workbench after editing.
 
-```bash
-npm install
-npm run build
-```
+## Changelog
 
-开发监听：
+See `versions.json` for full version history.
 
-```bash
-npm run dev
-```
+## License
 
-## 使用
-
-1. 在 Obsidian 社区插件里启用 `Text Review Engine`
-2. 打开插件设置，填写 `API Key`、`Base URL`、`Model`
-   - 也可以直接选择 Provider 预设
-   - 当前支持：
-     - `DeepSeek`
-     - `MiniMax`
-     - `SiliconFlow (Qwen)`
-     - `Custom OpenAI-Compatible`
-3. 用以下任一方式开始：
-   - 左侧功能区点击盾牌图标
-   - 命令面板执行“打开审校工作台”
-   - 命令面板执行“审校当前选中文本”
-   - 命令面板执行“审校当前整篇笔记”
-4. 规则维护：
-   - 在 `rules/*.json` 中修改规则
-   - 回到工作台点击 `重载规则`
-   - 无需重启插件
-
-## 下一步建议
-
-- 增加问题高亮与跳转定位
-- 增加按类别筛选
-- 增加修订建议稿
-- 增加多套 policy pack
-
-## 公开发布建议
-
-如果你准备推到 GitHub 公共仓库，建议仓库名直接使用：
-
-- `obsidian-text-review-engine`
-
-并保留以下文件：
-
-- `manifest.json`
-- `main.js`
-- `styles.css`
-- `README.md`
-- `LICENSE`
+MIT
