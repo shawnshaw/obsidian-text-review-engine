@@ -6,7 +6,7 @@
 
 - 审校当前选中文本
 - 审校当前整篇笔记
-- 右侧打开审校工作台并支持粘贴文本
+- 快捷指令打开审校工作台并支持粘贴文本
 - 基础规则检查：
   - 常见错别字
   - 标点与格式
@@ -14,6 +14,9 @@
   - 固定搭配
   - 强制组合提示
 - `strict` 模式下可调用兼容 OpenAI Chat Completions 的接口，补充政务表述风险提示
+- 支持多 Provider 预设：OpenAI、DeepSeek、MiniMax、SiliconFlow(Qwen)
+- 顶部 toolbar 支持打开标准中心、重载规则
+- 规则已迁移到 `rules/*.json`，修改后可直接在界面点击“重载规则”
 
 ## 仓库定位
 
@@ -28,6 +31,7 @@ text-review-engine/
   esbuild.config.mjs
   main.js
   styles.css
+  rules/
   src/
 ```
 
@@ -48,15 +52,24 @@ npm run dev
 
 1. 在 Obsidian 社区插件里启用 `Text Review Engine`
 2. 打开插件设置，填写 `API Key`、`Base URL`、`Model`
+   - 也可以直接选择 Provider 预设
+   - 当前支持：
+     - `DeepSeek`
+     - `MiniMax`
+     - `SiliconFlow (Qwen)`
+     - `Custom OpenAI-Compatible`
 3. 用以下任一方式开始：
    - 左侧功能区点击盾牌图标
    - 命令面板执行“打开审校工作台”
    - 命令面板执行“审校当前选中文本”
    - 命令面板执行“审校当前整篇笔记”
+4. 规则维护：
+   - 在 `rules/*.json` 中修改规则
+   - 回到工作台点击 `重载规则`
+   - 无需重启插件
 
 ## 下一步建议
 
-- 把规则从 `src/defaults.js` 迁到独立 JSON 文件
 - 增加问题高亮与跳转定位
 - 增加按类别筛选
 - 增加修订建议稿

@@ -1,0 +1,60 @@
+{
+  "repeatedPunctuationPattern": "[!?！？。，,.]{2,}",
+  "mixedCommaPattern": "，\\s*,|,\\s*，",
+  "extraSpacesPattern": "[^\\n]\\s{2,}[^\\n]",
+  "pairedMarks": [
+    ["“", "”"],
+    ["《", "》"],
+    ["（", "）"]
+  ],
+  "regexRules": [
+    {
+      "id": "format-date-slash",
+      "pattern": "\\b\\d{4}/\\d{1,2}/\\d{1,2}\\b",
+      "category": "format",
+      "severity": "low",
+      "message": "日期建议统一使用中文年月日格式",
+      "suggestion": "建议改为“2026年4月3日”这类写法"
+    },
+    {
+      "id": "format-date-dash",
+      "pattern": "\\b\\d{4}-\\d{1,2}-\\d{1,2}\\b",
+      "category": "format",
+      "severity": "low",
+      "message": "日期建议统一使用中文年月日格式",
+      "suggestion": "建议改为“2026年4月3日”这类写法"
+    },
+    {
+      "id": "format-time-colon",
+      "pattern": "\\b\\d{1,2}:\\d{2}\\b",
+      "category": "format",
+      "severity": "low",
+      "message": "时间建议统一使用中文时分格式",
+      "suggestion": "建议改为“9时30分”这类写法"
+    },
+    {
+      "id": "format-enumeration-paren",
+      "pattern": "(^|\\n)\\s*\\d+\\)",
+      "category": "format",
+      "severity": "low",
+      "message": "序号格式建议统一",
+      "suggestion": "建议改为“1.”或“（一）”这类统一格式"
+    },
+    {
+      "id": "format-enumeration-dot",
+      "pattern": "(^|\\n)\\s*[①②③④⑤⑥⑦⑧⑨⑩]",
+      "category": "format",
+      "severity": "low",
+      "message": "序号格式建议统一",
+      "suggestion": "建议改为“1.”或“（一）”这类统一格式"
+    },
+    {
+      "id": "format-title-no-bookmark",
+      "pattern": "人民日报|求是|政府工作报告",
+      "category": "punctuation",
+      "severity": "low",
+      "message": "引用正式刊物或文件名称时，建议检查是否需要书名号",
+      "suggestion": "如为刊物、文件全名，建议使用《》"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "term": "台独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "term": "港独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "term": "颠覆国家政权",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  }
+]

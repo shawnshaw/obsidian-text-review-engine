@@ -1,0 +1,86 @@
+[
+  {
+    "id": "typo-account",
+    "wrong": "帐号",
+    "correct": "账号",
+    "severity": "low",
+    "message": "常见异形词，建议统一为“账号”"
+  },
+  {
+    "id": "typo-zuodao",
+    "wrong": "作到",
+    "correct": "做到",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-bixu",
+    "wrong": "必需",
+    "correct": "必须",
+    "severity": "medium",
+    "message": "语境中更可能应为“必须”"
+  },
+  {
+    "id": "typo-bushu",
+    "wrong": "部暑",
+    "correct": "部署",
+    "severity": "high",
+    "message": "常见政务高频词错写"
+  },
+  {
+    "id": "typo-jingzhun",
+    "wrong": "精淮",
+    "correct": "精准",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-guanjian",
+    "wrong": "关建",
+    "correct": "关键",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-luoshi",
+    "wrong": "落识",
+    "correct": "落实",
+    "severity": "high",
+    "message": "常见政务高频词错写"
+  },
+  {
+    "id": "typo-jiran",
+    "wrong": "即然",
+    "correct": "既然",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-jue",
+    "wrong": "决对",
+    "correct": "绝对",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-weilai",
+    "wrong": "末来",
+    "correct": "未来",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "id": "typo-jibeng",
+    "wrong": "基本塬则",
+    "correct": "基本原则",
+    "severity": "high",
+    "message": "核心固定表达错写"
+  },
+  {
+    "id": "typo-implement",
+    "wrong": "迸一步",
+    "correct": "进一步",
+    "severity": "medium",
+    "message": "疑似错别字"
+  }
+]

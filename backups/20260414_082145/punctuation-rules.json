@@ -1,0 +1,125 @@
+{
+  "repeatedPunctuationPattern": "[!?\\uff01\\uff1f\\u3002\\uff0c,.]{2,}",
+  "mixedCommaPattern": "\\uff0c\\\\s*,|,\\\\s*\\uff0c",
+  "extraSpacesPattern": "[^\\\\n\\\\r] {2,}[^\\\\n\\\\r]",
+  "pairedMarks": [
+    [
+      "\\u201c",
+      "\\u201d"
+    ],
+    [
+      "\\u300a",
+      "\\u300b"
+    ],
+    [
+      "\\uff08",
+      "\\uff09"
+    ],
+    [
+      "\\u3010",
+      "\\u3011"
+    ],
+    [
+      "\\u2018",
+      "\\u2019"
+    ],
+    [
+      "\\u300c",
+      "\\u300d"
+    ],
+    [
+      "\\u300e",
+      "\\u300f"
+    ]
+  ],
+  "regexRules": [
+    {
+      "id": "format-date-slash",
+      "pattern": "\\\\b\\\\d{4}/\\\\d{1,2}/\\\\d{1,2}\\\\b",
+      "category": "format",
+      "severity": "low",
+      "message": "日期建议统一使用中文年月日格式",
+      "suggestion": "建议改为「2026年4月3日」"
+    },
+    {
+      "id": "format-date-dash",
+      "pattern": "\\\\b\\\\d{4}-\\\\d{1,2}-\\\\d{1,2}\\\\b",
+      "category": "format",
+      "severity": "low",
+      "message": "日期建议统一使用中文年月日格式",
+      "suggestion": "建议改为「2026年4月3日」"
+    },
+    {
+      "id": "format-time-colon",
+      "pattern": "\\\\b\\\\d{1,2}:\\\\d{2}\\\\b",
+      "category": "format",
+      "severity": "low",
+      "message": "时间建议统一使用中文时分格式",
+      "suggestion": "建议改为「9时30分」"
+    },
+    {
+      "id": "format-enum-paren",
+      "pattern": "(^|\\n)\\s*\\d+\\)",
+      "category": "format",
+      "severity": "low",
+      "message": "序号格式建议统一",
+      "suggestion": "建议改为「1.」或「（一）」"
+    },
+    {
+      "id": "format-enum-circle",
+      "pattern": "(^|\\\\n)\\\\s*[①②③④⑤⑥⑦⑧⑨⑩]",
+      "category": "format",
+      "severity": "low",
+      "message": "序号格式建议统一",
+      "suggestion": "建议改为「1.」或「（一）」"
+    },
+    {
+      "id": "format-title-bookmark",
+      "pattern": "人民日报|求是|政府工作报告",
+      "category": "punctuation",
+      "severity": "low",
+      "message": "引用正式刊物或文件名称时，建议检查是否需要书名号",
+      "suggestion": "如为刊物、文件全名，建议使用《》"
+    },
+    {
+      "id": "format-mixed-paren",
+      "pattern": "（[^）]*\\)|\\([^）]*）",
+      "category": "format",
+      "severity": "medium",
+      "message": "全角/半角括号混用",
+      "suggestion": "建议统一使用中文全角括号（）或英文半角括号()"
+    },
+    {
+      "id": "format-mixed-colon",
+      "pattern": "\\uff1a(?=[A-Za-z0-9])|:(?=[\\\\u4e00-\\\\u9fff])",
+      "category": "format",
+      "severity": "low",
+      "message": "全角/半角冒号使用不一致",
+      "suggestion": "中文语境用全角「：」"
+    },
+    {
+      "id": "format-percent-space",
+      "pattern": "\\\\d+\\\\s+%",
+      "category": "format",
+      "severity": "low",
+      "message": "数字与百分号之间不应有空格",
+      "suggestion": "如「30%」而非「30 %」"
+    },
+    {
+      "id": "format-ellipsis",
+      "pattern": "\\\\.{3,6}|\\u3002{2,}",
+      "category": "punctuation",
+      "severity": "low",
+      "message": "省略号建议使用标准「……」",
+      "suggestion": "中文省略号为「……」，非三个英文句点"
+    },
+    {
+      "id": "format-cjk-space",
+      "pattern": "[\\\\u4e00-\\\\u9fff][A-Za-z]|[A-Za-z][\\\\u4e00-\\\\u9fff]",
+      "category": "format",
+      "severity": "low",
+      "message": "中英文之间建议加空格提升可读性",
+      "suggestion": "如「使用 Python 开发」"
+    }
+  ]
+}

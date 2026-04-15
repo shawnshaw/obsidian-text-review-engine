@@ -1,0 +1,10 @@
+{
+  "repeatedPunctuationPattern": "[!?！？。，,.]{2,}",
+  "mixedCommaPattern": "，\\s*,|,\\s*，",
+  "extraSpacesPattern": "[^\\n]\\s{2,}[^\\n]",
+  "pairedMarks": [
+    ["“", "”"],
+    ["《", "》"],
+    ["（", "）"]
+  ]
+}

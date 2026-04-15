@@ -1,0 +1,387 @@
+[
+  {
+    "id": "sens-001",
+    "term": "台独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-002",
+    "term": "港独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-003",
+    "term": "疆独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-004",
+    "term": "藏独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-005",
+    "term": "两个中国",
+    "severity": "critical",
+    "message": "命中高风险敏感表述",
+    "suggestion": "请改为符合规范口径的表述"
+  },
+  {
+    "id": "sens-006",
+    "term": "一中一台",
+    "severity": "critical",
+    "message": "命中高风险敏感表述",
+    "suggestion": "请改为符合规范口径的表述"
+  },
+  {
+    "id": "sens-007",
+    "term": "法轮功",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核语境与发布必要性"
+  },
+  {
+    "id": "sens-008",
+    "term": "颠覆国家政权",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-009",
+    "term": "分裂国家",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-010",
+    "term": "台湾国",
+    "severity": "critical",
+    "message": "涉及主权敏感表述",
+    "suggestion": "请使用「中国台湾」或「台湾地区」"
+  },
+  {
+    "id": "sens-011",
+    "term": "台湾总统",
+    "severity": "high",
+    "message": "涉及主权敏感表述",
+    "suggestion": "应使用「台湾地区领导人」"
+  },
+  {
+    "id": "sens-012",
+    "term": "中华民国",
+    "severity": "high",
+    "message": "涉及主权敏感表述",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-013",
+    "term": "西藏流亡政府",
+    "severity": "critical",
+    "message": "涉及主权敏感表述",
+    "suggestion": "请删除或改写"
+  },
+  {
+    "id": "sens-014",
+    "term": "达赖",
+    "severity": "high",
+    "message": "涉及宗教政治敏感人物",
+    "suggestion": "如非新闻报道必须引用，建议删除"
+  },
+  {
+    "id": "sens-015",
+    "term": "东突",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除"
+  },
+  {
+    "id": "sens-016",
+    "term": "天安门事件",
+    "severity": "critical",
+    "message": "涉及政治高敏感事件",
+    "suggestion": "请人工复核发布必要性"
+  },
+  {
+    "id": "sens-017",
+    "term": "六四",
+    "severity": "critical",
+    "message": "涉及政治高敏感事件",
+    "suggestion": "请人工复核发布必要性"
+  },
+  {
+    "id": "sens-018",
+    "term": "颜色革命",
+    "severity": "high",
+    "message": "涉及政治敏感表述",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-019",
+    "term": "全能神",
+    "severity": "critical",
+    "message": "涉及非法组织",
+    "suggestion": "请删除或人工复核"
+  },
+  {
+    "id": "sens-020",
+    "term": "共产党下台",
+    "severity": "critical",
+    "message": "涉及政治极端表述",
+    "suggestion": "请删除"
+  },
+  {
+    "id": "sens-021",
+    "term": "独裁",
+    "severity": "high",
+    "message": "涉及政治敏感表述",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-022",
+    "term": "暴政",
+    "severity": "high",
+    "message": "涉及政治敏感表述",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-023",
+    "term": "维权",
+    "severity": "medium",
+    "message": "涉及敏感社会话题",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-024",
+    "term": "上访",
+    "severity": "medium",
+    "message": "涉及敏感社会话题",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-025",
+    "term": "群体性事件",
+    "severity": "high",
+    "message": "涉及敏感社会话题",
+    "suggestion": "请确认是否可公开发布"
+  },
+  {
+    "id": "sens-026",
+    "term": "镇压",
+    "severity": "high",
+    "message": "涉及敏感表述",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-027",
+    "term": "翻墙",
+    "severity": "medium",
+    "message": "涉及网络管控敏感话题",
+    "suggestion": "建议使用其他表述"
+  },
+  {
+    "id": "sens-028",
+    "term": "科学上网",
+    "severity": "medium",
+    "message": "涉及网络管控敏感话题",
+    "suggestion": "建议删除或改写"
+  },
+  {
+    "id": "sens-029",
+    "term": "审查制度",
+    "severity": "medium",
+    "message": "涉及敏感社会话题",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-030",
+    "term": "文化大革命",
+    "severity": "high",
+    "message": "涉及政治历史敏感事件",
+    "suggestion": "请人工复核表述是否符合定性口径"
+  },
+  {
+    "id": "sens-031",
+    "term": "种族歧视",
+    "severity": "high",
+    "message": "涉及种族敏感话题",
+    "suggestion": "请确认上下文立场明确"
+  },
+  {
+    "id": "sens-032",
+    "term": "支那",
+    "severity": "critical",
+    "message": "种族歧视/侮辱性用语",
+    "suggestion": "必须删除"
+  },
+  {
+    "id": "sens-033",
+    "term": "东亚病夫",
+    "severity": "high",
+    "message": "涉及民族侮辱性表述",
+    "suggestion": "请人工复核是否引用语境"
+  },
+  {
+    "id": "sens-034",
+    "term": "低端人口",
+    "severity": "high",
+    "message": "涉及社会歧视性表述",
+    "suggestion": "建议删除或改写"
+  },
+  {
+    "id": "sens-035",
+    "term": "弱智",
+    "severity": "high",
+    "message": "涉及歧视性用语",
+    "suggestion": "请使用「智力障碍」等中性表述"
+  },
+  {
+    "id": "sens-036",
+    "term": "自杀",
+    "severity": "high",
+    "message": "涉及自杀/自伤敏感话题",
+    "suggestion": "请确认是否符合媒体报道伦理规范"
+  },
+  {
+    "id": "sens-037",
+    "term": "跳楼",
+    "severity": "high",
+    "message": "涉及自杀敏感话题",
+    "suggestion": "媒体报道需遵循不详细描述手段原则"
+  },
+  {
+    "id": "sens-038",
+    "term": "活摘",
+    "severity": "critical",
+    "message": "涉及极端敏感话题",
+    "suggestion": "请人工复核发布必要性"
+  },
+  {
+    "id": "sens-039",
+    "term": "卖淫",
+    "severity": "high",
+    "message": "涉及色情话题",
+    "suggestion": "请人工复核"
+  },
+  {
+    "id": "sens-040",
+    "term": "嫖娼",
+    "severity": "high",
+    "message": "涉及色情话题",
+    "suggestion": "请人工复核"
+  },
+  {
+    "id": "sens-041",
+    "term": "约炮",
+    "severity": "high",
+    "message": "涉及色情低俗表述",
+    "suggestion": "请删除"
+  },
+  {
+    "id": "sens-042",
+    "term": "赌博",
+    "severity": "medium",
+    "message": "涉及赌博话题",
+    "suggestion": "请确认上下文是否妥当"
+  },
+  {
+    "id": "sens-043",
+    "term": "洗钱",
+    "severity": "high",
+    "message": "涉及金融犯罪话题",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-044",
+    "term": "传销",
+    "severity": "medium",
+    "message": "涉及非法商业话题",
+    "suggestion": "请确认上下文是否妥当"
+  },
+  {
+    "id": "sens-045",
+    "term": "钓鱼岛",
+    "severity": "medium",
+    "message": "涉及领土主权话题",
+    "suggestion": "建议使用完整表述"
+  },
+  {
+    "id": "sens-046",
+    "term": "尖阁诸岛",
+    "severity": "high",
+    "message": "使用了日方称谓",
+    "suggestion": "应使用「钓鱼岛」"
+  },
+  {
+    "id": "sens-047",
+    "term": "南海仲裁",
+    "severity": "high",
+    "message": "涉及领土主权敏感话题",
+    "suggestion": "请确认立场表述符合我方口径"
+  },
+  {
+    "id": "sens-048",
+    "term": "吸毒",
+    "severity": "medium",
+    "message": "涉及毒品话题",
+    "suggestion": "请确认报道是否合规"
+  },
+  {
+    "id": "sens-049",
+    "term": "迷奸",
+    "severity": "critical",
+    "message": "涉及性犯罪极端话题",
+    "suggestion": "请人工复核"
+  },
+  {
+    "id": "sens-050",
+    "term": "新冠骗局",
+    "severity": "high",
+    "message": "涉及阴谋论/虚假信息",
+    "suggestion": "请删除或人工复核"
+  },
+  {
+    "id": "sens-051",
+    "term": "疫苗致死",
+    "severity": "high",
+    "message": "涉及公共卫生敏感话题",
+    "suggestion": "请确认是否有权威信源"
+  },
+  {
+    "id": "sens-052",
+    "term": "生化武器",
+    "severity": "high",
+    "message": "涉及敏感军事话题",
+    "suggestion": "请人工复核语境"
+  },
+  {
+    "id": "sens-053",
+    "term": "间谍",
+    "severity": "medium",
+    "message": "涉及国安敏感话题",
+    "suggestion": "请确认上下文是否妥当"
+  },
+  {
+    "id": "sens-054",
+    "term": "叛国",
+    "severity": "high",
+    "message": "涉及国安敏感话题",
+    "suggestion": "请人工复核"
+  },
+  {
+    "id": "sens-055",
+    "term": "境外势力",
+    "severity": "medium",
+    "message": "涉及政治敏感表述",
+    "suggestion": "请确认上下文立场"
+  }
+]

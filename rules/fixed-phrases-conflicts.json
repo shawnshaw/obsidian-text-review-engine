@@ -1,0 +1,2127 @@
+{
+  "summary": {
+    "totalRules": 25,
+    "activeRules": 25,
+    "inactiveRules": 0,
+    "disabledByFlag": 0,
+    "duplicateGroups": 0,
+    "wrongConflictGroups": 0,
+    "overlappingGroups": 253,
+    "missingExamples": 0,
+    "missingCounterExamples": 0,
+    "regressionPass": 5,
+    "regressionHit": 5,
+    "regressionTotal": 10
+  },
+  "duplicates": [],
+  "wrongConflicts": [],
+  "overlapping": [
+    {
+      "type": "substring",
+      "outer": "fixed-002",
+      "outerWrong": "召开仪式",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-003",
+      "outerWrong": "召开培训",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-004",
+      "outerWrong": "展开工作",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-005",
+      "outerWrong": "开展会议",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-006",
+      "outerWrong": "加大宣传氛围",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-007",
+      "outerWrong": "学习传达精神",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-008",
+      "outerWrong": "加大工作进度",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-001",
+      "innerWrong": "召开活动",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-003",
+      "outerWrong": "召开培训",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-004",
+      "outerWrong": "展开工作",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-005",
+      "outerWrong": "开展会议",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-006",
+      "outerWrong": "加大宣传氛围",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-007",
+      "outerWrong": "学习传达精神",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-008",
+      "outerWrong": "加大工作进度",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-002",
+      "innerWrong": "召开仪式",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-004",
+      "outerWrong": "展开工作",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-005",
+      "outerWrong": "开展会议",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-006",
+      "outerWrong": "加大宣传氛围",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-007",
+      "outerWrong": "学习传达精神",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-008",
+      "outerWrong": "加大工作进度",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-003",
+      "innerWrong": "召开培训",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-005",
+      "outerWrong": "开展会议",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-006",
+      "outerWrong": "加大宣传氛围",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-007",
+      "outerWrong": "学习传达精神",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-008",
+      "outerWrong": "加大工作进度",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-004",
+      "innerWrong": "展开工作",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-006",
+      "outerWrong": "加大宣传氛围",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-007",
+      "outerWrong": "学习传达精神",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-008",
+      "outerWrong": "加大工作进度",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-005",
+      "innerWrong": "开展会议",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-007",
+      "outerWrong": "学习传达精神",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-008",
+      "outerWrong": "加大工作进度",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-006",
+      "innerWrong": "加大宣传氛围",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-008",
+      "outerWrong": "加大工作进度",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-007",
+      "innerWrong": "学习传达精神",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-009",
+      "outerWrong": "进一步加强提高",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-008",
+      "innerWrong": "加大工作进度",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-010",
+      "outerWrong": "认真贯彻落实执行",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-009",
+      "innerWrong": "进一步加强提高",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-011",
+      "outerWrong": "深入推进落实",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-010",
+      "innerWrong": "认真贯彻落实执行",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-012",
+      "outerWrong": "建立健全完善",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-011",
+      "innerWrong": "深入推进落实",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-013",
+      "outerWrong": "防止避免",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-012",
+      "innerWrong": "建立健全完善",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-014",
+      "outerWrong": "减少降低",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-013",
+      "innerWrong": "防止避免",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-017",
+      "outerWrong": "进行部署安排",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-014",
+      "innerWrong": "减少降低",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-018",
+      "outerWrong": "落实会议精神到位",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-017",
+      "innerWrong": "进行部署安排",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-019",
+      "outerWrong": "严厉打击惩治",
+      "inner": "fixed-018",
+      "innerWrong": "落实会议精神到位",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-018",
+      "innerWrong": "落实会议精神到位",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-018",
+      "innerWrong": "落实会议精神到位",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-018",
+      "innerWrong": "落实会议精神到位",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-018",
+      "innerWrong": "落实会议精神到位",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-018",
+      "innerWrong": "落实会议精神到位",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-018",
+      "innerWrong": "落实会议精神到位",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-020",
+      "outerWrong": "发表重要发言讲话",
+      "inner": "fixed-019",
+      "innerWrong": "严厉打击惩治",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-019",
+      "innerWrong": "严厉打击惩治",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-019",
+      "innerWrong": "严厉打击惩治",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-019",
+      "innerWrong": "严厉打击惩治",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-019",
+      "innerWrong": "严厉打击惩治",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-019",
+      "innerWrong": "严厉打击惩治",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-021",
+      "outerWrong": "作出贡献力量",
+      "inner": "fixed-020",
+      "innerWrong": "发表重要发言讲话",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-020",
+      "innerWrong": "发表重要发言讲话",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-020",
+      "innerWrong": "发表重要发言讲话",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-020",
+      "innerWrong": "发表重要发言讲话",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-020",
+      "innerWrong": "发表重要发言讲话",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-022",
+      "outerWrong": "优化改善提升",
+      "inner": "fixed-021",
+      "innerWrong": "作出贡献力量",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-021",
+      "innerWrong": "作出贡献力量",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-021",
+      "innerWrong": "作出贡献力量",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-021",
+      "innerWrong": "作出贡献力量",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-023",
+      "outerWrong": "也是也是",
+      "inner": "fixed-022",
+      "innerWrong": "优化改善提升",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-022",
+      "innerWrong": "优化改善提升",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-022",
+      "innerWrong": "优化改善提升",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-024",
+      "outerWrong": "但是但是",
+      "inner": "fixed-023",
+      "innerWrong": "也是也是",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-023",
+      "innerWrong": "也是也是",
+      "relationship": "outer-covers-inner"
+    },
+    {
+      "type": "substring",
+      "outer": "fixed-025",
+      "outerWrong": "对于对",
+      "inner": "fixed-024",
+      "innerWrong": "但是但是",
+      "relationship": "outer-covers-inner"
+    }
+  ],
+  "regression": {
+    "pass": [
+      {
+        "file": "pass.举办培训正确.txt",
+        "content": "培训工作将在下月举办，届时请各部门做好准备。",
+        "triggeredRuleIds": [],
+        "passed": true
+      },
+      {
+        "file": "pass.举行仪式正确.txt",
+        "content": "会议在市里举行，仪式同时进行。",
+        "triggeredRuleIds": [],
+        "passed": true
+      },
+      {
+        "file": "pass.举行活动正确搭配.txt",
+        "content": "经研究决定，举行活动的时间为下周三。",
+        "triggeredRuleIds": [],
+        "passed": true
+      },
+      {
+        "file": "pass.开展正常工作.txt",
+        "content": "各部门须在本周五前完成工作部署。",
+        "triggeredRuleIds": [],
+        "passed": true
+      },
+      {
+        "file": "pass.扩大会议.合法召开.txt",
+        "content": "相关部门将依法召开会议研究部署。",
+        "triggeredRuleIds": [],
+        "passed": true
+      }
+    ],
+    "hit": [
+      {
+        "file": "hit.fixed-001.召开活动.txt",
+        "content": "市里召开活动取得良好效果。",
+        "expectedRuleId": "fixed-001",
+        "triggeredRuleIds": [
+          "fixed-001"
+        ],
+        "passed": true
+      },
+      {
+        "file": "hit.fixed-002.召开仪式.txt",
+        "content": "昨日召开仪式，仪式庄严。",
+        "expectedRuleId": "fixed-002",
+        "triggeredRuleIds": [
+          "fixed-002"
+        ],
+        "passed": true
+      },
+      {
+        "file": "hit.fixed-003.召开培训.txt",
+        "content": "学校召开培训反响热烈。",
+        "expectedRuleId": "fixed-003",
+        "triggeredRuleIds": [
+          "fixed-003"
+        ],
+        "passed": true
+      },
+      {
+        "file": "hit.fixed-006.加大宣传氛围.txt",
+        "content": "要加大宣传氛围，形成良好舆论环境。",
+        "expectedRuleId": "fixed-006",
+        "triggeredRuleIds": [
+          "fixed-006"
+        ],
+        "passed": true
+      },
+      {
+        "file": "hit.fixed-008.加快工作进度.txt",
+        "content": "须加大工作进度，确保完成任务。",
+        "expectedRuleId": "fixed-008",
+        "triggeredRuleIds": [
+          "fixed-008"
+        ],
+        "passed": true
+      }
+    ],
+    "errors": []
+  },
+  "generatedAt": "2026-04-08T06:47:37.365Z"
+}

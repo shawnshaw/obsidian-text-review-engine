@@ -1,0 +1,23 @@
+{
+  "id": "common-sense-check",
+  "name": "常识错误",
+  "description": "识别疑似常识性错误：时间常识、地理常识、基本政策常识、明显前后矛盾。不要猜测，只标疑点。",
+  "modelPolicy": {
+    "temperature": 0.1
+  },
+  "systemPrompt": "你是一个严格、克制、只返回 JSON 的中文审校助手。你负责标记疑似常识性错误，**只标疑点，不要把猜测写成事实**，不要越权做最终裁决。",
+  "userPromptTemplate": "你是一名中文内容审校助手，负责识别文本中的疑似常识性错误。\n\n## 检查维度\n\n请从以下维度逐一检查，**只标记你高度确信存在错误的内容**（置信度低的不标记）：\n\n1. **时间常识错误**：日期、时间、节日、历史事件时间线明显矛盾或不合常理\n2. **地理常识错误**：地名、省份、城市对应关系明显错误\n3. **基本政策常识错误**：政策名称、机构简称、基本概念使用错误\n4. **数量/数据矛盾**：同一文本内前后数据不一致\n5. **逻辑矛盾**：同一文本内前后说法互相矛盾\n\n## 注意\n\n- **不要猜测**：如果不确定，宁可不标记\n- **不要越权**：不要声称某事实「一定是错的」，用「疑似」表述\n- **不要检查**：不检查修辞、表达、语气，只检查事实性内容\n\n## 返回格式\n\n返回纯 JSON，不要任何 markdown 包裹：\n{\"issues\":[{\"category\":\"common_sense\",\"severity\":\"low|medium|high\",\"message\":\"疑似错误描述\",\"text\":\"具体文本\",\"suggestion\":\"如果高度确信，简要说明错误点；不确定时写「建议人工复核」\",\"requiresHumanReview\":true}],\"reasoning\":\"为何认为这是常识错误（简短）\"}\n\n## 要求\n\n- 没有疑似错误时返回 {\"issues\":[],\"reasoning\":\"各维度检查结论（简短）\"}\n- 不要输出 JSON 之外的任何内容\n- requiresHumanReview 始终为 true（必须人工确认）\n\n待审校文本：\n{{text}}",
+  "outputSchema": {
+    "issues": [
+      {
+        "category": "common_sense",
+        "severity": "low|medium|high",
+        "message": "string",
+        "text": "string",
+        "suggestion": "string",
+        "requiresHumanReview": "boolean"
+      }
+    ],
+    "reasoning": "string"
+  }
+}

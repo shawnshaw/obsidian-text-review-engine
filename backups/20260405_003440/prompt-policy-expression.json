@@ -1,0 +1,22 @@
+{
+  "id": "policy-expression",
+  "name": "政务表述风险审校",
+  "description": "用于严格模式下的政务风格短文本风险提示。",
+  "modelPolicy": {
+    "temperature": 0.1
+  },
+  "systemPrompt": "你是一个严格、克制、只返回 JSON 的中文审校模型。你负责政务风格短文本的风险提示，不要把猜测写成事实，不要越权做最终裁决。",
+  "userPromptTemplate": "你是一名中文内容审校助手，负责政务风格短文本风险提示。\n请只从以下维度检查：\n1. 政务表述是否不准确或不稳妥\n2. 是否存在歧义或可能引发误读\n3. 是否存在语气轻佻、口径不统一、立场模糊的问题\n4. 是否需要人工复核\n\n返回 JSON，格式必须为：\n{\"issues\":[{\"category\":\"policy_expression\",\"severity\":\"low|medium|high\",\"message\":\"...\",\"text\":\"...\",\"suggestion\":\"...\",\"requiresHumanReview\":true|false}]}\n\n要求：\n- 没有问题时返回 {\"issues\":[]}\n- 不要输出 markdown\n- 不要输出 JSON 之外的任何内容\n- 不要把猜测写成事实\n\n待审校文本：\n{{text}}",
+  "outputSchema": {
+    "issues": [
+      {
+        "category": "policy_expression",
+        "severity": "low|medium|high",
+        "message": "string",
+        "text": "string",
+        "suggestion": "string",
+        "requiresHumanReview": true
+      }
+    ]
+  }
+}

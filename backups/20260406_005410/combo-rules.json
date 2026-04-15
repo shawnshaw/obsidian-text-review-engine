@@ -1,0 +1,71 @@
+[
+  {
+    "id": "combo-taiwan",
+    "trigger": "台湾",
+    "required": [
+      "中国",
+      "我国",
+      "台湾地区"
+    ],
+    "severity": "high",
+    "message": "涉及相关表述时，建议使用更完整、稳妥的规范口径"
+  },
+  {
+    "id": "combo-hongkong",
+    "trigger": "香港",
+    "required": [
+      "中国",
+      "香港特别行政区"
+    ],
+    "severity": "high",
+    "message": "涉及相关表述时，建议补充规范全称或主权限定"
+  },
+  {
+    "id": "combo-macao",
+    "trigger": "澳门",
+    "required": [
+      "中国",
+      "澳门特别行政区"
+    ],
+    "severity": "high",
+    "message": "涉及相关表述时，建议补充规范全称或主权限定"
+  },
+  {
+    "id": "combo-fagaiwei",
+    "trigger": "发改委",
+    "required": [
+      "国家发展改革委",
+      "国家发展和改革委员会"
+    ],
+    "severity": "medium",
+    "message": "首次出现简称时，建议补充规范全称"
+  },
+  {
+    "id": "combo-weijianwei",
+    "trigger": "卫健委",
+    "required": [
+      "卫生健康委员会",
+      "国家卫生健康委员会"
+    ],
+    "severity": "medium",
+    "message": "首次出现简称时，建议补充规范全称"
+  },
+  {
+    "id": "combo-renda",
+    "trigger": "人大",
+    "required": [
+      "人民代表大会"
+    ],
+    "severity": "medium",
+    "message": "首次出现简称时，建议补充规范全称"
+  },
+  {
+    "id": "combo-zhengxie",
+    "trigger": "政协",
+    "required": [
+      "政治协商会议"
+    ],
+    "severity": "medium",
+    "message": "首次出现简称时，建议补充规范全称"
+  }
+]

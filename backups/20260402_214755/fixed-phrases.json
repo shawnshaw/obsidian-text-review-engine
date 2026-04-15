@@ -1,0 +1,14 @@
+[
+  {
+    "wrong": "召开活动",
+    "correct": "举行活动",
+    "severity": "medium",
+    "message": "该搭配较生硬，建议改为“举行活动”"
+  },
+  {
+    "wrong": "推出召开",
+    "correct": "召开",
+    "severity": "medium",
+    "message": "疑似动词搭配异常"
+  }
+]

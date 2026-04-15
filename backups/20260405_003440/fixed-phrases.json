@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fixed-hold-activity",
+    "wrong": "召开活动",
+    "correct": "举行活动",
+    "severity": "medium",
+    "message": "该搭配较生硬，建议改为“举行活动”"
+  },
+  {
+    "id": "fixed-open-ceremony",
+    "wrong": "召开仪式",
+    "correct": "举行仪式",
+    "severity": "medium",
+    "message": "固定搭配不当"
+  },
+  {
+    "id": "fixed-open-training",
+    "wrong": "召开培训",
+    "correct": "举办培训",
+    "severity": "medium",
+    "message": "固定搭配不当"
+  },
+  {
+    "id": "fixed-start-work",
+    "wrong": "展开工作",
+    "correct": "开展工作",
+    "severity": "medium",
+    "message": "固定搭配不当"
+  },
+  {
+    "id": "fixed-conduct-meeting",
+    "wrong": "开展会议",
+    "correct": "召开会议",
+    "severity": "medium",
+    "message": "固定搭配不当"
+  },
+  {
+    "id": "fixed-deploy-arrange",
+    "wrong": "进行部署安排",
+    "correct": "进行部署",
+    "severity": "medium",
+    "message": "建议压缩为更规范的搭配"
+  },
+  {
+    "id": "fixed-push-open",
+    "wrong": "推出召开",
+    "correct": "召开",
+    "severity": "medium",
+    "message": "疑似动词搭配异常"
+  },
+  {
+    "id": "fixed-add-atmosphere",
+    "wrong": "加大宣传氛围",
+    "correct": "营造宣传氛围",
+    "severity": "medium",
+    "message": "固定搭配不当"
+  },
+  {
+    "id": "fixed-implement-spirit",
+    "wrong": "落实会议精神到位",
+    "correct": "贯彻落实会议精神",
+    "severity": "medium",
+    "message": "建议改为更规范表达"
+  },
+  {
+    "id": "fixed-learn-spirit",
+    "wrong": "学习传达精神",
+    "correct": "传达学习精神",
+    "severity": "medium",
+    "message": "建议使用常见规范搭配"
+  }
+]

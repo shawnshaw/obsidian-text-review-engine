@@ -1,0 +1,20 @@
+[
+  {
+    "wrong": "帐号",
+    "correct": "账号",
+    "severity": "low",
+    "message": "常见异形词，建议统一为“账号”"
+  },
+  {
+    "wrong": "作到",
+    "correct": "做到",
+    "severity": "medium",
+    "message": "疑似错别字"
+  },
+  {
+    "wrong": "必需",
+    "correct": "必须",
+    "severity": "medium",
+    "message": "语境中更可能应为“必须”"
+  }
+]

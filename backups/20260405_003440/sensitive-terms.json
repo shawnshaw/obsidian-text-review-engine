@@ -1,0 +1,72 @@
+[
+  {
+    "id": "sens-taidu",
+    "term": "台独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-gangdu",
+    "term": "港独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-jiangdu",
+    "term": "疆独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-zangdu",
+    "term": "藏独",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-two-china",
+    "term": "两个中国",
+    "severity": "critical",
+    "message": "命中高风险敏感表述",
+    "suggestion": "请改为符合规范口径的表述"
+  },
+  {
+    "id": "sens-one-china-one-taiwan",
+    "term": "一中一台",
+    "severity": "critical",
+    "message": "命中高风险敏感表述",
+    "suggestion": "请改为符合规范口径的表述"
+  },
+  {
+    "id": "sens-falungong",
+    "term": "法轮功",
+    "severity": "high",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核语境与发布必要性"
+  },
+  {
+    "id": "sens-overthrow",
+    "term": "颠覆国家政权",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-incite-overthrow",
+    "term": "煽动颠覆国家政权",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  },
+  {
+    "id": "sens-split-country",
+    "term": "分裂国家",
+    "severity": "critical",
+    "message": "命中高风险敏感词",
+    "suggestion": "请人工复核或删除相关表述"
+  }
+]

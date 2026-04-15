@@ -1,0 +1,49 @@
+{
+  "version": "prompts-v3",
+  "activePrompts": [
+    {
+      "id": "general-review",
+      "name": "通用审校",
+      "description": "通用文本质量审校，一次性检查政务表述、歧义、语气、语法搭配等多个维度，适合日常文案。",
+      "isDefault": true,
+      "type": "multi"
+    },
+    {
+      "id": "policy-expression-check",
+      "name": "政务表述",
+      "description": "识别政务表述中的不稳妥表达：措辞不准确、过于轻佻、越权表述、违反公文规范。",
+      "type": "single"
+    },
+    {
+      "id": "ambiguity-check",
+      "name": "歧义识别",
+      "description": "识别文本中可能导致多重理解或误解的表达：指代不清、修饰范围不明、句法压缩等。",
+      "type": "single"
+    },
+    {
+      "id": "common-sense-check",
+      "name": "常识错误",
+      "description": "识别疑似常识性错误：时间常识、地理常识、基本政策常识、明显前后矛盾。不要猜测，只标疑点。",
+      "type": "single"
+    },
+    {
+      "id": "public-opinion-risk-check",
+      "name": "舆情联想",
+      "description": "识别可能引发负面舆情联想或被断章取义的表达：争议性措辞、对立风险、情绪激化等。",
+      "type": "single"
+    },
+    {
+      "id": "stance-check",
+      "name": "立场观感",
+      "description": "识别立场模糊、口径失当或态度观感风险：语气不统一、视角失衡、价值表达不当。",
+      "type": "single"
+    },
+    {
+      "id": "policy-expression",
+      "name": "政务表述风险（旧）",
+      "description": "专注政务风格短文本风险审校（保留向后兼容）。",
+      "type": "multi",
+      "deprecated": true
+    }
+  ]
+}

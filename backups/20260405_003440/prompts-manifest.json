@@ -1,0 +1,10 @@
+{
+  "version": "prompts-v1",
+  "activePrompts": [
+    {
+      "id": "policy-expression",
+      "name": "政务表述风险审校",
+      "description": "用于严格模式下的政务口径、歧义、语气与人工复核提示。"
+    }
+  ]
+}

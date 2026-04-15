@@ -1,0 +1,885 @@
+[
+  {
+    "id": "fixed-001",
+    "category": "fixed_phrase",
+    "wrong": "召开活动",
+    "correct": "举行活动",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“举行活动”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "verb_object"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "召开活动"
+    ],
+    "counterExamples": [
+      "本次举行活动取得了良好效果。",
+      "相关部门将依法召开会议。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-002",
+    "category": "fixed_phrase",
+    "wrong": "召开仪式",
+    "correct": "举行仪式",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“举行仪式”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "verb_object"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "召开仪式"
+    ],
+    "counterExamples": [
+      "本次举行仪式取得了良好效果。",
+      "相关部门将依法召开会议。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-003",
+    "category": "fixed_phrase",
+    "wrong": "召开培训",
+    "correct": "举办培训",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“举办培训”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "verb_object"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "召开培训"
+    ],
+    "counterExamples": [
+      "本次举办培训取得了良好效果。",
+      "相关部门将依法举办培训。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-004",
+    "category": "fixed_phrase",
+    "wrong": "展开工作",
+    "correct": "开展工作",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“开展工作”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "verb_object"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "展开工作"
+    ],
+    "counterExamples": [
+      "本次开展工作取得了良好效果。",
+      "相关部门将依法开展工作。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-005",
+    "category": "fixed_phrase",
+    "wrong": "开展会议",
+    "correct": "召开会议",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“召开会议”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "verb_object"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "开展会议"
+    ],
+    "counterExamples": [
+      "本次召开会议取得了良好效果。",
+      "相关部门将依法召开会议。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-006",
+    "category": "fixed_phrase",
+    "wrong": "加大宣传氛围",
+    "correct": "营造宣传氛围",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“营造宣传氛围”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "verb_object"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "加大宣传氛围"
+    ],
+    "counterExamples": [
+      "本次营造宣传氛围取得了良好效果。",
+      "相关部门将依法营造宣传氛围。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-007",
+    "category": "fixed_phrase",
+    "wrong": "学习传达精神",
+    "correct": "传达学习精神",
+    "severity": "medium",
+    "message": "顺序有误，应先传达后学习",
+    "suggestion": "建议改为“传达学习精神”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "word_order"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "学习传达精神"
+    ],
+    "counterExamples": [
+      "会上传达学习了有关精神。",
+      "各单位传达学习相关要求。"
+    ],
+    "note": "适用于搭配顺序错误或表达顺序不稳的场景。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-008",
+    "category": "fixed_phrase",
+    "wrong": "加大工作进度",
+    "correct": "加快工作进度",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“加快工作进度”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style",
+      "verb_object"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "加大工作进度"
+    ],
+    "counterExamples": [
+      "本次加快工作进度取得了良好效果。",
+      "相关部门将依法加快工作进度。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-009",
+    "category": "fixed_phrase",
+    "wrong": "进一步加强提高",
+    "correct": "进一步加强",
+    "severity": "low",
+    "message": "动词堆砌",
+    "suggestion": "建议改为“进一步加强”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "进一步加强提高"
+    ],
+    "counterExamples": [
+      "下一步将进一步加强。",
+      "文件要求持续进一步加强。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-010",
+    "category": "fixed_phrase",
+    "wrong": "认真贯彻落实执行",
+    "correct": "认真贯彻落实",
+    "severity": "low",
+    "message": "动词堆砌",
+    "suggestion": "建议改为“认真贯彻落实”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "认真贯彻落实执行"
+    ],
+    "counterExamples": [
+      "下一步将认真贯彻落实。",
+      "文件要求持续认真贯彻落实。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-011",
+    "category": "fixed_phrase",
+    "wrong": "深入推进落实",
+    "correct": "深入推进",
+    "severity": "low",
+    "message": "语义重复",
+    "suggestion": "建议改为“深入推进”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "深入推进落实"
+    ],
+    "counterExamples": [
+      "下一步将深入推进。",
+      "文件要求持续深入推进。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-012",
+    "category": "fixed_phrase",
+    "wrong": "建立健全完善",
+    "correct": "建立健全",
+    "severity": "low",
+    "message": "动词堆砌",
+    "suggestion": "建议改为“建立健全”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "建立健全完善"
+    ],
+    "counterExamples": [
+      "下一步将建立健全。",
+      "文件要求持续建立健全。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-013",
+    "category": "fixed_phrase",
+    "wrong": "防止避免",
+    "correct": "防止",
+    "severity": "low",
+    "message": "语义重复，选其一",
+    "suggestion": "建议改为“防止”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "防止避免"
+    ],
+    "counterExamples": [
+      "下一步将防止。",
+      "文件要求持续防止。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-014",
+    "category": "fixed_phrase",
+    "wrong": "减少降低",
+    "correct": "降低",
+    "severity": "low",
+    "message": "语义重复，选其一",
+    "suggestion": "建议改为“降低”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "减少降低"
+    ],
+    "counterExamples": [
+      "下一步将降低。",
+      "文件要求持续降低。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-015",
+    "category": "fixed_phrase",
+    "wrong": "的的",
+    "correct": "的",
+    "severity": "medium",
+    "message": "重复助词",
+    "suggestion": "建议改为“的”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "typo_like"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "的的"
+    ],
+    "counterExamples": [
+      "这是一段正常文本，不应命中重复助词规则。",
+      "请保持句子表达自然完整。"
+    ],
+    "note": "适用于重复助词或近似错写的固定短语问题。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-016",
+    "category": "fixed_phrase",
+    "wrong": "了了",
+    "correct": "了",
+    "severity": "medium",
+    "message": "重复助词",
+    "suggestion": "建议改为“了”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "typo_like"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "了了"
+    ],
+    "counterExamples": [
+      "这是一段正常文本，不应命中重复助词规则。",
+      "请保持句子表达自然完整。"
+    ],
+    "note": "适用于重复助词或近似错写的固定短语问题。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-017",
+    "category": "fixed_phrase",
+    "wrong": "进行部署安排",
+    "correct": "进行部署",
+    "severity": "medium",
+    "message": "冗余",
+    "suggestion": "建议改为“进行部署”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "进行部署安排"
+    ],
+    "counterExamples": [
+      "下一步将进行部署。",
+      "文件要求持续进行部署。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-018",
+    "category": "fixed_phrase",
+    "wrong": "落实会议精神到位",
+    "correct": "贯彻落实会议精神",
+    "severity": "medium",
+    "message": "建议改为更规范表达",
+    "suggestion": "建议改为“贯彻落实会议精神”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "gov_style"
+    ],
+    "domain": "gov",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "落实会议精神到位"
+    ],
+    "counterExamples": [
+      "建议使用“贯彻落实会议精神”这一规范表达。",
+      "此处为正常句子，不应误命中“落实会议精神到位”规则。"
+    ],
+    "note": "适用于固定搭配与规范表达的纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-019",
+    "category": "fixed_phrase",
+    "wrong": "严厉打击惩治",
+    "correct": "严厉打击",
+    "severity": "low",
+    "message": "动词堆砌",
+    "suggestion": "建议改为“严厉打击”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "严厉打击惩治"
+    ],
+    "counterExamples": [
+      "下一步将严厉打击。",
+      "文件要求持续严厉打击。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-020",
+    "category": "fixed_phrase",
+    "wrong": "发表重要发言讲话",
+    "correct": "发表重要讲话",
+    "severity": "medium",
+    "message": "冗余",
+    "suggestion": "建议改为“发表重要讲话”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "发表重要发言讲话"
+    ],
+    "counterExamples": [
+      "下一步将发表重要讲话。",
+      "文件要求持续发表重要讲话。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-021",
+    "category": "fixed_phrase",
+    "wrong": "作出贡献力量",
+    "correct": "作出贡献",
+    "severity": "medium",
+    "message": "搭配不当",
+    "suggestion": "建议改为“作出贡献”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_object"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "作出贡献力量"
+    ],
+    "counterExamples": [
+      "本次作出贡献取得了良好效果。",
+      "相关部门将依法作出贡献。"
+    ],
+    "note": "适用于常见动宾搭配不当的规范化纠正。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-022",
+    "category": "fixed_phrase",
+    "wrong": "优化改善提升",
+    "correct": "优化提升",
+    "severity": "low",
+    "message": "动词堆砌",
+    "suggestion": "建议改为“优化提升”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "verb_redundancy"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "优化改善提升"
+    ],
+    "counterExamples": [
+      "下一步将优化提升。",
+      "文件要求持续优化提升。"
+    ],
+    "note": "适用于动词堆砌、语义重复或表达冗余的压缩。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-023",
+    "category": "fixed_phrase",
+    "wrong": "也是也是",
+    "correct": "也是",
+    "severity": "medium",
+    "message": "重复表述",
+    "suggestion": "建议改为“也是”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "typo_like"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "也是也是"
+    ],
+    "counterExamples": [
+      "这是一段正常文本，不应命中重复助词规则。",
+      "请保持句子表达自然完整。"
+    ],
+    "note": "适用于重复助词或近似错写的固定短语问题。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-024",
+    "category": "fixed_phrase",
+    "wrong": "但是但是",
+    "correct": "但是",
+    "severity": "medium",
+    "message": "重复表述",
+    "suggestion": "建议改为“但是”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "typo_like"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "但是但是"
+    ],
+    "counterExamples": [
+      "这是一段正常文本，不应命中重复助词规则。",
+      "请保持句子表达自然完整。"
+    ],
+    "note": "适用于重复助词或近似错写的固定短语问题。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "fixed-025",
+    "category": "fixed_phrase",
+    "wrong": "对于对",
+    "correct": "对",
+    "severity": "medium",
+    "message": "介词重复",
+    "suggestion": "建议改为“对”",
+    "pack": [
+      "social-basic",
+      "gov-strict"
+    ],
+    "enabled": true,
+    "scope": "literal",
+    "matchMode": "exact",
+    "window": 0,
+    "tags": [
+      "typo_like"
+    ],
+    "domain": "general",
+    "owner": "system",
+    "source": "manual",
+    "confidence": 0.95,
+    "examples": [
+      "对于对"
+    ],
+    "counterExamples": [
+      "这是一段正常文本，不应命中重复助词规则。",
+      "请保持句子表达自然完整。"
+    ],
+    "note": "适用于重复助词或近似错写的固定短语问题。",
+    "createdAt": "2026-04-06T00:00:00.000Z",
+    "updatedAt": "2026-04-06T00:00:00.000Z",
+    "status": "active"
+  }
+]
