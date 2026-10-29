@@ -1,11 +1,10 @@
 {
   "id": "text-review-engine",
   "name": "Text Review Engine",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "minAppVersion": "1.5.0",
   "description": "A dual-layer text review plugin: rule-based checks (typos, fixed phrases, sensitive terms, punctuation) + AI-powered semantic review via OpenAI-compatible API.",
   "author": "Oscar Shao",
-  "authorUrl": "https://github.com/Os",
-  "fundingUrl": "https://github.com/sponsors/Os",
-  "isDesktopOnly": false
+  "authorUrl": "https://github.com/shawnshaw",
+  "isDesktopOnly": true
 }
