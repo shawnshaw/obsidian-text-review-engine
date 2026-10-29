@@ -34578,6 +34578,8 @@ var require_codeblock_view = __commonJS({
       createSection(columns, "\u4F18\u5316\u9879", "\u53EF\u4EE5\u63D0\u5347\u89C4\u8303\u6027\u4E0E\u89C2\u611F\uFF0C\u4F46\u901A\u5E38\u4E0D\u963B\u65AD\u53D1\u5E03\u3002", grouped.polish, "\u5F53\u524D\u6CA1\u6709\u5E38\u89C4\u4F18\u5316\u9879\u3002");
     }
     function registerWorkbenchCodeBlock2(plugin) {
+      if (plugin._treCodeBlockRegistered) return;
+      plugin._treCodeBlockRegistered = true;
       plugin.registerMarkdownCodeBlockProcessor(WORKBENCH_CODEBLOCK, (source, el) => {
         el.empty();
         renderWorkbench(plugin, source, el);

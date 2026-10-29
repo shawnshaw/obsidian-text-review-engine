@@ -233,6 +233,8 @@ function renderWorkbench(plugin, source, el) {
 }
 
 function registerWorkbenchCodeBlock(plugin) {
+  if (plugin._treCodeBlockRegistered) return;
+  plugin._treCodeBlockRegistered = true;
   plugin.registerMarkdownCodeBlockProcessor(WORKBENCH_CODEBLOCK, (source, el) => {
     el.empty();
     renderWorkbench(plugin, source, el);

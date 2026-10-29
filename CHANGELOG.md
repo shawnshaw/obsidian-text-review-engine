@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Guard against registering the workbench code block processor twice.
+
 ## 0.1.0
 
 - First publicly installable release (BRAT / community plugin).
